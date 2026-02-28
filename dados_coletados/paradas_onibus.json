@@ -1,0 +1,6732 @@
+[
+  {
+    "id": 565781491,
+    "lat": -8.0565735,
+    "lon": -34.8984881,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 662141040,
+    "lat": -8.0621712,
+    "lon": -34.8801752,
+    "nome": "180039",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 864782970,
+    "lat": -8.07163,
+    "lon": -34.883305,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 1425816685,
+    "lat": -8.0697595,
+    "lon": -34.8976015,
+    "nome": "180170",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180170",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 1425822971,
+    "lat": -8.069632,
+    "lon": -34.8959582,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 1737560294,
+    "lat": -8.0879615,
+    "lon": -34.8821946,
+    "nome": "10149",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10149",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2496705405,
+    "lat": -8.0635023,
+    "lon": -34.8744435,
+    "nome": "180045",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209530,
+    "lat": -8.0506945,
+    "lon": -34.8961245,
+    "nome": "100001",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-100001",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209540,
+    "lat": -8.0867972,
+    "lon": -34.8872552,
+    "nome": "Parada 01",
+    "operador": "",
+    "rede": "",
+    "ref": "10001",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209553,
+    "lat": -8.0890876,
+    "lon": -34.8850688,
+    "nome": "Parada 02",
+    "operador": "",
+    "rede": "",
+    "ref": "10002",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209562,
+    "lat": -8.0928007,
+    "lon": -34.8853982,
+    "nome": "Parada 03",
+    "operador": "",
+    "rede": "",
+    "ref": "010003",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209570,
+    "lat": -8.09481,
+    "lon": -34.885903,
+    "nome": "Parada 04",
+    "operador": "",
+    "rede": "",
+    "ref": "010004",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209582,
+    "lat": -8.0981121,
+    "lon": -34.886509,
+    "nome": "Parada 05",
+    "operador": "",
+    "rede": "",
+    "ref": "010005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209598,
+    "lat": -8.1016467,
+    "lon": -34.8880075,
+    "nome": "Parada 06",
+    "operador": "",
+    "rede": "",
+    "ref": "010006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209647,
+    "lat": -8.1051856,
+    "lon": -34.8896334,
+    "nome": "Parada 07",
+    "operador": "",
+    "rede": "",
+    "ref": "010007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209664,
+    "lat": -8.1079857,
+    "lon": -34.8909389,
+    "nome": "Parada 08",
+    "operador": "",
+    "rede": "",
+    "ref": "010008",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209675,
+    "lat": -8.111288,
+    "lon": -34.8928967,
+    "nome": "Parada 09",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10009",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209688,
+    "lat": -8.1138455,
+    "lon": -34.8944989,
+    "nome": "Parada 10",
+    "operador": "",
+    "rede": "",
+    "ref": "010010",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209699,
+    "lat": -8.11637,
+    "lon": -34.8960403,
+    "nome": "Parada 11",
+    "operador": "",
+    "rede": "",
+    "ref": "010011",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209712,
+    "lat": -8.1205096,
+    "lon": -34.898565,
+    "nome": "Parada 12",
+    "operador": "",
+    "rede": "",
+    "ref": "010012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209722,
+    "lat": -8.1244004,
+    "lon": -34.9002245,
+    "nome": "Parada 14",
+    "operador": "",
+    "rede": "",
+    "ref": "010014",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209735,
+    "lat": -8.1271883,
+    "lon": -34.9012683,
+    "nome": "Parada 15",
+    "operador": "",
+    "rede": "",
+    "ref": "010015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209747,
+    "lat": -8.1297843,
+    "lon": -34.9024017,
+    "nome": "Parada 16",
+    "operador": "",
+    "rede": "",
+    "ref": "010015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209776,
+    "lat": -8.0500856,
+    "lon": -34.8974221,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "100172",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209777,
+    "lat": -8.0517515,
+    "lon": -34.8965619,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-100173",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209912,
+    "lat": -8.1291156,
+    "lon": -34.9006049,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010097",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209913,
+    "lat": -8.1252972,
+    "lon": -34.8991822,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010098",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209914,
+    "lat": -8.1220526,
+    "lon": -34.8979454,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010099",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209915,
+    "lat": -8.1184329,
+    "lon": -34.8958806,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010100",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209917,
+    "lat": -8.1165798,
+    "lon": -34.8948048,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010101",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209918,
+    "lat": -8.1141554,
+    "lon": -34.8933225,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010102",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209919,
+    "lat": -8.1115989,
+    "lon": -34.8917587,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010103",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209920,
+    "lat": -8.1093383,
+    "lon": -34.8904402,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010104",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209921,
+    "lat": -8.1072672,
+    "lon": -34.8894737,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010105",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209922,
+    "lat": -8.1047015,
+    "lon": -34.8883282,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010106",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209925,
+    "lat": -8.0915703,
+    "lon": -34.8836693,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010109",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209926,
+    "lat": -8.0882983,
+    "lon": -34.8838968,
+    "nome": "10110",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10110",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209927,
+    "lat": -8.0878092,
+    "lon": -34.884187,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010111",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209928,
+    "lat": -8.0861701,
+    "lon": -34.8859355,
+    "nome": "10112",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10112",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209929,
+    "lat": -8.08594,
+    "lon": -34.8859735,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010113",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209931,
+    "lat": -8.0846247,
+    "lon": -34.8872718,
+    "nome": "10115",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10115",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209932,
+    "lat": -8.08601,
+    "lon": -34.8896199,
+    "nome": "Parada 01 - Shopping RioMar",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10117",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209933,
+    "lat": -8.0877802,
+    "lon": -34.8965094,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10122",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209934,
+    "lat": -8.0885576,
+    "lon": -34.8959352,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10123",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209935,
+    "lat": -8.0890289,
+    "lon": -34.8860763,
+    "nome": "10128",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10128",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209936,
+    "lat": -8.0935414,
+    "lon": -34.8867596,
+    "nome": "10129",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10129",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209937,
+    "lat": -8.0957968,
+    "lon": -34.8873012,
+    "nome": "10130",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10130",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209938,
+    "lat": -8.0979268,
+    "lon": -34.8880956,
+    "nome": "10131",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10131",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209939,
+    "lat": -8.0977747,
+    "lon": -34.8887075,
+    "nome": "10132",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10132",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209940,
+    "lat": -8.0966326,
+    "lon": -34.8887366,
+    "nome": "10133",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10133",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209941,
+    "lat": -8.0937274,
+    "lon": -34.8908483,
+    "nome": "10134",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10134",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209942,
+    "lat": -8.0938535,
+    "lon": -34.8910987,
+    "nome": "10135",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10135",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209943,
+    "lat": -8.0957257,
+    "lon": -34.8897036,
+    "nome": "10136",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10136",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209945,
+    "lat": -8.0965571,
+    "lon": -34.8888117,
+    "nome": "10137",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10137",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209946,
+    "lat": -8.09787,
+    "lon": -34.8885885,
+    "nome": "10138",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10138",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209947,
+    "lat": -8.0908209,
+    "lon": -34.8833199,
+    "nome": "10139",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10139",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209948,
+    "lat": -8.0892231,
+    "lon": -34.881182,
+    "nome": "10140",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10140",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209949,
+    "lat": -8.0880743,
+    "lon": -34.8820799,
+    "nome": "10141",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10141",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209950,
+    "lat": -8.0867565,
+    "lon": -34.8808055,
+    "nome": "10142",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10142",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209951,
+    "lat": -8.0849917,
+    "lon": -34.87995,
+    "nome": "10143",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10143",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209952,
+    "lat": -8.083709,
+    "lon": -34.8803911,
+    "nome": "10144",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10144",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209954,
+    "lat": -8.082423,
+    "lon": -34.8814891,
+    "nome": "10145",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10145",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209955,
+    "lat": -8.0831875,
+    "lon": -34.8826894,
+    "nome": "10146",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10146",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209956,
+    "lat": -8.084377,
+    "lon": -34.8832732,
+    "nome": "10147",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10147",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209957,
+    "lat": -8.0859936,
+    "lon": -34.8828775,
+    "nome": "10148",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10148",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209959,
+    "lat": -8.0855059,
+    "lon": -34.8784122,
+    "nome": "10150",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10150",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209960,
+    "lat": -8.0832505,
+    "lon": -34.8774644,
+    "nome": "10151",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10151",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209961,
+    "lat": -8.0805157,
+    "lon": -34.8766861,
+    "nome": "Terminal Brasília Teimosa",
+    "operador": "",
+    "rede": "",
+    "ref": "10152",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209963,
+    "lat": -8.0825329,
+    "lon": -34.8772371,
+    "nome": "10153",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10153",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209964,
+    "lat": -8.0836503,
+    "lon": -34.8775923,
+    "nome": "10154",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10154",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209966,
+    "lat": -8.1146391,
+    "lon": -34.8975044,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010156",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209968,
+    "lat": -8.1121,
+    "lon": -34.9025,
+    "nome": "10158",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10158",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209969,
+    "lat": -8.1113,
+    "lon": -34.9044,
+    "nome": "10159",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10159",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209971,
+    "lat": -8.109937,
+    "lon": -34.9072652,
+    "nome": "10160",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10160",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209975,
+    "lat": -8.1106348,
+    "lon": -34.9084648,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010164",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209976,
+    "lat": -8.1113883,
+    "lon": -34.9072229,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010165",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209978,
+    "lat": -8.1132719,
+    "lon": -34.90475,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010166",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209980,
+    "lat": -8.1147946,
+    "lon": -34.9017668,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010168",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209981,
+    "lat": -8.116,
+    "lon": -34.8993,
+    "nome": "10169",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10169",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209982,
+    "lat": -8.1165022,
+    "lon": -34.9009966,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010170",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209983,
+    "lat": -8.1196357,
+    "lon": -34.9012843,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010171",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209985,
+    "lat": -8.1227309,
+    "lon": -34.9015515,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010172",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209986,
+    "lat": -8.124,
+    "lon": -34.9016,
+    "nome": "10173",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10173",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209987,
+    "lat": -8.1268513,
+    "lon": -34.9019238,
+    "nome": "10174",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10174",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209988,
+    "lat": -8.1272156,
+    "lon": -34.9015378,
+    "nome": "10175",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10175",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209989,
+    "lat": -8.1188257,
+    "lon": -34.9009615,
+    "nome": "10176",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10176",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209990,
+    "lat": -8.1191,
+    "lon": -34.8974,
+    "nome": "10177",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10177",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209991,
+    "lat": -8.1175816,
+    "lon": -34.900658,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010178",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209993,
+    "lat": -8.1172572,
+    "lon": -34.9013863,
+    "nome": "10179",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10179",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209994,
+    "lat": -8.1203435,
+    "lon": -34.9022335,
+    "nome": "Shopping Recife | Parada 01",
+    "operador": "",
+    "rede": "",
+    "ref": "010180",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209995,
+    "lat": -8.123344,
+    "lon": -34.9010876,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10181",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209996,
+    "lat": -8.1229581,
+    "lon": -34.9049749,
+    "nome": "10182",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10182",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209997,
+    "lat": -8.1229497,
+    "lon": -34.9068488,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010183",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633209999,
+    "lat": -8.1241631,
+    "lon": -34.9049048,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10185",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210001,
+    "lat": -8.1243794,
+    "lon": -34.9022686,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10186",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210002,
+    "lat": -8.1287,
+    "lon": -34.9029,
+    "nome": "10187",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10187",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210003,
+    "lat": -8.1254,
+    "lon": -34.9037,
+    "nome": "10188",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10188",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210006,
+    "lat": -8.1208727,
+    "lon": -34.9044324,
+    "nome": "Parada 2A - Shopping Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "010189",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210008,
+    "lat": -8.121981,
+    "lon": -34.9052758,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10190",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210011,
+    "lat": -8.1266,
+    "lon": -34.9085,
+    "nome": "10193",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10193",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210012,
+    "lat": -8.1262,
+    "lon": -34.9067,
+    "nome": "10194",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10194",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210013,
+    "lat": -8.126,
+    "lon": -34.904,
+    "nome": "10195",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10195",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210015,
+    "lat": -8.1116841,
+    "lon": -34.906594,
+    "nome": "10196",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10196",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210016,
+    "lat": -8.1143039,
+    "lon": -34.9071682,
+    "nome": "10197",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10197",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210017,
+    "lat": -8.115873,
+    "lon": -34.9085596,
+    "nome": "10198",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10198",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210019,
+    "lat": -8.1188,
+    "lon": -34.9096,
+    "nome": "10200",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10200",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210020,
+    "lat": -8.1177869,
+    "lon": -34.9097973,
+    "nome": "10201",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10201",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210022,
+    "lat": -8.1159588,
+    "lon": -34.9078977,
+    "nome": "10203",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10203",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210024,
+    "lat": -8.114,
+    "lon": -34.9071,
+    "nome": "10204",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10204",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210025,
+    "lat": -8.1124,
+    "lon": -34.9068,
+    "nome": "10205",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2607208-10205",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210026,
+    "lat": -8.1113,
+    "lon": -34.9065,
+    "nome": "10206",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10206",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210061,
+    "lat": -8.1263228,
+    "lon": -34.9097111,
+    "nome": "10239",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10239",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210063,
+    "lat": -8.120401,
+    "lon": -34.9087489,
+    "nome": "10240",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10240",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210064,
+    "lat": -8.1178988,
+    "lon": -34.9058264,
+    "nome": "Parada 03 - Shopping Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "010241",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210065,
+    "lat": -8.1150952,
+    "lon": -34.9032092,
+    "nome": "10242",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10242",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210066,
+    "lat": -8.1157464,
+    "lon": -34.9043481,
+    "nome": "10243",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10243",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210067,
+    "lat": -8.1206535,
+    "lon": -34.9093912,
+    "nome": "10244",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10244",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210106,
+    "lat": -8.0862938,
+    "lon": -34.8796464,
+    "nome": "10279",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10279",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210176,
+    "lat": -8.0887062,
+    "lon": -34.8941415,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10346",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210177,
+    "lat": -8.0888176,
+    "lon": -34.8925192,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10347",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633210178,
+    "lat": -8.0867981,
+    "lon": -34.8911933,
+    "nome": "Parada 02 - Shopping RioMar",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10348",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213470,
+    "lat": -8.0734903,
+    "lon": -34.8857923,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213471,
+    "lat": -8.0746748,
+    "lon": -34.8887969,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213472,
+    "lat": -8.075383,
+    "lon": -34.8903752,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213474,
+    "lat": -8.076689,
+    "lon": -34.8942576,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180008",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213475,
+    "lat": -8.0782076,
+    "lon": -34.8987169,
+    "nome": "180009",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180009",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213476,
+    "lat": -8.0769113,
+    "lon": -34.8947066,
+    "nome": "180010",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180010",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213477,
+    "lat": -8.0800424,
+    "lon": -34.9036367,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180011",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213478,
+    "lat": -8.07901,
+    "lon": -34.9010434,
+    "nome": "180012",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213479,
+    "lat": -8.0784268,
+    "lon": -34.8991307,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180013",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213480,
+    "lat": -8.0769756,
+    "lon": -34.8948308,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180014",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213482,
+    "lat": -8.0755114,
+    "lon": -34.8904846,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213483,
+    "lat": -8.0747717,
+    "lon": -34.8888174,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180016",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213484,
+    "lat": -8.0735945,
+    "lon": -34.8859012,
+    "nome": "Praça Sérgio Loreto",
+    "operador": "",
+    "rede": "",
+    "ref": "180017",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213485,
+    "lat": -8.0731502,
+    "lon": -34.8832437,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180018",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213490,
+    "lat": -8.0724706,
+    "lon": -34.8809577,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180022",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213491,
+    "lat": -8.0666537,
+    "lon": -34.8758754,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180023",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213492,
+    "lat": -8.0663273,
+    "lon": -34.8760178,
+    "nome": "180024",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180024",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213493,
+    "lat": -8.0656403,
+    "lon": -34.8761221,
+    "nome": "180025",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180025",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213494,
+    "lat": -8.0654421,
+    "lon": -34.8761569,
+    "nome": "180026",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180026",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213498,
+    "lat": -8.0648614,
+    "lon": -34.8762991,
+    "nome": "180029",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180029",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213499,
+    "lat": -8.0646751,
+    "lon": -34.8763133,
+    "nome": "180030",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180030",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213501,
+    "lat": -8.0644637,
+    "lon": -34.8763324,
+    "nome": "180031",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180031",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213502,
+    "lat": -8.0626383,
+    "lon": -34.8764462,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180032",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213503,
+    "lat": -8.0701393,
+    "lon": -34.8783502,
+    "nome": "180034",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180034",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213504,
+    "lat": -8.0632838,
+    "lon": -34.871868,
+    "nome": "180035",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180035",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213506,
+    "lat": -8.0636268,
+    "lon": -34.8739862,
+    "nome": "180036",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180036",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213507,
+    "lat": -8.0621333,
+    "lon": -34.8736234,
+    "nome": "180037",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180037",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213508,
+    "lat": -8.0611864,
+    "lon": -34.8730578,
+    "nome": "180039",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180039",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213509,
+    "lat": -8.0586184,
+    "lon": -34.8724173,
+    "nome": "180040",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180040",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213510,
+    "lat": -8.0541001,
+    "lon": -34.8717769,
+    "nome": "180041",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180041",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213511,
+    "lat": -8.0556016,
+    "lon": -34.8721839,
+    "nome": "180042",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180042",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213512,
+    "lat": -8.0572573,
+    "lon": -34.8723717,
+    "nome": "180043",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180043",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213513,
+    "lat": -8.0611033,
+    "lon": -34.873194,
+    "nome": "180044",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180044",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213515,
+    "lat": -8.063404,
+    "lon": -34.8744094,
+    "nome": "180045",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180045",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213516,
+    "lat": -8.0655079,
+    "lon": -34.8740114,
+    "nome": "180046",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180046",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213517,
+    "lat": -8.0712852,
+    "lon": -34.8799397,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180047",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213518,
+    "lat": -8.071552,
+    "lon": -34.8816734,
+    "nome": "Forte das Cinco Pontas",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180048",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213519,
+    "lat": -8.0744607,
+    "lon": -34.8843193,
+    "nome": "180049",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180049",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213520,
+    "lat": -8.0770036,
+    "lon": -34.8908566,
+    "nome": "180050",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180050",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213521,
+    "lat": -8.077711,
+    "lon": -34.8925228,
+    "nome": "180051",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180051",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213522,
+    "lat": -8.0794677,
+    "lon": -34.8928886,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180052",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213525,
+    "lat": -8.0784425,
+    "lon": -34.8913722,
+    "nome": "180054",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180054",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213527,
+    "lat": -8.0745566,
+    "lon": -34.8841127,
+    "nome": "180056",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180056",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213528,
+    "lat": -8.0558452,
+    "lon": -34.8783601,
+    "nome": "180059",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180059",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213529,
+    "lat": -8.0544086,
+    "lon": -34.880628,
+    "nome": "180060",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180060",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213531,
+    "lat": -8.0530441,
+    "lon": -34.8839195,
+    "nome": "180062",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180062",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213540,
+    "lat": -8.0506507,
+    "lon": -34.8833258,
+    "nome": "180070",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180070",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213545,
+    "lat": -8.0597491,
+    "lon": -34.8837614,
+    "nome": "180075",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180075",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213547,
+    "lat": -8.0598447,
+    "lon": -34.8822137,
+    "nome": "180077",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180077",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213548,
+    "lat": -8.0593163,
+    "lon": -34.8831069,
+    "nome": "180078",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180078",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213549,
+    "lat": -8.0587134,
+    "lon": -34.8832276,
+    "nome": "180076",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180079",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213552,
+    "lat": -8.0558059,
+    "lon": -34.8826942,
+    "nome": "180081",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180081",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213553,
+    "lat": -8.0566071,
+    "lon": -34.8829313,
+    "nome": "Ponto Rodotur",
+    "operador": "",
+    "rede": "",
+    "ref": "180082",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213554,
+    "lat": -8.0569536,
+    "lon": -34.8831476,
+    "nome": "180083",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180083",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213555,
+    "lat": -8.0572724,
+    "lon": -34.8833301,
+    "nome": "180084",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180084",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213556,
+    "lat": -8.0571869,
+    "lon": -34.8827404,
+    "nome": "180085",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180085",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213557,
+    "lat": -8.0564746,
+    "lon": -34.8826228,
+    "nome": "180086",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180086",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213558,
+    "lat": -8.0559273,
+    "lon": -34.882478,
+    "nome": "180087",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180087",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213560,
+    "lat": -8.0559947,
+    "lon": -34.8807565,
+    "nome": "180088",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180088",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213561,
+    "lat": -8.0557752,
+    "lon": -34.8810972,
+    "nome": "180089",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180089",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213562,
+    "lat": -8.055549,
+    "lon": -34.8814484,
+    "nome": "180090",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180090",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213563,
+    "lat": -8.0553574,
+    "lon": -34.8817647,
+    "nome": "180091",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180091",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213564,
+    "lat": -8.0532319,
+    "lon": -34.8850787,
+    "nome": "180092",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2607901-180092",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213566,
+    "lat": -8.0522321,
+    "lon": -34.8866394,
+    "nome": "180093",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180093",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213567,
+    "lat": -8.0513289,
+    "lon": -34.8878964,
+    "nome": "180094",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180094",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213568,
+    "lat": -8.0503524,
+    "lon": -34.888444,
+    "nome": "180095",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180095",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213570,
+    "lat": -8.0504284,
+    "lon": -34.8867577,
+    "nome": "180097",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180097",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213571,
+    "lat": -8.0523976,
+    "lon": -34.8841428,
+    "nome": "180098",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180098",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213573,
+    "lat": -8.0537985,
+    "lon": -34.882189,
+    "nome": "180099",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180099",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213575,
+    "lat": -8.0553513,
+    "lon": -34.8795567,
+    "nome": "180100",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180100",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213577,
+    "lat": -8.0516642,
+    "lon": -34.8797312,
+    "nome": "180104",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180104",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213596,
+    "lat": -8.0521626,
+    "lon": -34.8803669,
+    "nome": "180121",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180121",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213602,
+    "lat": -8.0520947,
+    "lon": -34.8901297,
+    "nome": "180126",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180126",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213603,
+    "lat": -8.053742,
+    "lon": -34.890016,
+    "nome": "180127",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180127",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213604,
+    "lat": -8.0559108,
+    "lon": -34.8877421,
+    "nome": "180128",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180128",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213606,
+    "lat": -8.0568496,
+    "lon": -34.8860751,
+    "nome": "180129",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180129",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213607,
+    "lat": -8.0572294,
+    "lon": -34.8854166,
+    "nome": "180130",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180130",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213608,
+    "lat": -8.0586914,
+    "lon": -34.8813746,
+    "nome": "180131",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180131",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213609,
+    "lat": -8.0590409,
+    "lon": -34.8808441,
+    "nome": "180132",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180132",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213610,
+    "lat": -8.0611287,
+    "lon": -34.8794309,
+    "nome": "180133",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180133",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213611,
+    "lat": -8.0612709,
+    "lon": -34.879537,
+    "nome": "180134",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180134",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213612,
+    "lat": -8.0614169,
+    "lon": -34.8796657,
+    "nome": "180135",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180135",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213614,
+    "lat": -8.0615799,
+    "lon": -34.8798,
+    "nome": "180136",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180136",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213615,
+    "lat": -8.0617844,
+    "lon": -34.8799448,
+    "nome": "180137",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180137",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213616,
+    "lat": -8.0619497,
+    "lon": -34.8800505,
+    "nome": "180138",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180138",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213618,
+    "lat": -8.0634519,
+    "lon": -34.8808613,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180140",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213620,
+    "lat": -8.0644418,
+    "lon": -34.8814359,
+    "nome": "Parada 1",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180142",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213621,
+    "lat": -8.0647481,
+    "lon": -34.8817151,
+    "nome": "Parada 2",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180143",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213623,
+    "lat": -8.0683796,
+    "lon": -34.8837596,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180145",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213633,
+    "lat": -8.0500651,
+    "lon": -34.8945083,
+    "nome": "180154",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180154",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213635,
+    "lat": -8.0518761,
+    "lon": -34.8958022,
+    "nome": "180156",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180156",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213636,
+    "lat": -8.0518162,
+    "lon": -34.8957647,
+    "nome": "180157",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180157",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213637,
+    "lat": -8.0545725,
+    "lon": -34.8976359,
+    "nome": "Hospital da Restauração",
+    "operador": "",
+    "rede": "",
+    "ref": "180158",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213639,
+    "lat": -8.054598,
+    "lon": -34.8976961,
+    "nome": "Hospital da Restauração",
+    "operador": "",
+    "rede": "",
+    "ref": "180159",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213640,
+    "lat": -8.0549622,
+    "lon": -34.8978972,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180160",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213641,
+    "lat": -8.056201,
+    "lon": -34.8982252,
+    "nome": "180161",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180161",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213642,
+    "lat": -8.056997,
+    "lon": -34.8982691,
+    "nome": "180162",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180162",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213643,
+    "lat": -8.0585687,
+    "lon": -34.8982613,
+    "nome": "180163",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180163",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213644,
+    "lat": -8.0614068,
+    "lon": -34.8979855,
+    "nome": "180164",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180164",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213646,
+    "lat": -8.0614653,
+    "lon": -34.8979781,
+    "nome": "180165",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180165",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213647,
+    "lat": -8.0619465,
+    "lon": -34.8979173,
+    "nome": "180166",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180166",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213648,
+    "lat": -8.0641294,
+    "lon": -34.8969103,
+    "nome": "180167",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180167",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213650,
+    "lat": -8.0641579,
+    "lon": -34.8970006,
+    "nome": "180168",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180168",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213651,
+    "lat": -8.0701146,
+    "lon": -34.8963865,
+    "nome": "180169",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180169",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213653,
+    "lat": -8.0710196,
+    "lon": -34.8969231,
+    "nome": "180171",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180171",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213654,
+    "lat": -8.0730843,
+    "lon": -34.8959979,
+    "nome": "180172",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180172",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213655,
+    "lat": -8.0731401,
+    "lon": -34.8961696,
+    "nome": "180173",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180173",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213656,
+    "lat": -8.0724757,
+    "lon": -34.8929697,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180174",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213658,
+    "lat": -8.0703622,
+    "lon": -34.8960056,
+    "nome": "180175",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180175",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213659,
+    "lat": -8.0626183,
+    "lon": -34.8971222,
+    "nome": "180176",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180176",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213660,
+    "lat": -8.0631828,
+    "lon": -34.8971154,
+    "nome": "180177",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180177",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213661,
+    "lat": -8.059478,
+    "lon": -34.8975241,
+    "nome": "180178",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180178",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213662,
+    "lat": -8.0590915,
+    "lon": -34.8975625,
+    "nome": "180179",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180179",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213663,
+    "lat": -8.0576531,
+    "lon": -34.8975991,
+    "nome": "180180",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180180",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213665,
+    "lat": -8.0570766,
+    "lon": -34.8976709,
+    "nome": "180181",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180181",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213666,
+    "lat": -8.0546241,
+    "lon": -34.8969653,
+    "nome": "180182",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2609600-180182",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213667,
+    "lat": -8.0541799,
+    "lon": -34.8966339,
+    "nome": "180183",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180183",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213668,
+    "lat": -8.0519078,
+    "lon": -34.8951341,
+    "nome": "180184",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180184",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213669,
+    "lat": -8.0519484,
+    "lon": -34.8950507,
+    "nome": "180185",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180185",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213694,
+    "lat": -8.0621799,
+    "lon": -34.8783339,
+    "nome": "180207",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180207",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213699,
+    "lat": -8.0620592,
+    "lon": -34.8783289,
+    "nome": "180211",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180211",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213701,
+    "lat": -8.0629172,
+    "lon": -34.8783789,
+    "nome": "180213",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180213",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213702,
+    "lat": -8.0633808,
+    "lon": -34.8783981,
+    "nome": "180214",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180214",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213703,
+    "lat": -8.0634605,
+    "lon": -34.8784077,
+    "nome": "180215",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180215",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213704,
+    "lat": -8.0635199,
+    "lon": -34.8784149,
+    "nome": "180216",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180216",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213705,
+    "lat": -8.0634241,
+    "lon": -34.8784033,
+    "nome": "180217",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180217",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213706,
+    "lat": -8.0633465,
+    "lon": -34.878431,
+    "nome": "180218",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180218",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213709,
+    "lat": -8.0630452,
+    "lon": -34.8783573,
+    "nome": "180220",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180220",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213710,
+    "lat": -8.0643571,
+    "lon": -34.8786387,
+    "nome": "180221",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180221",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213711,
+    "lat": -8.064835,
+    "lon": -34.8786902,
+    "nome": "180222",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180222",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213712,
+    "lat": -8.0650342,
+    "lon": -34.8787474,
+    "nome": "180223",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180223",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213713,
+    "lat": -8.0656198,
+    "lon": -34.8789775,
+    "nome": "180224",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180224",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213714,
+    "lat": -8.0647576,
+    "lon": -34.8785522,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180225",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213716,
+    "lat": -8.0650324,
+    "lon": -34.8786158,
+    "nome": "180226",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180226",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213720,
+    "lat": -8.0655837,
+    "lon": -34.878958,
+    "nome": "180229",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180229",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213721,
+    "lat": -8.0660232,
+    "lon": -34.8786566,
+    "nome": "180230",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180230",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213722,
+    "lat": -8.0660224,
+    "lon": -34.8767534,
+    "nome": "180231",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180231",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213723,
+    "lat": -8.0660037,
+    "lon": -34.8772498,
+    "nome": "180232",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180232",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213724,
+    "lat": -8.0660099,
+    "lon": -34.8776692,
+    "nome": "180233",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180233",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213726,
+    "lat": -8.0661336,
+    "lon": -34.8779967,
+    "nome": "180234",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180234",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213727,
+    "lat": -8.0660498,
+    "lon": -34.8783929,
+    "nome": "180235",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180235",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213728,
+    "lat": -8.0659888,
+    "lon": -34.8786434,
+    "nome": "180236",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180236",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213729,
+    "lat": -8.0674031,
+    "lon": -34.8801064,
+    "nome": "180237",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180237",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213730,
+    "lat": -8.0677763,
+    "lon": -34.8804421,
+    "nome": "180238",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180238",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213731,
+    "lat": -8.0680001,
+    "lon": -34.8806167,
+    "nome": "180239",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180239",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213732,
+    "lat": -8.0685014,
+    "lon": -34.8810234,
+    "nome": "180240",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180240",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213733,
+    "lat": -8.0687063,
+    "lon": -34.8811855,
+    "nome": "180241",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180241",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213735,
+    "lat": -8.0690431,
+    "lon": -34.8814208,
+    "nome": "180242",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180242",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213736,
+    "lat": -8.0694493,
+    "lon": -34.881874,
+    "nome": "180243",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180243",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213737,
+    "lat": -8.0697158,
+    "lon": -34.882141,
+    "nome": "180244",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180244",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213738,
+    "lat": -8.0699012,
+    "lon": -34.882349,
+    "nome": "180245",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180245",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213739,
+    "lat": -8.070335,
+    "lon": -34.8826262,
+    "nome": "180246",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180246",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213740,
+    "lat": -8.0707855,
+    "lon": -34.8829641,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180247",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213741,
+    "lat": -8.0717977,
+    "lon": -34.8837999,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180248",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213743,
+    "lat": -8.0719969,
+    "lon": -34.8839302,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180249",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213744,
+    "lat": -8.0688437,
+    "lon": -34.8812369,
+    "nome": "180258",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180258",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213745,
+    "lat": -8.0688504,
+    "lon": -34.8812411,
+    "nome": "180259",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180259",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213746,
+    "lat": -8.0684584,
+    "lon": -34.8809396,
+    "nome": "180261",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180261",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213747,
+    "lat": -8.0682972,
+    "lon": -34.88082,
+    "nome": "180262",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180262",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213748,
+    "lat": -8.0681104,
+    "lon": -34.8806566,
+    "nome": "180263",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180263",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213750,
+    "lat": -8.0678427,
+    "lon": -34.8804488,
+    "nome": "180264",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180264",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213751,
+    "lat": -8.0706464,
+    "lon": -34.8844215,
+    "nome": "180265",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180265",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213752,
+    "lat": -8.0628347,
+    "lon": -34.8768127,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180266",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213753,
+    "lat": -8.0626445,
+    "lon": -34.8781009,
+    "nome": "180267",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180267",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213754,
+    "lat": -8.0676033,
+    "lon": -34.8941087,
+    "nome": "180268",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180268",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213755,
+    "lat": -8.0664575,
+    "lon": -34.8837453,
+    "nome": "180270",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180270",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213756,
+    "lat": -8.0643368,
+    "lon": -34.885361,
+    "nome": "180271",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180271",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213757,
+    "lat": -8.0628866,
+    "lon": -34.8883968,
+    "nome": "180272",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180272",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213759,
+    "lat": -8.0650586,
+    "lon": -34.889607,
+    "nome": "180273",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180273",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213760,
+    "lat": -8.0673221,
+    "lon": -34.8901924,
+    "nome": "180274",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180274",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213761,
+    "lat": -8.0740521,
+    "lon": -34.8898291,
+    "nome": "180275",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180275",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213762,
+    "lat": -8.0717856,
+    "lon": -34.8905146,
+    "nome": "180276",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180276",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213763,
+    "lat": -8.068226,
+    "lon": -34.8900244,
+    "nome": "180277",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180277",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213764,
+    "lat": -8.0674833,
+    "lon": -34.8902503,
+    "nome": "180278",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180278",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213765,
+    "lat": -8.065322,
+    "lon": -34.8863881,
+    "nome": "180280",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180280",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213767,
+    "lat": -8.0643317,
+    "lon": -34.8835383,
+    "nome": "180281",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180281",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213768,
+    "lat": -8.063107,
+    "lon": -34.8822773,
+    "nome": "180282",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180282",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213769,
+    "lat": -8.0612412,
+    "lon": -34.881026,
+    "nome": "180283",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180283",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213770,
+    "lat": -8.0607088,
+    "lon": -34.8807041,
+    "nome": "180284",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180284",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213771,
+    "lat": -8.0604402,
+    "lon": -34.8805421,
+    "nome": "180285",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180285",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213772,
+    "lat": -8.0601608,
+    "lon": -34.8803549,
+    "nome": "180286",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180286",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213773,
+    "lat": -8.0642098,
+    "lon": -34.8772681,
+    "nome": "180288",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180288",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213774,
+    "lat": -8.0639585,
+    "lon": -34.8780295,
+    "nome": "180289",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180289",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213776,
+    "lat": -8.0639007,
+    "lon": -34.8780971,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180290",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213778,
+    "lat": -8.0635255,
+    "lon": -34.8788023,
+    "nome": "180292",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180292",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213779,
+    "lat": -8.0633927,
+    "lon": -34.8790411,
+    "nome": "180293",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180293",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213780,
+    "lat": -8.0633555,
+    "lon": -34.879108,
+    "nome": "180294",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180294",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213782,
+    "lat": -8.0633579,
+    "lon": -34.8791038,
+    "nome": "180295",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180295",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213783,
+    "lat": -8.0625769,
+    "lon": -34.8800741,
+    "nome": "180296",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180296",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213784,
+    "lat": -8.0628396,
+    "lon": -34.8799137,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180297",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213785,
+    "lat": -8.0626599,
+    "lon": -34.8799025,
+    "nome": "180298",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180298",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213786,
+    "lat": -8.0627546,
+    "lon": -34.8800728,
+    "nome": "180299",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180299",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213787,
+    "lat": -8.0618069,
+    "lon": -34.8819252,
+    "nome": "Aurora A1",
+    "operador": "",
+    "rede": "",
+    "ref": "180300",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213789,
+    "lat": -8.0614506,
+    "lon": -34.8825651,
+    "nome": "Aurora A2",
+    "operador": "",
+    "rede": "",
+    "ref": "180301",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213790,
+    "lat": -8.0611333,
+    "lon": -34.8832067,
+    "nome": "Sete de Setembro B1",
+    "operador": "",
+    "rede": "",
+    "ref": "180302",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213791,
+    "lat": -8.0608471,
+    "lon": -34.8837032,
+    "nome": "Sete de Setembro B2",
+    "operador": "",
+    "rede": "",
+    "ref": "180303",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213793,
+    "lat": -8.059866,
+    "lon": -34.8857696,
+    "nome": "180304",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180304",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213794,
+    "lat": -8.0597048,
+    "lon": -34.8859653,
+    "nome": "180305",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180305",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213796,
+    "lat": -8.057803,
+    "lon": -34.8893225,
+    "nome": "180307",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180307",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213800,
+    "lat": -8.0566133,
+    "lon": -34.8992944,
+    "nome": "180310",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180310",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213801,
+    "lat": -8.0580891,
+    "lon": -34.9033531,
+    "nome": "180311",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180311",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213802,
+    "lat": -8.0580826,
+    "lon": -34.9068548,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180312",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213803,
+    "lat": -8.0582194,
+    "lon": -34.9074061,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180313",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213804,
+    "lat": -8.0580988,
+    "lon": -34.9047765,
+    "nome": "180314",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180314",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213805,
+    "lat": -8.0587959,
+    "lon": -34.9030924,
+    "nome": "180315",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180315",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213807,
+    "lat": -8.0567869,
+    "lon": -34.8987425,
+    "nome": "Praça do Derby",
+    "operador": "",
+    "rede": "",
+    "ref": "180316",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213812,
+    "lat": -8.0589704,
+    "lon": -34.887162,
+    "nome": "180321",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180321",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213813,
+    "lat": -8.0592381,
+    "lon": -34.886919,
+    "nome": "180322",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180322",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213816,
+    "lat": -8.0613882,
+    "lon": -34.8831713,
+    "nome": "180324",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180324",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213817,
+    "lat": -8.0616893,
+    "lon": -34.8825835,
+    "nome": "180325",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180325",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213818,
+    "lat": -8.0619903,
+    "lon": -34.8819992,
+    "nome": "180326",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180326",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213819,
+    "lat": -8.0630761,
+    "lon": -34.8802158,
+    "nome": "180327",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180327",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213820,
+    "lat": -8.0631395,
+    "lon": -34.879831,
+    "nome": "180328",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180328",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213821,
+    "lat": -8.063228,
+    "lon": -34.8799391,
+    "nome": "180329",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180329",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213822,
+    "lat": -8.063159,
+    "lon": -34.8797967,
+    "nome": "180330",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180330",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213823,
+    "lat": -8.0632103,
+    "lon": -34.8797066,
+    "nome": "180331",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180331",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213825,
+    "lat": -8.0632657,
+    "lon": -34.8796093,
+    "nome": "180332",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180332",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213826,
+    "lat": -8.0635501,
+    "lon": -34.8792311,
+    "nome": "180333",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180333",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213827,
+    "lat": -8.0635395,
+    "lon": -34.8791286,
+    "nome": "180334",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180334",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213829,
+    "lat": -8.0790378,
+    "lon": -34.8966536,
+    "nome": "180348",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180348",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213830,
+    "lat": -8.0793688,
+    "lon": -34.8965803,
+    "nome": "180349",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180349",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213831,
+    "lat": -8.0799628,
+    "lon": -34.894457,
+    "nome": "180350",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180350",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213833,
+    "lat": -8.0800988,
+    "lon": -34.8948755,
+    "nome": "180351",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180351",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213834,
+    "lat": -8.0785637,
+    "lon": -34.893684,
+    "nome": "180352",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180352",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213835,
+    "lat": -8.0769601,
+    "lon": -34.8940389,
+    "nome": "180353",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180353",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213836,
+    "lat": -8.0506591,
+    "lon": -34.8909212,
+    "nome": "180355",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180355",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213837,
+    "lat": -8.0531571,
+    "lon": -34.9021862,
+    "nome": "180359",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180359",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213838,
+    "lat": -8.0541289,
+    "lon": -34.9004407,
+    "nome": "180360",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180360",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213839,
+    "lat": -8.0591257,
+    "lon": -34.8994576,
+    "nome": "180362",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180362",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213840,
+    "lat": -8.0583373,
+    "lon": -34.8948906,
+    "nome": "180363",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180363",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213842,
+    "lat": -8.0547922,
+    "lon": -34.8958357,
+    "nome": "180364",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180364",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213843,
+    "lat": -8.0542678,
+    "lon": -34.8960334,
+    "nome": "180365",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180365",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213844,
+    "lat": -8.0529721,
+    "lon": -34.8969249,
+    "nome": "180366",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180366",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213845,
+    "lat": -8.0526913,
+    "lon": -34.9019677,
+    "nome": "180367",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180367",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213846,
+    "lat": -8.0623306,
+    "lon": -34.8985599,
+    "nome": "180368",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180368",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213847,
+    "lat": -8.0639454,
+    "lon": -34.8960133,
+    "nome": "180369",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180369",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213848,
+    "lat": -8.0629238,
+    "lon": -34.8964128,
+    "nome": "180370",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180370",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213849,
+    "lat": -8.0612203,
+    "lon": -34.8961495,
+    "nome": "180371",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180371",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213851,
+    "lat": -8.060207,
+    "lon": -34.8949631,
+    "nome": "180372",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180372",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213852,
+    "lat": -8.0620568,
+    "lon": -34.8988132,
+    "nome": "180373",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180373",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213853,
+    "lat": -8.0572399,
+    "lon": -34.9061233,
+    "nome": "180374",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180374",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213854,
+    "lat": -8.055339,
+    "lon": -34.9057639,
+    "nome": "180375",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180375",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213857,
+    "lat": -8.0540918,
+    "lon": -34.9045237,
+    "nome": "180377",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180377",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213858,
+    "lat": -8.0576001,
+    "lon": -34.9040948,
+    "nome": "180378",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180378",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213859,
+    "lat": -8.0576848,
+    "lon": -34.9040654,
+    "nome": "180379",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180379",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213860,
+    "lat": -8.053475,
+    "lon": -34.9046321,
+    "nome": "180380",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180380",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213861,
+    "lat": -8.0700083,
+    "lon": -34.8941213,
+    "nome": "180381",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180381",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213862,
+    "lat": -8.070161,
+    "lon": -34.8955305,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180382",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213864,
+    "lat": -8.0694662,
+    "lon": -34.8954795,
+    "nome": "180383",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180383",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213874,
+    "lat": -8.0655053,
+    "lon": -34.892409,
+    "nome": "180385",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180385",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213875,
+    "lat": -8.0652437,
+    "lon": -34.8898777,
+    "nome": "180386",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180386",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213876,
+    "lat": -8.0680763,
+    "lon": -34.891965,
+    "nome": "180387",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180387",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213877,
+    "lat": -8.0668823,
+    "lon": -34.8943133,
+    "nome": "180388",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180388",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213878,
+    "lat": -8.0663736,
+    "lon": -34.8958477,
+    "nome": "180389",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180389",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213879,
+    "lat": -8.0671581,
+    "lon": -34.894165,
+    "nome": "180390",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180390",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213881,
+    "lat": -8.0683311,
+    "lon": -34.8916245,
+    "nome": "180391",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180391",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213882,
+    "lat": -8.052008,
+    "lon": -34.8933619,
+    "nome": "180396",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180396",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213883,
+    "lat": -8.0748329,
+    "lon": -34.8910917,
+    "nome": "180397",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180397",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213884,
+    "lat": -8.0753462,
+    "lon": -34.8926335,
+    "nome": "180398",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180398",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213885,
+    "lat": -8.0764735,
+    "lon": -34.8960841,
+    "nome": "180399",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180399",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213886,
+    "lat": -8.0776519,
+    "lon": -34.8997397,
+    "nome": "180400",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180400",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213888,
+    "lat": -8.0782198,
+    "lon": -34.901399,
+    "nome": "180401",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180401",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213889,
+    "lat": -8.0770721,
+    "lon": -34.9063317,
+    "nome": "180407",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180407",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213890,
+    "lat": -8.0725242,
+    "lon": -34.9078047,
+    "nome": "180409",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180409",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213891,
+    "lat": -8.0716387,
+    "lon": -34.9080124,
+    "nome": "180410",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180410",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213892,
+    "lat": -8.0697041,
+    "lon": -34.9082449,
+    "nome": "180411",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180411",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213893,
+    "lat": -8.0674097,
+    "lon": -34.9082159,
+    "nome": "180412",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180412",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213894,
+    "lat": -8.0657039,
+    "lon": -34.9080431,
+    "nome": "180413",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180413",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213896,
+    "lat": -8.0633342,
+    "lon": -34.9077837,
+    "nome": "180414",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180414",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213897,
+    "lat": -8.0601541,
+    "lon": -34.9072392,
+    "nome": "180415",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180415",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213898,
+    "lat": -8.056548,
+    "lon": -34.9069537,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180416",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213900,
+    "lat": -8.0510176,
+    "lon": -34.9065473,
+    "nome": "180418",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180418",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213902,
+    "lat": -8.0518989,
+    "lon": -34.9084503,
+    "nome": "Mercado da Madalena",
+    "operador": "",
+    "rede": "",
+    "ref": "180427",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213903,
+    "lat": -8.0545771,
+    "lon": -34.9089138,
+    "nome": "180430",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180430",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213905,
+    "lat": -8.0578248,
+    "lon": -34.9093661,
+    "nome": "180431",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180431",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213907,
+    "lat": -8.0632525,
+    "lon": -34.9095459,
+    "nome": "180433",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180433",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213908,
+    "lat": -8.0648006,
+    "lon": -34.9092364,
+    "nome": "180434",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180434",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213909,
+    "lat": -8.0668793,
+    "lon": -34.9093005,
+    "nome": "180435",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180435",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213910,
+    "lat": -8.0688333,
+    "lon": -34.9098711,
+    "nome": "180436",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180436",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213911,
+    "lat": -8.0707775,
+    "lon": -34.9095475,
+    "nome": "180437",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180437",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213913,
+    "lat": -8.0754038,
+    "lon": -34.9089945,
+    "nome": "180439",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180439",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213914,
+    "lat": -8.0776971,
+    "lon": -34.9074097,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "0180440",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213915,
+    "lat": -8.0653704,
+    "lon": -34.9070989,
+    "nome": "180442",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180442",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213916,
+    "lat": -8.0649046,
+    "lon": -34.9049201,
+    "nome": "180443",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180443",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213917,
+    "lat": -8.0625819,
+    "lon": -34.9049837,
+    "nome": "180444",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180444",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213918,
+    "lat": -8.0622385,
+    "lon": -34.9050104,
+    "nome": "180445",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180445",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213920,
+    "lat": -8.0648253,
+    "lon": -34.9048489,
+    "nome": "180446",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180446",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213921,
+    "lat": -8.0653353,
+    "lon": -34.9070861,
+    "nome": "180447",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180447",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213922,
+    "lat": -8.061234,
+    "lon": -34.8784564,
+    "nome": "180448",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180448",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213923,
+    "lat": -8.0615585,
+    "lon": -34.8767288,
+    "nome": "180449",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180449",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213924,
+    "lat": -8.058254,
+    "lon": -34.882077,
+    "nome": "180518",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180450",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213925,
+    "lat": -8.0594385,
+    "lon": -34.8802424,
+    "nome": "180227",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180451",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213926,
+    "lat": -8.0506304,
+    "lon": -34.8741114,
+    "nome": "180452",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180452",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213928,
+    "lat": -8.0505847,
+    "lon": -34.874325,
+    "nome": "180453",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180453",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213929,
+    "lat": -8.0535133,
+    "lon": -34.8762,
+    "nome": "180454",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180454",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213930,
+    "lat": -8.0802082,
+    "lon": -34.9061831,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "0180455",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213931,
+    "lat": -8.0807929,
+    "lon": -34.9058867,
+    "nome": "180456",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180456",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213932,
+    "lat": -8.0807224,
+    "lon": -34.906013,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180457",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213933,
+    "lat": -8.0808518,
+    "lon": -34.9062722,
+    "nome": "Praça da Paz",
+    "operador": "",
+    "rede": "",
+    "ref": "180458",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213935,
+    "lat": -8.053205,
+    "lon": -34.9059263,
+    "nome": "180459",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180459",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633213937,
+    "lat": -8.0797203,
+    "lon": -34.8919499,
+    "nome": "180461",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180461",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214179,
+    "lat": -8.0858154,
+    "lon": -34.9074919,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020004",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214180,
+    "lat": -8.0892171,
+    "lon": -34.9082617,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214181,
+    "lat": -8.0921018,
+    "lon": -34.9089069,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214183,
+    "lat": -8.0958572,
+    "lon": -34.9097268,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214295,
+    "lat": -8.0989475,
+    "lon": -34.9099582,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020061",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214297,
+    "lat": -8.0965768,
+    "lon": -34.9095489,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020062",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214304,
+    "lat": -8.093757,
+    "lon": -34.9089408,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020063",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214305,
+    "lat": -8.0917111,
+    "lon": -34.9085003,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020064",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214306,
+    "lat": -8.0888615,
+    "lon": -34.9078441,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020065",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633214307,
+    "lat": -8.0859542,
+    "lon": -34.9071871,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020066",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633215170,
+    "lat": -8.0803347,
+    "lon": -34.9081555,
+    "nome": "40026",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-40026",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216113,
+    "lat": -8.0618726,
+    "lon": -34.907816,
+    "nome": "60009",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60009",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216114,
+    "lat": -8.0613023,
+    "lon": -34.9055065,
+    "nome": "60010",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60010",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216115,
+    "lat": -8.0615089,
+    "lon": -34.9027386,
+    "nome": "60011",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60011",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216116,
+    "lat": -8.0613398,
+    "lon": -34.9032246,
+    "nome": "60012",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216117,
+    "lat": -8.0614432,
+    "lon": -34.9070847,
+    "nome": "60013",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60013",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216151,
+    "lat": -8.0769979,
+    "lon": -34.9096478,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "060054",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216219,
+    "lat": -8.0685665,
+    "lon": -34.9095207,
+    "nome": "60127",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-60127",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2633216843,
+    "lat": -8.0533707,
+    "lon": -34.9056349,
+    "nome": "80029",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-80029",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 2670549377,
+    "lat": -8.0543551,
+    "lon": -34.881707,
+    "nome": "180103",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180103",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3720568061,
+    "lat": -8.0844413,
+    "lon": -34.8952035,
+    "nome": "Parada 03 - Shopping RioMar",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3728235363,
+    "lat": -8.096667,
+    "lon": -34.8848819,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010108",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3758175314,
+    "lat": -8.0686162,
+    "lon": -34.8760953,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "12",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3758237229,
+    "lat": -8.0681902,
+    "lon": -34.8807684,
+    "nome": "180262",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180262",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3763186619,
+    "lat": -8.0744436,
+    "lon": -34.8918372,
+    "nome": "180398",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-180398",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3887497350,
+    "lat": -8.0799575,
+    "lon": -34.9053342,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3927967390,
+    "lat": -8.0602588,
+    "lon": -34.9057973,
+    "nome": "180393",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3927972302,
+    "lat": -8.0604659,
+    "lon": -34.9053145,
+    "nome": "180394",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 3927973980,
+    "lat": -8.0584927,
+    "lon": -34.9077848,
+    "nome": "180392",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 4500470607,
+    "lat": -8.0650465,
+    "lon": -34.8820662,
+    "nome": "Parada 3",
+    "operador": "",
+    "rede": "",
+    "ref": "180144",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 4500474568,
+    "lat": -8.0699318,
+    "lon": -34.88263,
+    "nome": "180265",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 4500479564,
+    "lat": -8.072433,
+    "lon": -34.8809648,
+    "nome": "Forte das Cinco Pontas",
+    "operador": "",
+    "rede": "",
+    "ref": "180019",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 4500481585,
+    "lat": -8.072289,
+    "lon": -34.8814372,
+    "nome": "180021",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 5264237469,
+    "lat": -8.0846553,
+    "lon": -34.8837822,
+    "nome": "10344",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-10344",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 5508889071,
+    "lat": -8.0679432,
+    "lon": -34.8755735,
+    "nome": "Terminal Cais de Santa Rita",
+    "operador": "",
+    "rede": "",
+    "ref": "08",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 5648652591,
+    "lat": -8.0535828,
+    "lon": -34.881216,
+    "nome": "EBRT IEP",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 5832320188,
+    "lat": -8.070134,
+    "lon": -34.8955969,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180382",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6467060647,
+    "lat": -8.068443,
+    "lon": -34.8844803,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "01",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6573599775,
+    "lat": -8.0720822,
+    "lon": -34.8962511,
+    "nome": "Desembarque - Terminal Joana Bezerra",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6583100901,
+    "lat": -8.0682201,
+    "lon": -34.88433,
+    "nome": "Desembarque - Terminal Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6607193288,
+    "lat": -8.0688179,
+    "lon": -34.8759517,
+    "nome": "01, 02 e 03",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6607193289,
+    "lat": -8.0683818,
+    "lon": -34.8757411,
+    "nome": "04, 05 e 06",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6607193290,
+    "lat": -8.0679612,
+    "lon": -34.8755444,
+    "nome": "07 e 08",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6607193291,
+    "lat": -8.0685505,
+    "lon": -34.8759237,
+    "nome": "09 a 11",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6607193300,
+    "lat": -8.0682016,
+    "lon": -34.8843384,
+    "nome": "Desembarque - Terminal Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612313443,
+    "lat": -8.0686567,
+    "lon": -34.8844018,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "05",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612313444,
+    "lat": -8.0686096,
+    "lon": -34.8844191,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "04",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612313446,
+    "lat": -8.0684991,
+    "lon": -34.8844597,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "02",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612313448,
+    "lat": -8.0685469,
+    "lon": -34.8844421,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "03",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612315982,
+    "lat": -8.0721949,
+    "lon": -34.8959499,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "01",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612315983,
+    "lat": -8.0719472,
+    "lon": -34.8959329,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "08",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612368938,
+    "lat": -8.0556281,
+    "lon": -34.9000287,
+    "nome": "180361",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6612368939,
+    "lat": -8.0513012,
+    "lon": -34.8988326,
+    "nome": "180557",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6635387703,
+    "lat": -8.0722265,
+    "lon": -34.8951615,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "03",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 6802812805,
+    "lat": -8.0603491,
+    "lon": -34.884732,
+    "nome": "EBRT Rua do Hospício",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7097034803,
+    "lat": -8.0581173,
+    "lon": -34.9054239,
+    "nome": "EBRT Benfica",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7097034805,
+    "lat": -8.0567336,
+    "lon": -34.8991292,
+    "nome": "EBRT Derby 1",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7097034809,
+    "lat": -8.0629525,
+    "lon": -34.880066,
+    "nome": "EBRT Guararapes 1",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7097034815,
+    "lat": -8.0566506,
+    "lon": -34.8991292,
+    "nome": "EBRT Derby 1",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7097034816,
+    "lat": -8.0580295,
+    "lon": -34.9054232,
+    "nome": "EBRT Benfica",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7123569693,
+    "lat": -8.0537295,
+    "lon": -34.8814554,
+    "nome": "EBRT IEP",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7123569694,
+    "lat": -8.0563883,
+    "lon": -34.8828255,
+    "nome": "EBRT Treze de Maio",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7123569695,
+    "lat": -8.0603549,
+    "lon": -34.8816667,
+    "nome": "EBRT Riachuelo",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7123569696,
+    "lat": -8.061948,
+    "lon": -34.878281,
+    "nome": "EBRT Praça da República",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7124633433,
+    "lat": -8.0601178,
+    "lon": -34.8818315,
+    "nome": "EBRT Riachuelo",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7124633434,
+    "lat": -8.0562588,
+    "lon": -34.8826154,
+    "nome": "EBRT Treze de Maio",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7138295544,
+    "lat": -8.0718549,
+    "lon": -34.8961892,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "09",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7138295546,
+    "lat": -8.0566399,
+    "lon": -34.8985704,
+    "nome": "EBRT Derby 2",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7143096780,
+    "lat": -8.0567364,
+    "lon": -34.8985671,
+    "nome": "EBRT Derby 2",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7143096782,
+    "lat": -8.06287,
+    "lon": -34.8800091,
+    "nome": "EBRT Guararapes 1",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7143096783,
+    "lat": -8.0632398,
+    "lon": -34.8795523,
+    "nome": "EBRT Guararapes 2",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7143096784,
+    "lat": -8.0631454,
+    "lon": -34.8795005,
+    "nome": "EBRT Guararapes 2",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7160757810,
+    "lat": -8.0500393,
+    "lon": -34.8974147,
+    "nome": "Praça do Entroncamento",
+    "operador": "",
+    "rede": "",
+    "ref": "100172",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839606,
+    "lat": -8.0794442,
+    "lon": -34.8928298,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180052",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839608,
+    "lat": -8.0877814,
+    "lon": -34.8964697,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10122",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839609,
+    "lat": -8.0885211,
+    "lon": -34.8959363,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10123",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839613,
+    "lat": -8.088646,
+    "lon": -34.894138,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10346",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839614,
+    "lat": -8.0888903,
+    "lon": -34.8925248,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10347",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839615,
+    "lat": -8.0879502,
+    "lon": -34.8891795,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839616,
+    "lat": -8.0879022,
+    "lon": -34.8892515,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201839617,
+    "lat": -8.0846554,
+    "lon": -34.8873122,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10115",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936764,
+    "lat": -8.0867292,
+    "lon": -34.8871802,
+    "nome": "Parada 01",
+    "operador": "",
+    "rede": "",
+    "ref": "10001",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936765,
+    "lat": -8.0890137,
+    "lon": -34.8849945,
+    "nome": "Parada 02",
+    "operador": "",
+    "rede": "",
+    "ref": "10002",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936766,
+    "lat": -8.0930422,
+    "lon": -34.8853783,
+    "nome": "Parada 03",
+    "operador": "",
+    "rede": "",
+    "ref": "010003",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936767,
+    "lat": -8.0948116,
+    "lon": -34.8858555,
+    "nome": "Parada 04",
+    "operador": "",
+    "rede": "",
+    "ref": "010004",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936768,
+    "lat": -8.0981033,
+    "lon": -34.8864546,
+    "nome": "Parada 05",
+    "operador": "",
+    "rede": "",
+    "ref": "010005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936769,
+    "lat": -8.1016657,
+    "lon": -34.8879477,
+    "nome": "Parada 06",
+    "operador": "",
+    "rede": "",
+    "ref": "010006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936770,
+    "lat": -8.1051955,
+    "lon": -34.8895858,
+    "nome": "Parada 07",
+    "operador": "",
+    "rede": "",
+    "ref": "010007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936771,
+    "lat": -8.1079933,
+    "lon": -34.8908809,
+    "nome": "Parada 08",
+    "operador": "",
+    "rede": "",
+    "ref": "010008",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936772,
+    "lat": -8.1113021,
+    "lon": -34.8928664,
+    "nome": "Parada 09",
+    "operador": "",
+    "rede": "",
+    "ref": "010009",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936773,
+    "lat": -8.1138636,
+    "lon": -34.8944193,
+    "nome": "Parada 10",
+    "operador": "",
+    "rede": "",
+    "ref": "010010",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936774,
+    "lat": -8.1163645,
+    "lon": -34.8959788,
+    "nome": "Parada 11",
+    "operador": "",
+    "rede": "",
+    "ref": "010011",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936775,
+    "lat": -8.1205143,
+    "lon": -34.8985074,
+    "nome": "Parada 12",
+    "operador": "",
+    "rede": "",
+    "ref": "010012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936778,
+    "lat": -8.1226047,
+    "lon": -34.8995486,
+    "nome": "Parada 13",
+    "operador": "",
+    "rede": "",
+    "ref": "010498",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936779,
+    "lat": -8.122598,
+    "lon": -34.8994815,
+    "nome": "Parada 13",
+    "operador": "",
+    "rede": "",
+    "ref": "010498",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936780,
+    "lat": -8.1244047,
+    "lon": -34.9001676,
+    "nome": "Parada 14",
+    "operador": "",
+    "rede": "",
+    "ref": "010014",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936781,
+    "lat": -8.1272104,
+    "lon": -34.9011996,
+    "nome": "Parada 15",
+    "operador": "",
+    "rede": "",
+    "ref": "010015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201936782,
+    "lat": -8.1298081,
+    "lon": -34.9023297,
+    "nome": "Parada 16",
+    "operador": "",
+    "rede": "",
+    "ref": "010015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960688,
+    "lat": -8.1290927,
+    "lon": -34.900658,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010097",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960689,
+    "lat": -8.1252727,
+    "lon": -34.899254,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010098",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960702,
+    "lat": -8.1220246,
+    "lon": -34.8980251,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010099",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960703,
+    "lat": -8.118379,
+    "lon": -34.8959531,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010100",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960704,
+    "lat": -8.1165454,
+    "lon": -34.8948807,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010101",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960705,
+    "lat": -8.1141184,
+    "lon": -34.8933999,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010102",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960706,
+    "lat": -8.111558,
+    "lon": -34.8918283,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010103",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960707,
+    "lat": -8.1093065,
+    "lon": -34.8905125,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010104",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960708,
+    "lat": -8.1072045,
+    "lon": -34.8895597,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010105",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960709,
+    "lat": -8.1046716,
+    "lon": -34.8883976,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010106",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960714,
+    "lat": -8.1012637,
+    "lon": -34.8867707,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010107",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960715,
+    "lat": -8.1012358,
+    "lon": -34.8868317,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010107",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960716,
+    "lat": -8.0966566,
+    "lon": -34.8849443,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010108",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960717,
+    "lat": -8.091582,
+    "lon": -34.8837435,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010109",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960718,
+    "lat": -8.0878652,
+    "lon": -34.8842234,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010111",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960719,
+    "lat": -8.0860034,
+    "lon": -34.8860099,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010113",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7201960720,
+    "lat": -8.0722766,
+    "lon": -34.8957364,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "02",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202194663,
+    "lat": -8.0774072,
+    "lon": -34.9068494,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "01",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202194664,
+    "lat": -8.0771546,
+    "lon": -34.9067541,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "02",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200908,
+    "lat": -8.0965484,
+    "lon": -34.909633,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020062",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200910,
+    "lat": -8.0937512,
+    "lon": -34.9090107,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020063",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200911,
+    "lat": -8.0917038,
+    "lon": -34.9085601,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020064",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200912,
+    "lat": -8.0888467,
+    "lon": -34.9079076,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020065",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200913,
+    "lat": -8.085922,
+    "lon": -34.9072613,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020066",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200915,
+    "lat": -8.0809724,
+    "lon": -34.9047262,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "01",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200917,
+    "lat": -8.081537,
+    "lon": -34.9051451,
+    "nome": "Desembarque - Terminal Largo da Paz",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200918,
+    "lat": -8.0811889,
+    "lon": -34.9048826,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "02",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200921,
+    "lat": -8.0772811,
+    "lon": -34.9066278,
+    "nome": "Desembarque 1 - Terminal Afogados",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200922,
+    "lat": -8.0772631,
+    "lon": -34.9069187,
+    "nome": "Desembarque 2 - Terminal Afogados",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200923,
+    "lat": -8.0793284,
+    "lon": -34.9067713,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180441",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200924,
+    "lat": -8.0858116,
+    "lon": -34.9074039,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020004",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200925,
+    "lat": -8.0892234,
+    "lon": -34.9081673,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200926,
+    "lat": -8.0921051,
+    "lon": -34.908808,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7202200934,
+    "lat": -8.0958597,
+    "lon": -34.9096414,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "20007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7212809648,
+    "lat": -8.0714711,
+    "lon": -34.8834192,
+    "nome": "Desembarque - Terminal Intermunicipal Dantas Barreto",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7212809649,
+    "lat": -8.0716938,
+    "lon": -34.8835991,
+    "nome": "Embarque - Terminal Intermunicipal Dantas Barreto",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7212809650,
+    "lat": -8.0717226,
+    "lon": -34.8835638,
+    "nome": "Terminal Intermunicipal Dantas Barreto",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7212809651,
+    "lat": -8.0715077,
+    "lon": -34.88338,
+    "nome": "Terminal Intermunicipal Dantas Barreto",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7235371473,
+    "lat": -8.0684135,
+    "lon": -34.8836959,
+    "nome": "Estação Recife - Área Externa",
+    "operador": "",
+    "rede": "",
+    "ref": "180145",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7243002119,
+    "lat": -8.0717716,
+    "lon": -34.8961605,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "09",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7243002120,
+    "lat": -8.0721579,
+    "lon": -34.8951452,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7243002121,
+    "lat": -8.0723715,
+    "lon": -34.8957621,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7243002122,
+    "lat": -8.0722911,
+    "lon": -34.8959755,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7243002123,
+    "lat": -8.0721772,
+    "lon": -34.8962777,
+    "nome": "Desembarque - Terminal Joana Bezerra",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204722,
+    "lat": -8.0721256,
+    "lon": -34.8954374,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "06",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204723,
+    "lat": -8.0720189,
+    "lon": -34.8957337,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "07",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204724,
+    "lat": -8.0723732,
+    "lon": -34.895486,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "04",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204725,
+    "lat": -8.0724722,
+    "lon": -34.8952373,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "05",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204726,
+    "lat": -8.0719441,
+    "lon": -34.895707,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "07",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204727,
+    "lat": -8.0725107,
+    "lon": -34.892969,
+    "nome": "AACD",
+    "operador": "",
+    "rede": "",
+    "ref": "180174",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7245204728,
+    "lat": -8.069663,
+    "lon": -34.8958659,
+    "nome": "Fórum Rodolfo Aureliano",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515549,
+    "lat": -8.0799464,
+    "lon": -34.9036833,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180011",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515550,
+    "lat": -8.0791742,
+    "lon": -34.9012688,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515551,
+    "lat": -8.0791179,
+    "lon": -34.9012883,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515552,
+    "lat": -8.07837,
+    "lon": -34.8991373,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180013",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515553,
+    "lat": -8.0769367,
+    "lon": -34.8948436,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180014",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515554,
+    "lat": -8.075494,
+    "lon": -34.8905016,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180015",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515555,
+    "lat": -8.0747526,
+    "lon": -34.8888282,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180016",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515556,
+    "lat": -8.0747196,
+    "lon": -34.8887693,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180006",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515558,
+    "lat": -8.0730861,
+    "lon": -34.8832594,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180018",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515559,
+    "lat": -8.0678399,
+    "lon": -34.8758864,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "18",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515560,
+    "lat": -8.0679964,
+    "lon": -34.8759318,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "17",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515561,
+    "lat": -8.0681075,
+    "lon": -34.8759639,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "16",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515562,
+    "lat": -8.0682496,
+    "lon": -34.8760051,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "15",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515564,
+    "lat": -8.0683641,
+    "lon": -34.8760383,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "14",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7246515565,
+    "lat": -8.0684915,
+    "lon": -34.8760681,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "13",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954116,
+    "lat": -8.0680077,
+    "lon": -34.8758841,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954146,
+    "lat": -8.0639479,
+    "lon": -34.878128,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180290",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954147,
+    "lat": -8.0629037,
+    "lon": -34.8799476,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180297",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954148,
+    "lat": -8.0618222,
+    "lon": -34.8819351,
+    "nome": "Aurora A1",
+    "operador": "",
+    "rede": "",
+    "ref": "180300",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954149,
+    "lat": -8.0614789,
+    "lon": -34.8825812,
+    "nome": "Aurora A2",
+    "operador": "",
+    "rede": "",
+    "ref": "180301",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954150,
+    "lat": -8.061142,
+    "lon": -34.8832154,
+    "nome": "Sete de Setembro B1",
+    "operador": "",
+    "rede": "",
+    "ref": "180302",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954151,
+    "lat": -8.060875,
+    "lon": -34.8837186,
+    "nome": "Sete de Setembro B2",
+    "operador": "",
+    "rede": "",
+    "ref": "180303",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954152,
+    "lat": -8.0782271,
+    "lon": -34.8986846,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180009",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954153,
+    "lat": -8.0790111,
+    "lon": -34.9009699,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180012",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7250954155,
+    "lat": -8.0807295,
+    "lon": -34.9059273,
+    "nome": "Largo da Paz",
+    "operador": "",
+    "rede": "",
+    "ref": "180457",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7251422262,
+    "lat": -8.063467,
+    "lon": -34.8807914,
+    "nome": "Rua do Sol - Ponte de Ferro",
+    "operador": "",
+    "rede": "",
+    "ref": "180140",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7251422263,
+    "lat": -8.0650748,
+    "lon": -34.8820131,
+    "nome": "Rua Floriano Peixoto - 3",
+    "operador": "",
+    "rede": "",
+    "ref": "180144",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7251422264,
+    "lat": -8.0715257,
+    "lon": -34.8817406,
+    "nome": "Forte das Cinco Pontas",
+    "operador": "",
+    "rede": "",
+    "ref": "180048",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7258300088,
+    "lat": -8.0805224,
+    "lon": -34.876755,
+    "nome": "Terminal Brasília Teimosa",
+    "operador": "",
+    "rede": "",
+    "ref": "10152",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7261229171,
+    "lat": -8.1233956,
+    "lon": -34.9010941,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10181",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7261229172,
+    "lat": -8.1219739,
+    "lon": -34.9052324,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10190",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7261229173,
+    "lat": -8.1240975,
+    "lon": -34.9049047,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10185",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7261229174,
+    "lat": -8.1243244,
+    "lon": -34.9022696,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10186",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7261229175,
+    "lat": -8.0907742,
+    "lon": -34.8832787,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "10139",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7285239873,
+    "lat": -8.0678525,
+    "lon": -34.8758404,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232388,
+    "lat": -8.0517931,
+    "lon": -34.8966312,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "BR-2611606-100173",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232389,
+    "lat": -8.0545879,
+    "lon": -34.8977163,
+    "nome": "Hospital da Restauração",
+    "operador": "",
+    "rede": "",
+    "ref": "180159",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232390,
+    "lat": -8.0546144,
+    "lon": -34.8975454,
+    "nome": "Hospital da Restauração",
+    "operador": "",
+    "rede": "",
+    "ref": "180158",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232391,
+    "lat": -8.0549922,
+    "lon": -34.8977908,
+    "nome": "Hospital da Restauração",
+    "operador": "",
+    "rede": "",
+    "ref": "180160",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232394,
+    "lat": -8.0559076,
+    "lon": -34.8990932,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180395",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232395,
+    "lat": -8.0558826,
+    "lon": -34.899092,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180395",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7352232397,
+    "lat": -8.056751,
+    "lon": -34.8987425,
+    "nome": "Praça do Derby",
+    "operador": "",
+    "rede": "",
+    "ref": "180316",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7395489572,
+    "lat": -8.0666597,
+    "lon": -34.8759445,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180023",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7395489573,
+    "lat": -8.0628821,
+    "lon": -34.8768142,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180266",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7395489574,
+    "lat": -8.0647433,
+    "lon": -34.8785078,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180225",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190044,
+    "lat": -8.0685186,
+    "lon": -34.8758307,
+    "nome": "Terminal Cais de Santa Rita",
+    "operador": "",
+    "rede": "",
+    "ref": "10",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190045,
+    "lat": -8.0713167,
+    "lon": -34.8799664,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180047",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190046,
+    "lat": -8.0708232,
+    "lon": -34.8828957,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180247",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190047,
+    "lat": -8.0718426,
+    "lon": -34.8837193,
+    "nome": "Terminal Intermunicipal Dantas Barreto",
+    "operador": "",
+    "rede": "",
+    "ref": "180248",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190048,
+    "lat": -8.0736476,
+    "lon": -34.8858869,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180017",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190049,
+    "lat": -8.0735549,
+    "lon": -34.8857716,
+    "nome": "Praça Sérgio Loreto",
+    "operador": "",
+    "rede": "",
+    "ref": "180005",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190050,
+    "lat": -8.0754424,
+    "lon": -34.8903537,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180007",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7396190051,
+    "lat": -8.0767461,
+    "lon": -34.8942378,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180008",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7516067218,
+    "lat": -8.0606738,
+    "lon": -34.8844056,
+    "nome": "EBRT Rua do Hospício",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7593467564,
+    "lat": -8.0818418,
+    "lon": -34.9056314,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7593467571,
+    "lat": -8.0818156,
+    "lon": -34.9056702,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180503",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7624423685,
+    "lat": -8.0565441,
+    "lon": -34.9070329,
+    "nome": "Itaú Madalena",
+    "operador": "",
+    "rede": "",
+    "ref": "180416",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7624423686,
+    "lat": -8.05279,
+    "lon": -34.9066814,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7624423687,
+    "lat": -8.0527833,
+    "lon": -34.9067451,
+    "nome": "Hospital De Ávila",
+    "operador": "",
+    "rede": "",
+    "ref": "180417",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7624423695,
+    "lat": -8.0510094,
+    "lon": -34.9065899,
+    "nome": "Praça Eça de Queiroz",
+    "operador": "",
+    "rede": "",
+    "ref": "180418",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7666966672,
+    "lat": -8.0518915,
+    "lon": -34.9083631,
+    "nome": "Mercado da Madalena",
+    "operador": "",
+    "rede": "",
+    "ref": "180427",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7666966677,
+    "lat": -8.054317,
+    "lon": -34.9088701,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180428",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7666966678,
+    "lat": -8.0543038,
+    "lon": -34.9087882,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180428",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7671132547,
+    "lat": -8.0574799,
+    "lon": -34.8903214,
+    "nome": "EBRT Soledade",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7671132548,
+    "lat": -8.0571785,
+    "lon": -34.8907973,
+    "nome": "EBRT Soledade",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173225,
+    "lat": -8.0769254,
+    "lon": -34.909642,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "060054",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173226,
+    "lat": -8.0776219,
+    "lon": -34.9074144,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "0180440",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173227,
+    "lat": -8.0868163,
+    "lon": -34.9097679,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "020561",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173291,
+    "lat": -8.1105847,
+    "lon": -34.9084702,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010164",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173314,
+    "lat": -8.1113339,
+    "lon": -34.9071907,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010164",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173315,
+    "lat": -8.1132061,
+    "lon": -34.9047218,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010166",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173317,
+    "lat": -8.1147302,
+    "lon": -34.9017537,
+    "nome": "Big Bompreço Boa Viagem",
+    "operador": "",
+    "rede": "",
+    "ref": "010168",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173318,
+    "lat": -8.1176093,
+    "lon": -34.9006577,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010178",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173336,
+    "lat": -8.0802308,
+    "lon": -34.9061817,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "0180455",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173338,
+    "lat": -8.0765244,
+    "lon": -34.9071685,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180553",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7972173339,
+    "lat": -8.0765216,
+    "lon": -34.9072252,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180553",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888054,
+    "lat": -8.1212756,
+    "lon": -34.9039674,
+    "nome": "Parada externa Shopping Recife - Transporte Complementar",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888055,
+    "lat": -8.1147244,
+    "lon": -34.8975433,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010156",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888057,
+    "lat": -8.1136731,
+    "lon": -34.8993359,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010157",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888058,
+    "lat": -8.1137572,
+    "lon": -34.8993765,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010157",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888059,
+    "lat": -8.1165101,
+    "lon": -34.9009212,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010170",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888060,
+    "lat": -8.1196494,
+    "lon": -34.9013607,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010171",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888062,
+    "lat": -8.1227242,
+    "lon": -34.9015151,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010172",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 7973888063,
+    "lat": -8.1230067,
+    "lon": -34.906841,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "010183",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8011329618,
+    "lat": -8.1212808,
+    "lon": -34.9039252,
+    "nome": "Transporte Complementar",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8011329619,
+    "lat": -8.1248226,
+    "lon": -34.8995628,
+    "nome": "Habib's",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8011329620,
+    "lat": -8.1248802,
+    "lon": -34.8995686,
+    "nome": "Transporte Complementar",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8011329632,
+    "lat": -8.1127436,
+    "lon": -34.8929875,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8011329633,
+    "lat": -8.1126646,
+    "lon": -34.892956,
+    "nome": "Transporte Complementar",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8325984266,
+    "lat": -8.0720331,
+    "lon": -34.8838733,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180249",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8325984267,
+    "lat": -8.072108,
+    "lon": -34.8840813,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 8984511303,
+    "lat": -8.069406,
+    "lon": -34.8762352,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9248457527,
+    "lat": -8.0799335,
+    "lon": -34.9052854,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9309771709,
+    "lat": -8.1208459,
+    "lon": -34.9046577,
+    "nome": "Parada 2B - Shopping Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "010226",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9310716172,
+    "lat": -8.1179521,
+    "lon": -34.9057914,
+    "nome": "Parada 03 - Shopping Recife",
+    "operador": "",
+    "rede": "",
+    "ref": "010241",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9353526526,
+    "lat": -8.087374,
+    "lon": -34.9048326,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9353526540,
+    "lat": -8.0904755,
+    "lon": -34.9073232,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9353526541,
+    "lat": -8.090443,
+    "lon": -34.9074031,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9383626944,
+    "lat": -8.0622119,
+    "lon": -34.8857428,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180252",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 9383626945,
+    "lat": -8.0621811,
+    "lon": -34.8857117,
+    "nome": "Sem nome",
+    "operador": "",
+    "rede": "",
+    "ref": "180252",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 10230874159,
+    "lat": -8.0510392,
+    "lon": -34.890048,
+    "nome": "180125",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  },
+  {
+    "id": 11555465412,
+    "lat": -8.0638237,
+    "lon": -34.8976699,
+    "nome": "\"Parada do Hospital Português\"",
+    "operador": "",
+    "rede": "",
+    "ref": "",
+    "tipo": "parada_onibus"
+  }
+]

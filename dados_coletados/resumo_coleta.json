@@ -1,0 +1,23 @@
+{
+  "origem": {
+    "lat": -8.0631,
+    "lon": -34.8771,
+    "nome": "Cinema São Luiz (Boa Vista)"
+  },
+  "destino": {
+    "lat": -8.1197,
+    "lon": -34.9014,
+    "nome": "Faculdade Nova Roma (Boa Viagem)"
+  },
+  "bbox": "-8.1300, -34.9100, -8.0500, -34.8700",
+  "totais": {
+    "paradas_onibus": 673,
+    "estacoes_metro": 10,
+    "linhas_onibus": 54,
+    "linhas_metro": 6,
+    "ciclovias": 268,
+    "vias_pedestres": 2112,
+    "rede_viaria": 2957
+  },
+  "total_geral": 6080
+}

@@ -1,0 +1,9164 @@
+[
+  {
+    "id": 9727257,
+    "ref": "2450",
+    "nome": "TI Camaragibe - Conde da Boa Vista (BRT)",
+    "operador": "GRCT",
+    "rede": "BRT Via Livre",
+    "de": "Terminal Camaragibe",
+    "para": "Terminal Camaragibe",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6434497857,
+        "lat": -8.024297,
+        "lon": -34.9959393,
+        "role": "platform"
+      },
+      {
+        "ref": 7097013450,
+        "lat": -8.0205058,
+        "lon": -34.9818733,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013451,
+        "lat": -8.0208148,
+        "lon": -34.966673,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013452,
+        "lat": -8.0236957,
+        "lon": -34.9622754,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013453,
+        "lat": -8.0278666,
+        "lon": -34.9597494,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013454,
+        "lat": -8.0315592,
+        "lon": -34.9553563,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013455,
+        "lat": -8.0346857,
+        "lon": -34.9496906,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013456,
+        "lat": -8.0366777,
+        "lon": -34.9460809,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013457,
+        "lat": -8.0386816,
+        "lon": -34.9424656,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013458,
+        "lat": -8.0436114,
+        "lon": -34.933568,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013459,
+        "lat": -8.0462151,
+        "lon": -34.9288423,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013460,
+        "lat": -8.048297,
+        "lon": -34.9250659,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034803,
+        "lat": -8.0581173,
+        "lon": -34.9054239,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034805,
+        "lat": -8.0567336,
+        "lon": -34.8991292,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034809,
+        "lat": -8.0629525,
+        "lon": -34.880066,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034815,
+        "lat": -8.0566506,
+        "lon": -34.8991292,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034816,
+        "lat": -8.0580295,
+        "lon": -34.9054232,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034819,
+        "lat": -8.0500592,
+        "lon": -34.9217003,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034820,
+        "lat": -8.0482194,
+        "lon": -34.9250244,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034821,
+        "lat": -8.0461267,
+        "lon": -34.9288052,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034822,
+        "lat": -8.0435132,
+        "lon": -34.9335267,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034823,
+        "lat": -8.0385982,
+        "lon": -34.9424298,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034824,
+        "lat": -8.0365953,
+        "lon": -34.9460407,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034825,
+        "lat": -8.0346102,
+        "lon": -34.9496565,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034827,
+        "lat": -8.0314835,
+        "lon": -34.9553106,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034828,
+        "lat": -8.02783,
+        "lon": -34.9596828,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034829,
+        "lat": -8.0236582,
+        "lon": -34.9622094,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034830,
+        "lat": -8.0207465,
+        "lon": -34.9666397,
+        "role": "stop"
+      },
+      {
+        "ref": 6434497855,
+        "lat": -8.0249893,
+        "lon": -34.9955385,
+        "role": "platform"
+      },
+      {
+        "ref": 7516067218,
+        "lat": -8.0606738,
+        "lon": -34.8844056,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 9727334,
+    "ref": "2443",
+    "nome": "TI CDU - TI Joana Bezerra (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "BRT Leste-Oeste",
+    "de": "TI CDU",
+    "para": "TI Joana Bezerra",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6573599770,
+        "lat": -8.0392062,
+        "lon": -34.9427567,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013457,
+        "lat": -8.0386816,
+        "lon": -34.9424656,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013458,
+        "lat": -8.0436114,
+        "lon": -34.933568,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013459,
+        "lat": -8.0462151,
+        "lon": -34.9288423,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013460,
+        "lat": -8.048297,
+        "lon": -34.9250659,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034803,
+        "lat": -8.0581173,
+        "lon": -34.9054239,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034805,
+        "lat": -8.0567336,
+        "lon": -34.8991292,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599773,
+        "lat": -8.0392342,
+        "lon": -34.9426997,
+        "role": "platform"
+      },
+      {
+        "ref": 6573599775,
+        "lat": -8.0720822,
+        "lon": -34.8962511,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 9776190,
+    "ref": "117",
+    "nome": "Circular (Prefeitura - Cabugá)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "Shopping Tacaruna",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 2633213553,
+        "lat": -8.0566071,
+        "lon": -34.8829313,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 9791396,
+    "ref": "107",
+    "nome": "Circular (Cabugá - Prefeitura)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "Shopping Tacaruna",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 9791398,
+    "ref": "116",
+    "nome": "Circular (Príncipe)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "Hospital Oswaldo Cruz",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 9791399,
+    "ref": "116-A",
+    "nome": "Circular (Derby)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "EBRT Derby",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 9791400,
+    "ref": "104",
+    "nome": "Circular (IMIP)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "Terminal Joana Bezerra",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6583100901,
+        "lat": -8.0682201,
+        "lon": -34.88433,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 9791401,
+    "ref": "101",
+    "nome": "Circular (Conde da Boa Vista / Rua do Sol)",
+    "operador": "Empresa Metropolitana",
+    "rede": "",
+    "de": "Terminal Recife",
+    "para": "Shopping Tacaruna",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 9820766,
+    "ref": "645",
+    "nome": "TI Macaxeira - Avenida Norte",
+    "operador": "Pedrosa;Globo",
+    "rede": "",
+    "de": "Terminal Macaxeira",
+    "para": "Avenida Dantas Barreto",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 9832656,
+    "ref": "023",
+    "nome": "TI Tancredo Neves - Shopping Recife",
+    "operador": "Borborema Imperial",
+    "rede": "",
+    "de": "Terminal Tancredo Neves",
+    "para": "Shopping Recife",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 2633210006,
+        "lat": -8.1208727,
+        "lon": -34.9044324,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10568368,
+    "ref": "214",
+    "nome": "UR-02 / Ibura ( Opcional )",
+    "operador": "Vera Cruz",
+    "rede": "",
+    "de": "Terminal UR-02 Ibura",
+    "para": "Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": []
+  },
+  {
+    "id": 10570175,
+    "ref": "1961",
+    "nome": "TI Abreu e Lima / Dantas Barreto (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "TI Abreu e Lima",
+    "para": "EBRT Praça da República",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7123563362,
+        "lat": -7.9212874,
+        "lon": -34.8946693,
+        "role": "stop"
+      },
+      {
+        "ref": 7123563375,
+        "lat": -7.9480945,
+        "lon": -34.8775197,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366642,
+        "lat": -7.9523359,
+        "lon": -34.8770022,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366650,
+        "lat": -7.9552688,
+        "lon": -34.8734681,
+        "role": "stop"
+      },
+      {
+        "ref": 5526868488,
+        "lat": -7.9452275,
+        "lon": -34.8774743,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569685,
+        "lat": -7.9596851,
+        "lon": -34.8709213,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366675,
+        "lat": -7.9653431,
+        "lon": -34.8680636,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569686,
+        "lat": -7.9698608,
+        "lon": -34.8665323,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569688,
+        "lat": -7.9753887,
+        "lon": -34.8639061,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569690,
+        "lat": -7.9786649,
+        "lon": -34.8604724,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569691,
+        "lat": -7.9820656,
+        "lon": -34.8566681,
+        "role": "stop"
+      },
+      {
+        "ref": 5526911773,
+        "lat": -7.983179,
+        "lon": -34.8561963,
+        "role": "stop"
+      },
+      {
+        "ref": 5508744061,
+        "lat": -8.0402462,
+        "lon": -34.8718367,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213582,
+        "lat": -8.0440287,
+        "lon": -34.8744936,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569692,
+        "lat": -8.0499246,
+        "lon": -34.8787091,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569693,
+        "lat": -8.0537295,
+        "lon": -34.8814554,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569694,
+        "lat": -8.0563883,
+        "lon": -34.8828255,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569695,
+        "lat": -8.0603549,
+        "lon": -34.8816667,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10573460,
+    "ref": "1961",
+    "nome": "Dantas Barreto / TI Abreu e Lima (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "EBRT Praça da República",
+    "para": "TI Abreu e Lima",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633433,
+        "lat": -8.0601178,
+        "lon": -34.8818315,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633434,
+        "lat": -8.0562588,
+        "lon": -34.8826154,
+        "role": "stop"
+      },
+      {
+        "ref": 5648652591,
+        "lat": -8.0535828,
+        "lon": -34.881216,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633435,
+        "lat": -8.0497828,
+        "lon": -34.8784183,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633436,
+        "lat": -8.0438891,
+        "lon": -34.8741742,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633437,
+        "lat": -8.0400732,
+        "lon": -34.8715611,
+        "role": "stop"
+      },
+      {
+        "ref": 5526911763,
+        "lat": -7.9833048,
+        "lon": -34.8560468,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633438,
+        "lat": -7.9783519,
+        "lon": -34.8606838,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633439,
+        "lat": -7.9750544,
+        "lon": -34.8639307,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633440,
+        "lat": -7.9695488,
+        "lon": -34.8665762,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633441,
+        "lat": -7.964982,
+        "lon": -34.8680217,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633442,
+        "lat": -7.9593458,
+        "lon": -34.8709915,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633443,
+        "lat": -7.9549971,
+        "lon": -34.8735938,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633445,
+        "lat": -7.9519795,
+        "lon": -34.8769427,
+        "role": "stop"
+      },
+      {
+        "ref": 6488265427,
+        "lat": -7.9480312,
+        "lon": -34.877727,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633452,
+        "lat": -7.9477709,
+        "lon": -34.87779,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10597544,
+    "ref": "2443",
+    "nome": "TI Joana Bezerra - TI CDU (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "BRT Leste-Oeste",
+    "de": "TI Joana Bezerra",
+    "para": "TI CDU",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7138295544,
+        "lat": -8.0718549,
+        "lon": -34.8961892,
+        "role": "stop"
+      },
+      {
+        "ref": 7138295546,
+        "lat": -8.0566399,
+        "lon": -34.8985704,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034816,
+        "lat": -8.0580295,
+        "lon": -34.9054232,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034819,
+        "lat": -8.0500592,
+        "lon": -34.9217003,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034820,
+        "lat": -8.0482194,
+        "lon": -34.9250244,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034821,
+        "lat": -8.0461267,
+        "lon": -34.9288052,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034822,
+        "lat": -8.0435132,
+        "lon": -34.9335267,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034823,
+        "lat": -8.0385982,
+        "lon": -34.9424298,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599771,
+        "lat": -8.0389092,
+        "lon": -34.942843,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599772,
+        "lat": -8.0389053,
+        "lon": -34.9428639,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10627504,
+    "ref": "2480",
+    "nome": "TI Camaragibe - Derby (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "Grande Recife Consórcio de Transporte",
+    "de": "Terminal Camaragibe",
+    "para": "EBRT Derby",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6434497863,
+        "lat": -8.024986,
+        "lon": -34.9954062,
+        "role": "platform"
+      },
+      {
+        "ref": 7097013450,
+        "lat": -8.0205058,
+        "lon": -34.9818733,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013451,
+        "lat": -8.0208148,
+        "lon": -34.966673,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013452,
+        "lat": -8.0236957,
+        "lon": -34.9622754,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013453,
+        "lat": -8.0278666,
+        "lon": -34.9597494,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013454,
+        "lat": -8.0315592,
+        "lon": -34.9553563,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013455,
+        "lat": -8.0346857,
+        "lon": -34.9496906,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013456,
+        "lat": -8.0366777,
+        "lon": -34.9460809,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013457,
+        "lat": -8.0386816,
+        "lon": -34.9424656,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013458,
+        "lat": -8.0436114,
+        "lon": -34.933568,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013459,
+        "lat": -8.0462151,
+        "lon": -34.9288423,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013460,
+        "lat": -8.048297,
+        "lon": -34.9250659,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034803,
+        "lat": -8.0581173,
+        "lon": -34.9054239,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034805,
+        "lat": -8.0567336,
+        "lon": -34.8991292,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10627505,
+    "ref": "2480",
+    "nome": "Derby - TI Camaragibe (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "BRT Leste-Oeste",
+    "de": "EBRT Derby 1",
+    "para": "Terminal Camaragibe",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7097034805,
+        "lat": -8.0567336,
+        "lon": -34.8991292,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034816,
+        "lat": -8.0580295,
+        "lon": -34.9054232,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034819,
+        "lat": -8.0500592,
+        "lon": -34.9217003,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034820,
+        "lat": -8.0482194,
+        "lon": -34.9250244,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034821,
+        "lat": -8.0461267,
+        "lon": -34.9288052,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034822,
+        "lat": -8.0435132,
+        "lon": -34.9335267,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034823,
+        "lat": -8.0385982,
+        "lon": -34.9424298,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034824,
+        "lat": -8.0365953,
+        "lon": -34.9460407,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034825,
+        "lat": -8.0346102,
+        "lon": -34.9496565,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034827,
+        "lat": -8.0314835,
+        "lon": -34.9553106,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034828,
+        "lat": -8.02783,
+        "lon": -34.9596828,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034829,
+        "lat": -8.0236582,
+        "lon": -34.9622094,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034830,
+        "lat": -8.0207465,
+        "lon": -34.9666397,
+        "role": "stop"
+      },
+      {
+        "ref": 6434497855,
+        "lat": -8.0249893,
+        "lon": -34.9955385,
+        "role": "platform"
+      },
+      {
+        "ref": 7097034815,
+        "lat": -8.0566506,
+        "lon": -34.8991292,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10628851,
+    "ref": "520",
+    "nome": "TI Macaxeira - Parnamirim",
+    "operador": "Consórcio Recife",
+    "rede": "GRCT",
+    "de": "TI Macaxeira",
+    "para": "Praça do Entrocamento",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7160755475,
+        "lat": -8.0081182,
+        "lon": -34.938053,
+        "role": "stop"
+      },
+      {
+        "ref": 7138233445,
+        "lat": -8.0128495,
+        "lon": -34.9387853,
+        "role": "stop"
+      },
+      {
+        "ref": 6606768291,
+        "lat": -8.0139855,
+        "lon": -34.9393745,
+        "role": "stop"
+      },
+      {
+        "ref": 7160755479,
+        "lat": -8.020152,
+        "lon": -34.9400121,
+        "role": "stop"
+      },
+      {
+        "ref": 1639675320,
+        "lat": -8.0208653,
+        "lon": -34.9353983,
+        "role": "stop"
+      },
+      {
+        "ref": 7160755481,
+        "lat": -8.0215144,
+        "lon": -34.932763,
+        "role": "stop"
+      },
+      {
+        "ref": 7160755480,
+        "lat": -8.022277,
+        "lon": -34.931352,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757790,
+        "lat": -8.0264456,
+        "lon": -34.9298314,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757793,
+        "lat": -8.0296977,
+        "lon": -34.9255426,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757794,
+        "lat": -8.0314917,
+        "lon": -34.9240689,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757797,
+        "lat": -8.0332703,
+        "lon": -34.9228371,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757798,
+        "lat": -8.0351596,
+        "lon": -34.9206068,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209698,
+        "lat": -8.0379553,
+        "lon": -34.9180701,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209702,
+        "lat": -8.034065,
+        "lon": -34.9111434,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209766,
+        "lat": -8.0335892,
+        "lon": -34.9097925,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757802,
+        "lat": -8.0354052,
+        "lon": -34.9045555,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757804,
+        "lat": -8.0390235,
+        "lon": -34.9015568,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757806,
+        "lat": -8.0433688,
+        "lon": -34.8984157,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209780,
+        "lat": -8.0439084,
+        "lon": -34.9012431,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757808,
+        "lat": -8.0468241,
+        "lon": -34.9010317,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209775,
+        "lat": -8.0487666,
+        "lon": -34.8988736,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757810,
+        "lat": -8.0500393,
+        "lon": -34.8974147,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10628852,
+    "ref": "520",
+    "nome": "Parnamirim - TI Macaxeira",
+    "operador": "GRCT",
+    "rede": "GRCT",
+    "de": "Praça do Entrocamento",
+    "para": "TI Macaxeira",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7160757810,
+        "lat": -8.0500393,
+        "lon": -34.8974147,
+        "role": "stop"
+      },
+      {
+        "ref": 5929631405,
+        "lat": -8.0472138,
+        "lon": -34.8970387,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757823,
+        "lat": -8.0457746,
+        "lon": -34.8970679,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757831,
+        "lat": -8.0439755,
+        "lon": -34.8972493,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209535,
+        "lat": -8.0425832,
+        "lon": -34.897709,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757833,
+        "lat": -8.0406033,
+        "lon": -34.8986826,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757834,
+        "lat": -8.0376984,
+        "lon": -34.9009334,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757835,
+        "lat": -8.0362859,
+        "lon": -34.9018498,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757836,
+        "lat": -8.0336131,
+        "lon": -34.9032278,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757837,
+        "lat": -8.0313617,
+        "lon": -34.9050963,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757838,
+        "lat": -8.0305085,
+        "lon": -34.9061233,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757839,
+        "lat": -8.0304989,
+        "lon": -34.9077819,
+        "role": "stop"
+      },
+      {
+        "ref": 1475563591,
+        "lat": -8.0324988,
+        "lon": -34.9100226,
+        "role": "stop"
+      },
+      {
+        "ref": 6534462620,
+        "lat": -8.034368,
+        "lon": -34.9113509,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757843,
+        "lat": -8.0356244,
+        "lon": -34.9128351,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757846,
+        "lat": -8.0378926,
+        "lon": -34.9167834,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757847,
+        "lat": -8.0372917,
+        "lon": -34.9193875,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757848,
+        "lat": -8.0359395,
+        "lon": -34.9200592,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757873,
+        "lat": -8.0329553,
+        "lon": -34.9230389,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757874,
+        "lat": -8.0287433,
+        "lon": -34.9261608,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757875,
+        "lat": -8.0277621,
+        "lon": -34.9285921,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757876,
+        "lat": -8.0260189,
+        "lon": -34.9299711,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757882,
+        "lat": -8.0246999,
+        "lon": -34.9303374,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757883,
+        "lat": -8.0225905,
+        "lon": -34.9310012,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757887,
+        "lat": -8.0206965,
+        "lon": -34.9360766,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757889,
+        "lat": -8.0203161,
+        "lon": -34.9397119,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214148,
+        "lat": -8.0128975,
+        "lon": -34.9383649,
+        "role": "stop"
+      },
+      {
+        "ref": 5981448747,
+        "lat": -8.0084694,
+        "lon": -34.9381646,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10647845,
+    "ref": "1915",
+    "nome": "TI PE-15 / Dantas Barreto (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "TI da PE-15",
+    "para": "EBRT Praça da República",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 5526911773,
+        "lat": -7.983179,
+        "lon": -34.8561963,
+        "role": "stop"
+      },
+      {
+        "ref": 5508744061,
+        "lat": -8.0402462,
+        "lon": -34.8718367,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213582,
+        "lat": -8.0440287,
+        "lon": -34.8744936,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569692,
+        "lat": -8.0499246,
+        "lon": -34.8787091,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569693,
+        "lat": -8.0537295,
+        "lon": -34.8814554,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569694,
+        "lat": -8.0563883,
+        "lon": -34.8828255,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569695,
+        "lat": -8.0603549,
+        "lon": -34.8816667,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10647846,
+    "ref": "1915",
+    "nome": "Dantas Barreto / TI PE-15 (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "EBRT Praça da República",
+    "para": "TI da PE-15",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633433,
+        "lat": -8.0601178,
+        "lon": -34.8818315,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633434,
+        "lat": -8.0562588,
+        "lon": -34.8826154,
+        "role": "stop"
+      },
+      {
+        "ref": 5648652591,
+        "lat": -8.0535828,
+        "lon": -34.881216,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633435,
+        "lat": -8.0497828,
+        "lon": -34.8784183,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633436,
+        "lat": -8.0438891,
+        "lon": -34.8741742,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633437,
+        "lat": -8.0400732,
+        "lon": -34.8715611,
+        "role": "stop"
+      },
+      {
+        "ref": 5526911763,
+        "lat": -7.9833048,
+        "lon": -34.8560468,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10647975,
+    "ref": "1979",
+    "nome": "Dantas Barreto / TI Pelópidas (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "EBRT Praça da República",
+    "para": "TI Pelópidas Silveira",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633433,
+        "lat": -8.0601178,
+        "lon": -34.8818315,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633434,
+        "lat": -8.0562588,
+        "lon": -34.8826154,
+        "role": "stop"
+      },
+      {
+        "ref": 5648652591,
+        "lat": -8.0535828,
+        "lon": -34.881216,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633435,
+        "lat": -8.0497828,
+        "lon": -34.8784183,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633436,
+        "lat": -8.0438891,
+        "lon": -34.8741742,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633437,
+        "lat": -8.0400732,
+        "lon": -34.8715611,
+        "role": "stop"
+      },
+      {
+        "ref": 5526911763,
+        "lat": -7.9833048,
+        "lon": -34.8560468,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633438,
+        "lat": -7.9783519,
+        "lon": -34.8606838,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633439,
+        "lat": -7.9750544,
+        "lon": -34.8639307,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633440,
+        "lat": -7.9695488,
+        "lon": -34.8665762,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633441,
+        "lat": -7.964982,
+        "lon": -34.8680217,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633442,
+        "lat": -7.9593458,
+        "lon": -34.8709915,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633443,
+        "lat": -7.9549971,
+        "lon": -34.8735938,
+        "role": "stop"
+      },
+      {
+        "ref": 7124633445,
+        "lat": -7.9519795,
+        "lon": -34.8769427,
+        "role": "stop"
+      },
+      {
+        "ref": 6488265427,
+        "lat": -7.9480312,
+        "lon": -34.877727,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10647984,
+    "ref": "1979",
+    "nome": "TI Pelópidas / Dantas Barreto (BRT)",
+    "operador": "Conorte",
+    "rede": "BRT Norte-Sul",
+    "de": "TI Pelópidas Silveira",
+    "para": "EBRT Praça da República",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7123563375,
+        "lat": -7.9480945,
+        "lon": -34.8775197,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366642,
+        "lat": -7.9523359,
+        "lon": -34.8770022,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366650,
+        "lat": -7.9552688,
+        "lon": -34.8734681,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569685,
+        "lat": -7.9596851,
+        "lon": -34.8709213,
+        "role": "stop"
+      },
+      {
+        "ref": 6025366675,
+        "lat": -7.9653431,
+        "lon": -34.8680636,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569686,
+        "lat": -7.9698608,
+        "lon": -34.8665323,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569688,
+        "lat": -7.9753887,
+        "lon": -34.8639061,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569690,
+        "lat": -7.9786649,
+        "lon": -34.8604724,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569691,
+        "lat": -7.9820656,
+        "lon": -34.8566681,
+        "role": "stop"
+      },
+      {
+        "ref": 5526911773,
+        "lat": -7.983179,
+        "lon": -34.8561963,
+        "role": "stop"
+      },
+      {
+        "ref": 5508744061,
+        "lat": -8.0402462,
+        "lon": -34.8718367,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213582,
+        "lat": -8.0440287,
+        "lon": -34.8744936,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569692,
+        "lat": -8.0499246,
+        "lon": -34.8787091,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569693,
+        "lat": -8.0537295,
+        "lon": -34.8814554,
+        "role": "platform"
+      },
+      {
+        "ref": 7123569694,
+        "lat": -8.0563883,
+        "lon": -34.8828255,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569695,
+        "lat": -8.0603549,
+        "lon": -34.8816667,
+        "role": "stop"
+      },
+      {
+        "ref": 7123569696,
+        "lat": -8.061948,
+        "lon": -34.878281,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699277,
+    "ref": "021",
+    "nome": "TI Joana Bezerra - Shopping RioMar",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Terminal Joana Bezerra",
+    "para": "Shopping RioMar",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6635387703,
+        "lat": -8.0722265,
+        "lon": -34.8951615,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839606,
+        "lat": -8.0794442,
+        "lon": -34.8928298,
+        "role": "stop"
+      },
+      {
+        "ref": 3720568061,
+        "lat": -8.0844413,
+        "lon": -34.8952035,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699278,
+    "ref": "021",
+    "nome": "Shopping RioMar - TI Joana Bezerra",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Shopping RioMar",
+    "para": "Terminal Joana Bezerra",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 3720568061,
+        "lat": -8.0844413,
+        "lon": -34.8952035,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839608,
+        "lat": -8.0877814,
+        "lon": -34.8964697,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839609,
+        "lat": -8.0885211,
+        "lon": -34.8959363,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839613,
+        "lat": -8.088646,
+        "lon": -34.894138,
+        "role": "stop"
+      },
+      {
+        "ref": 2633210177,
+        "lat": -8.0888176,
+        "lon": -34.8925192,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839616,
+        "lat": -8.0879022,
+        "lon": -34.8892515,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839617,
+        "lat": -8.0846554,
+        "lon": -34.8873122,
+        "role": "stop"
+      },
+      {
+        "ref": 5832320188,
+        "lat": -8.070134,
+        "lon": -34.8955969,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599775,
+        "lat": -8.0720822,
+        "lon": -34.8962511,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699454,
+    "ref": "080",
+    "nome": "TI Joana Bezerra - Boa Viagem",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Terminal Joana Bezerra",
+    "para": "Rua Sá e Souza",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6612315982,
+        "lat": -8.0721949,
+        "lon": -34.8959499,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839606,
+        "lat": -8.0794442,
+        "lon": -34.8928298,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936764,
+        "lat": -8.0867292,
+        "lon": -34.8871802,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936765,
+        "lat": -8.0890137,
+        "lon": -34.8849945,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936766,
+        "lat": -8.0930422,
+        "lon": -34.8853783,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936767,
+        "lat": -8.0948116,
+        "lon": -34.8858555,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936768,
+        "lat": -8.0981033,
+        "lon": -34.8864546,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936769,
+        "lat": -8.1016657,
+        "lon": -34.8879477,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936770,
+        "lat": -8.1051955,
+        "lon": -34.8895858,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936771,
+        "lat": -8.1079933,
+        "lon": -34.8908809,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936772,
+        "lat": -8.1113021,
+        "lon": -34.8928664,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936773,
+        "lat": -8.1138636,
+        "lon": -34.8944193,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936774,
+        "lat": -8.1163645,
+        "lon": -34.8959788,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936775,
+        "lat": -8.1205143,
+        "lon": -34.8985074,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936779,
+        "lat": -8.122598,
+        "lon": -34.8994815,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936780,
+        "lat": -8.1244047,
+        "lon": -34.9001676,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936781,
+        "lat": -8.1272104,
+        "lon": -34.9011996,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936782,
+        "lat": -8.1298081,
+        "lon": -34.9023297,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936783,
+        "lat": -8.1317399,
+        "lon": -34.9052947,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936784,
+        "lat": -8.134056,
+        "lon": -34.9063787,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699455,
+    "ref": "080",
+    "nome": "Boa Viagem - TI Joana Bezerra",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Rua Sá e Souza",
+    "para": "Terminal Joana Bezerra",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7201936784,
+        "lat": -8.134056,
+        "lon": -34.9063787,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960685,
+        "lat": -8.1341695,
+        "lon": -34.9052175,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960686,
+        "lat": -8.1331473,
+        "lon": -34.9031375,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960687,
+        "lat": -8.1316633,
+        "lon": -34.9014475,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960688,
+        "lat": -8.1290927,
+        "lon": -34.900658,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960689,
+        "lat": -8.1252727,
+        "lon": -34.899254,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960702,
+        "lat": -8.1220246,
+        "lon": -34.8980251,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960703,
+        "lat": -8.118379,
+        "lon": -34.8959531,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960704,
+        "lat": -8.1165454,
+        "lon": -34.8948807,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960705,
+        "lat": -8.1141184,
+        "lon": -34.8933999,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960706,
+        "lat": -8.111558,
+        "lon": -34.8918283,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960707,
+        "lat": -8.1093065,
+        "lon": -34.8905125,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960708,
+        "lat": -8.1072045,
+        "lon": -34.8895597,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960709,
+        "lat": -8.1046716,
+        "lon": -34.8883976,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960715,
+        "lat": -8.1012358,
+        "lon": -34.8868317,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960716,
+        "lat": -8.0966566,
+        "lon": -34.8849443,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960717,
+        "lat": -8.091582,
+        "lon": -34.8837435,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960718,
+        "lat": -8.0878652,
+        "lon": -34.8842234,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960719,
+        "lat": -8.0860034,
+        "lon": -34.8860099,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839617,
+        "lat": -8.0846554,
+        "lon": -34.8873122,
+        "role": "stop"
+      },
+      {
+        "ref": 5832320188,
+        "lat": -8.070134,
+        "lon": -34.8955969,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599775,
+        "lat": -8.0720822,
+        "lon": -34.8962511,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699456,
+    "ref": "026",
+    "nome": "TI Joana Bezerra - TI Aeroporto",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Terminal Joana Bezerra",
+    "para": "Terminal Aeroporto",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7201936779,
+        "lat": -8.122598,
+        "lon": -34.8994815,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960720,
+        "lat": -8.0722766,
+        "lon": -34.8957364,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839606,
+        "lat": -8.0794442,
+        "lon": -34.8928298,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936764,
+        "lat": -8.0867292,
+        "lon": -34.8871802,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936765,
+        "lat": -8.0890137,
+        "lon": -34.8849945,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936766,
+        "lat": -8.0930422,
+        "lon": -34.8853783,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936767,
+        "lat": -8.0948116,
+        "lon": -34.8858555,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936768,
+        "lat": -8.0981033,
+        "lon": -34.8864546,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936769,
+        "lat": -8.1016657,
+        "lon": -34.8879477,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936770,
+        "lat": -8.1051955,
+        "lon": -34.8895858,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936771,
+        "lat": -8.1079933,
+        "lon": -34.8908809,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936772,
+        "lat": -8.1113021,
+        "lon": -34.8928664,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936773,
+        "lat": -8.1138636,
+        "lon": -34.8944193,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936774,
+        "lat": -8.1163645,
+        "lon": -34.8959788,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209994,
+        "lat": -8.1203435,
+        "lon": -34.9022335,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936780,
+        "lat": -8.1244047,
+        "lon": -34.9001676,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936781,
+        "lat": -8.1272104,
+        "lon": -34.9011996,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936782,
+        "lat": -8.1298081,
+        "lon": -34.9023297,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106385,
+        "lat": -8.1322769,
+        "lon": -34.9078843,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106386,
+        "lat": -8.1327154,
+        "lon": -34.910383,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106387,
+        "lat": -8.1328778,
+        "lon": -34.91172,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106388,
+        "lat": -8.1328514,
+        "lon": -34.914086,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106390,
+        "lat": -8.1339483,
+        "lon": -34.9173198,
+        "role": "stop"
+      },
+      {
+        "ref": 5847495657,
+        "lat": -8.1342444,
+        "lon": -34.9148712,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936783,
+        "lat": -8.1317399,
+        "lon": -34.9052947,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699641,
+    "ref": "026",
+    "nome": "TI Aeroporto - TI Joana Bezerra",
+    "operador": "Borborema Imperial",
+    "rede": "GRCT",
+    "de": "Terminal Aeroporto",
+    "para": "Terminal Joana Bezerra",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 6651097198,
+        "lat": -8.1338672,
+        "lon": -34.9151806,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106399,
+        "lat": -8.1352107,
+        "lon": -34.9116224,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106400,
+        "lat": -8.1357469,
+        "lon": -34.9092533,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106401,
+        "lat": -8.1351878,
+        "lon": -34.9070181,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960685,
+        "lat": -8.1341695,
+        "lon": -34.9052175,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960686,
+        "lat": -8.1331473,
+        "lon": -34.9031375,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960687,
+        "lat": -8.1316633,
+        "lon": -34.9014475,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960688,
+        "lat": -8.1290927,
+        "lon": -34.900658,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960689,
+        "lat": -8.1252727,
+        "lon": -34.899254,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960702,
+        "lat": -8.1220246,
+        "lon": -34.8980251,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960703,
+        "lat": -8.118379,
+        "lon": -34.8959531,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960704,
+        "lat": -8.1165454,
+        "lon": -34.8948807,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960706,
+        "lat": -8.111558,
+        "lon": -34.8918283,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960707,
+        "lat": -8.1093065,
+        "lon": -34.8905125,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960708,
+        "lat": -8.1072045,
+        "lon": -34.8895597,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960709,
+        "lat": -8.1046716,
+        "lon": -34.8883976,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960715,
+        "lat": -8.1012358,
+        "lon": -34.8868317,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960716,
+        "lat": -8.0966566,
+        "lon": -34.8849443,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960717,
+        "lat": -8.091582,
+        "lon": -34.8837435,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960718,
+        "lat": -8.0878652,
+        "lon": -34.8842234,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960719,
+        "lat": -8.0860034,
+        "lon": -34.8860099,
+        "role": "stop"
+      },
+      {
+        "ref": 7201839617,
+        "lat": -8.0846554,
+        "lon": -34.8873122,
+        "role": "stop"
+      },
+      {
+        "ref": 5832320188,
+        "lat": -8.070134,
+        "lon": -34.8955969,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599775,
+        "lat": -8.0720822,
+        "lon": -34.8962511,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10699755,
+    "ref": "115",
+    "nome": "TI Aeroporto - TI Afogados",
+    "operador": "Vera Cruz;Empresa Metropolitana",
+    "rede": "Grande Recife Consórcio de Transporte",
+    "de": "Terminal Aeroporto",
+    "para": "Terminal Afogados",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7202194665,
+        "lat": -8.1342479,
+        "lon": -34.9152838,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106388,
+        "lat": -8.1328514,
+        "lon": -34.914086,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194671,
+        "lat": -8.1276042,
+        "lon": -34.9153342,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194672,
+        "lat": -8.1254286,
+        "lon": -34.9149758,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194683,
+        "lat": -8.1206218,
+        "lon": -34.9140619,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200885,
+        "lat": -8.1182253,
+        "lon": -34.9136119,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200902,
+        "lat": -8.1144446,
+        "lon": -34.912879,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200903,
+        "lat": -8.1115523,
+        "lon": -34.9123147,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200904,
+        "lat": -8.1067433,
+        "lon": -34.9113741,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200906,
+        "lat": -8.1028196,
+        "lon": -34.9105811,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200907,
+        "lat": -8.0989416,
+        "lon": -34.9100201,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200908,
+        "lat": -8.0965484,
+        "lon": -34.909633,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200910,
+        "lat": -8.0937512,
+        "lon": -34.9090107,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200911,
+        "lat": -8.0917038,
+        "lon": -34.9085601,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200912,
+        "lat": -8.0888467,
+        "lon": -34.9079076,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200913,
+        "lat": -8.085922,
+        "lon": -34.9072613,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200915,
+        "lat": -8.0809724,
+        "lon": -34.9047262,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200921,
+        "lat": -8.0772811,
+        "lon": -34.9066278,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194663,
+        "lat": -8.0774072,
+        "lon": -34.9068494,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200923,
+        "lat": -8.0793284,
+        "lon": -34.9067713,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213933,
+        "lat": -8.0808518,
+        "lon": -34.9062722,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200924,
+        "lat": -8.0858116,
+        "lon": -34.9074039,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200926,
+        "lat": -8.0921051,
+        "lon": -34.908808,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200934,
+        "lat": -8.0958597,
+        "lon": -34.9096414,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200944,
+        "lat": -8.0993639,
+        "lon": -34.9102171,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200945,
+        "lat": -8.1030712,
+        "lon": -34.9108079,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200957,
+        "lat": -8.1072253,
+        "lon": -34.9116377,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200966,
+        "lat": -8.1093115,
+        "lon": -34.9120393,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214188,
+        "lat": -8.1116586,
+        "lon": -34.9125256,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200975,
+        "lat": -8.1144058,
+        "lon": -34.9130405,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200985,
+        "lat": -8.1166839,
+        "lon": -34.9135157,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200991,
+        "lat": -8.1205176,
+        "lon": -34.9142256,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214193,
+        "lat": -8.12468,
+        "lon": -34.9150329,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214194,
+        "lat": -8.1272074,
+        "lon": -34.9154669,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214195,
+        "lat": -8.1333672,
+        "lon": -34.9165179,
+        "role": "stop"
+      },
+      {
+        "ref": 5847495657,
+        "lat": -8.1342444,
+        "lon": -34.9148712,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10712914,
+    "ref": "347",
+    "nome": "TI TIP - Derby",
+    "operador": "Borborema (Curado)",
+    "rede": "GRCT",
+    "de": "Terminal TIP (Rodoviária Recife)",
+    "para": "Praça do Derby",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7212511103,
+        "lat": -8.0649332,
+        "lon": -34.9814566,
+        "role": "stop"
+      },
+      {
+        "ref": 7143010975,
+        "lat": -8.0634687,
+        "lon": -34.9861784,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216309,
+        "lat": -8.0715051,
+        "lon": -34.991665,
+        "role": "stop"
+      },
+      {
+        "ref": 7143010980,
+        "lat": -8.0732868,
+        "lon": -34.9921444,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216369,
+        "lat": -8.0812586,
+        "lon": -34.9899706,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216376,
+        "lat": -8.0795943,
+        "lon": -34.9877633,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022594,
+        "lat": -8.0790498,
+        "lon": -34.984691,
+        "role": "stop"
+      },
+      {
+        "ref": 7212511104,
+        "lat": -8.0783288,
+        "lon": -34.9811288,
+        "role": "stop"
+      },
+      {
+        "ref": 7212511109,
+        "lat": -8.0770144,
+        "lon": -34.9736502,
+        "role": "stop"
+      },
+      {
+        "ref": 7212511112,
+        "lat": -8.0760622,
+        "lon": -34.9702117,
+        "role": "stop"
+      },
+      {
+        "ref": 7212511158,
+        "lat": -8.065267,
+        "lon": -34.9813907,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10713261,
+    "ref": "",
+    "nome": "Recife - Carpina",
+    "operador": "Expresso 1002",
+    "rede": "",
+    "de": "Terminal Dantas Barreto",
+    "para": "Rodoviária de Carpina",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7212809649,
+        "lat": -8.0716938,
+        "lon": -34.8835991,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809650,
+        "lat": -8.0717226,
+        "lon": -34.8835638,
+        "role": "platform"
+      },
+      {
+        "ref": 7212809659,
+        "lat": -7.8442134,
+        "lon": -35.2600041,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10713262,
+    "ref": "",
+    "nome": "Carpina - Recife",
+    "operador": "Expresso 1002",
+    "rede": "",
+    "de": "Terminal Dantas Barreto",
+    "para": "Rodoviária de Carpina",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7212809659,
+        "lat": -7.8442134,
+        "lon": -35.2600041,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809648,
+        "lat": -8.0714711,
+        "lon": -34.8834192,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809651,
+        "lat": -8.0715077,
+        "lon": -34.88338,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10738013,
+    "ref": "2437",
+    "nome": "TI Caxangá - Conde da Boa Vista (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "BRT Leste-Oeste",
+    "de": "EBRT Guararapes",
+    "para": "Terminal Caxangá",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7232697347,
+        "lat": -8.0309016,
+        "lon": -34.9549773,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013455,
+        "lat": -8.0346857,
+        "lon": -34.9496906,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013456,
+        "lat": -8.0366777,
+        "lon": -34.9460809,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013457,
+        "lat": -8.0386816,
+        "lon": -34.9424656,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013458,
+        "lat": -8.0436114,
+        "lon": -34.933568,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013459,
+        "lat": -8.0462151,
+        "lon": -34.9288423,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013460,
+        "lat": -8.048297,
+        "lon": -34.9250659,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034803,
+        "lat": -8.0581173,
+        "lon": -34.9054239,
+        "role": "stop"
+      },
+      {
+        "ref": 7143096780,
+        "lat": -8.0567364,
+        "lon": -34.8985671,
+        "role": "stop"
+      },
+      {
+        "ref": 7143096783,
+        "lat": -8.0632398,
+        "lon": -34.8795523,
+        "role": "stop"
+      },
+      {
+        "ref": 7516067218,
+        "lat": -8.0606738,
+        "lon": -34.8844056,
+        "role": "stop"
+      },
+      {
+        "ref": 6802812805,
+        "lat": -8.0603491,
+        "lon": -34.884732,
+        "role": "stop"
+      },
+      {
+        "ref": 7671132548,
+        "lat": -8.0571785,
+        "lon": -34.8907973,
+        "role": "stop"
+      },
+      {
+        "ref": 7138295546,
+        "lat": -8.0566399,
+        "lon": -34.8985704,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034816,
+        "lat": -8.0580295,
+        "lon": -34.9054232,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034819,
+        "lat": -8.0500592,
+        "lon": -34.9217003,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034820,
+        "lat": -8.0482194,
+        "lon": -34.9250244,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034821,
+        "lat": -8.0461267,
+        "lon": -34.9288052,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034822,
+        "lat": -8.0435132,
+        "lon": -34.9335267,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034823,
+        "lat": -8.0385982,
+        "lon": -34.9424298,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034824,
+        "lat": -8.0365953,
+        "lon": -34.9460407,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034825,
+        "lat": -8.0346102,
+        "lon": -34.9496565,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10742427,
+    "ref": "",
+    "nome": "Goiana - Recife",
+    "operador": "Rodotur Turismo",
+    "rede": "Conorte",
+    "de": "Terminal Rodoviário de Goiana",
+    "para": "Terminal Dantas Barreto",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7235360029,
+        "lat": -8.0401256,
+        "lon": -34.8717517,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213553,
+        "lat": -8.0566071,
+        "lon": -34.8829313,
+        "role": "stop"
+      },
+      {
+        "ref": 7235371473,
+        "lat": -8.0684135,
+        "lon": -34.8836959,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809648,
+        "lat": -8.0714711,
+        "lon": -34.8834192,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809651,
+        "lat": -8.0715077,
+        "lon": -34.88338,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10754114,
+    "ref": "861",
+    "nome": "TI Joana Bezerra - TI Xambá",
+    "operador": "Rodoviária Caxangá",
+    "rede": "GRCT",
+    "de": "TI Joana Bezerra",
+    "para": "TI Xambá",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7245204723,
+        "lat": -8.0720189,
+        "lon": -34.8957337,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213656,
+        "lat": -8.0724757,
+        "lon": -34.8929697,
+        "role": "stop"
+      },
+      {
+        "ref": 7245204728,
+        "lat": -8.069663,
+        "lon": -34.8958659,
+        "role": "stop"
+      },
+      {
+        "ref": 7245204729,
+        "lat": -8.001767,
+        "lon": -34.8928916,
+        "role": "stop"
+      },
+      {
+        "ref": 7245064251,
+        "lat": -8.0012391,
+        "lon": -34.8931194,
+        "role": "stop"
+      },
+      {
+        "ref": 6573599775,
+        "lat": -8.0720822,
+        "lon": -34.8962511,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10755613,
+    "ref": "224",
+    "nome": "UR-11 (Opcional) - Via Ipsep",
+    "operador": "Vera Cruz",
+    "rede": "GRCT",
+    "de": "Terminal Ur-11",
+    "para": "Terminal Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 4500479564,
+        "lat": -8.072433,
+        "lon": -34.8809648,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515558,
+        "lat": -8.0730861,
+        "lon": -34.8832594,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515549,
+        "lat": -8.0799464,
+        "lon": -34.9036833,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214470,
+        "lat": -8.1187862,
+        "lon": -34.9426582,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393959,
+        "lat": -8.1152091,
+        "lon": -34.9502096,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393958,
+        "lat": -8.1147844,
+        "lon": -34.9513832,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393955,
+        "lat": -8.1139007,
+        "lon": -34.9527229,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393954,
+        "lat": -8.11748,
+        "lon": -34.951896,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393949,
+        "lat": -8.1223245,
+        "lon": -34.9504997,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393943,
+        "lat": -8.1259219,
+        "lon": -34.9502042,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213356,
+        "lat": -8.1308719,
+        "lon": -34.9650349,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515497,
+        "lat": -8.1318807,
+        "lon": -34.9632478,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515498,
+        "lat": -8.1338356,
+        "lon": -34.9623605,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515501,
+        "lat": -8.1358998,
+        "lon": -34.9624007,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213351,
+        "lat": -8.1364001,
+        "lon": -34.9620065,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515504,
+        "lat": -8.1354019,
+        "lon": -34.9608337,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515518,
+        "lat": -8.1332458,
+        "lon": -34.9611659,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515520,
+        "lat": -8.1345426,
+        "lon": -34.9594399,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515521,
+        "lat": -8.1355853,
+        "lon": -34.9580453,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515524,
+        "lat": -8.1367679,
+        "lon": -34.9569617,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515525,
+        "lat": -8.1369414,
+        "lon": -34.9558439,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515526,
+        "lat": -8.1364714,
+        "lon": -34.9541788,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515527,
+        "lat": -8.1353888,
+        "lon": -34.9516169,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515528,
+        "lat": -8.1339357,
+        "lon": -34.949455,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515529,
+        "lat": -8.1325674,
+        "lon": -34.9490521,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393939,
+        "lat": -8.1309955,
+        "lon": -34.9497336,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393941,
+        "lat": -8.1278245,
+        "lon": -34.950038,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393945,
+        "lat": -8.124536,
+        "lon": -34.9503137,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393951,
+        "lat": -8.1200916,
+        "lon": -34.9506782,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393952,
+        "lat": -8.1193311,
+        "lon": -34.9508968,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393957,
+        "lat": -8.1129999,
+        "lon": -34.95171,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393962,
+        "lat": -8.1162738,
+        "lon": -34.9470209,
+        "role": "stop"
+      },
+      {
+        "ref": 7246393965,
+        "lat": -8.1185367,
+        "lon": -34.9462686,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515532,
+        "lat": -8.116303,
+        "lon": -34.9409222,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515534,
+        "lat": -8.1139776,
+        "lon": -34.9393111,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515536,
+        "lat": -8.1110076,
+        "lon": -34.9373028,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515538,
+        "lat": -8.1089518,
+        "lon": -34.9349177,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515540,
+        "lat": -8.1078729,
+        "lon": -34.9312706,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515541,
+        "lat": -8.1102916,
+        "lon": -34.9241241,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515542,
+        "lat": -8.1117236,
+        "lon": -34.923923,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515544,
+        "lat": -8.1130256,
+        "lon": -34.9223365,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214339,
+        "lat": -8.1115865,
+        "lon": -34.9201514,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214340,
+        "lat": -8.1102878,
+        "lon": -34.9186706,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214342,
+        "lat": -8.1087877,
+        "lon": -34.9169546,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515548,
+        "lat": -8.1072937,
+        "lon": -34.91342,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200904,
+        "lat": -8.1067433,
+        "lon": -34.9113741,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200906,
+        "lat": -8.1028196,
+        "lon": -34.9105811,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200907,
+        "lat": -8.0989416,
+        "lon": -34.9100201,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200908,
+        "lat": -8.0965484,
+        "lon": -34.909633,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200910,
+        "lat": -8.0937512,
+        "lon": -34.9090107,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200911,
+        "lat": -8.0917038,
+        "lon": -34.9085601,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200912,
+        "lat": -8.0888467,
+        "lon": -34.9079076,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200913,
+        "lat": -8.085922,
+        "lon": -34.9072613,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515551,
+        "lat": -8.0791179,
+        "lon": -34.9012883,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515552,
+        "lat": -8.07837,
+        "lon": -34.8991373,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515553,
+        "lat": -8.0769367,
+        "lon": -34.8948436,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515554,
+        "lat": -8.075494,
+        "lon": -34.8905016,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515555,
+        "lat": -8.0747526,
+        "lon": -34.8888282,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515560,
+        "lat": -8.0679964,
+        "lon": -34.8759318,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954116,
+        "lat": -8.0680077,
+        "lon": -34.8758841,
+        "role": "platform"
+      },
+      {
+        "ref": 2633213484,
+        "lat": -8.0735945,
+        "lon": -34.8859012,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10760813,
+    "ref": "224",
+    "nome": "UR-11 (Opcional) - Via Ipsep",
+    "operador": "Vera Cruz",
+    "rede": "GRCT",
+    "de": "Terminal Cais de Santa Rita",
+    "para": "Terminal Ur-11",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7246515560,
+        "lat": -8.0679964,
+        "lon": -34.8759318,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954116,
+        "lat": -8.0680077,
+        "lon": -34.8758841,
+        "role": "platform"
+      },
+      {
+        "ref": 7250954146,
+        "lat": -8.0639479,
+        "lon": -34.878128,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954147,
+        "lat": -8.0629037,
+        "lon": -34.8799476,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213356,
+        "lat": -8.1308719,
+        "lon": -34.9650349,
+        "role": "stop"
+      },
+      {
+        "ref": 6455822738,
+        "lat": -8.1309625,
+        "lon": -34.9650392,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10761389,
+    "ref": "195",
+    "nome": "Recife - Porto de Galinhas (Opcional)",
+    "operador": "Vera Cruz",
+    "rede": "GRCT",
+    "de": "Terminal Porto de Galinhas",
+    "para": "Terminal Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7250954116,
+        "lat": -8.0680077,
+        "lon": -34.8758841,
+        "role": "platform"
+      },
+      {
+        "ref": 7246515560,
+        "lat": -8.0679964,
+        "lon": -34.8759318,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422262,
+        "lat": -8.063467,
+        "lon": -34.8807914,
+        "role": "stop"
+      },
+      {
+        "ref": 7235371473,
+        "lat": -8.0684135,
+        "lon": -34.8836959,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422264,
+        "lat": -8.0715257,
+        "lon": -34.8817406,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936764,
+        "lat": -8.0867292,
+        "lon": -34.8871802,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936765,
+        "lat": -8.0890137,
+        "lon": -34.8849945,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936766,
+        "lat": -8.0930422,
+        "lon": -34.8853783,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936767,
+        "lat": -8.0948116,
+        "lon": -34.8858555,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936768,
+        "lat": -8.0981033,
+        "lon": -34.8864546,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936769,
+        "lat": -8.1016657,
+        "lon": -34.8879477,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936770,
+        "lat": -8.1051955,
+        "lon": -34.8895858,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936771,
+        "lat": -8.1079933,
+        "lon": -34.8908809,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936772,
+        "lat": -8.1113021,
+        "lon": -34.8928664,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936773,
+        "lat": -8.1138636,
+        "lon": -34.8944193,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936774,
+        "lat": -8.1163645,
+        "lon": -34.8959788,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936775,
+        "lat": -8.1205143,
+        "lon": -34.8985074,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936779,
+        "lat": -8.122598,
+        "lon": -34.8994815,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936780,
+        "lat": -8.1244047,
+        "lon": -34.9001676,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936781,
+        "lat": -8.1272104,
+        "lon": -34.9011996,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936783,
+        "lat": -8.1317399,
+        "lon": -34.9052947,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106385,
+        "lat": -8.1322769,
+        "lon": -34.9078843,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106386,
+        "lat": -8.1327154,
+        "lon": -34.910383,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106387,
+        "lat": -8.1328778,
+        "lon": -34.91172,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106388,
+        "lat": -8.1328514,
+        "lon": -34.914086,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106390,
+        "lat": -8.1339483,
+        "lon": -34.9173198,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447120,
+        "lat": -8.1438944,
+        "lon": -34.9182333,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447121,
+        "lat": -8.1453004,
+        "lon": -34.9184674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447122,
+        "lat": -8.1476901,
+        "lon": -34.9188674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447123,
+        "lat": -8.1509359,
+        "lon": -34.9194623,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447124,
+        "lat": -8.1543449,
+        "lon": -34.9205804,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447125,
+        "lat": -8.1552994,
+        "lon": -34.9217498,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447126,
+        "lat": -8.1569117,
+        "lon": -34.9245252,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422267,
+        "lat": -8.1585586,
+        "lon": -34.9268522,
+        "role": "stop"
+      },
+      {
+        "ref": 7237302559,
+        "lat": -8.1600764,
+        "lon": -34.928539,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075222,
+        "lat": -8.161442,
+        "lon": -34.9297521,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075223,
+        "lat": -8.1628734,
+        "lon": -34.9311243,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075224,
+        "lat": -8.166281,
+        "lon": -34.9343592,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956778,
+        "lat": -8.1715084,
+        "lon": -34.9393719,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422268,
+        "lat": -8.1737621,
+        "lon": -34.9415475,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422270,
+        "lat": -8.1807855,
+        "lon": -34.9482344,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422273,
+        "lat": -8.1831276,
+        "lon": -34.9505391,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488094,
+        "lat": -8.184958,
+        "lon": -34.9522985,
+        "role": "stop"
+      },
+      {
+        "ref": 2311663690,
+        "lat": -8.1868671,
+        "lon": -34.953361,
+        "role": "stop"
+      },
+      {
+        "ref": 4645929385,
+        "lat": -8.1911507,
+        "lon": -34.955313,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488119,
+        "lat": -8.1947987,
+        "lon": -34.9569541,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488122,
+        "lat": -8.1964165,
+        "lon": -34.9576695,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488130,
+        "lat": -8.2004906,
+        "lon": -34.9594915,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488131,
+        "lat": -8.2029974,
+        "lon": -34.9605889,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488135,
+        "lat": -8.2049129,
+        "lon": -34.9614577,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488139,
+        "lat": -8.2076435,
+        "lon": -34.9625702,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488141,
+        "lat": -8.2143861,
+        "lon": -34.9642019,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489542,
+        "lat": -8.2196119,
+        "lon": -34.9655438,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225770,
+        "lat": -8.2240523,
+        "lon": -34.9667806,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489455,
+        "lat": -8.2268037,
+        "lon": -34.969465,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225771,
+        "lat": -8.2304094,
+        "lon": -34.9740758,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225778,
+        "lat": -8.2325004,
+        "lon": -34.9767695,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225786,
+        "lat": -8.234265,
+        "lon": -34.9790719,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225787,
+        "lat": -8.2360565,
+        "lon": -34.9812402,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225788,
+        "lat": -8.2391759,
+        "lon": -34.9849428,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489283,
+        "lat": -8.2415767,
+        "lon": -34.9877859,
+        "role": "stop"
+      },
+      {
+        "ref": 2311670684,
+        "lat": -8.2466232,
+        "lon": -34.9970486,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489265,
+        "lat": -8.2479485,
+        "lon": -35.000194,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225806,
+        "lat": -8.2491581,
+        "lon": -35.0030583,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225808,
+        "lat": -8.2542041,
+        "lon": -35.0090851,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214078,
+        "lat": -8.2554893,
+        "lon": -35.010229,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225822,
+        "lat": -8.2600069,
+        "lon": -35.0140141,
+        "role": "stop"
+      },
+      {
+        "ref": 7222319798,
+        "lat": -8.2636805,
+        "lon": -35.017069,
+        "role": "stop"
+      },
+      {
+        "ref": 5122159458,
+        "lat": -8.269566,
+        "lon": -35.0221456,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214898,
+        "lat": -8.2856713,
+        "lon": -35.0286374,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936782,
+        "lat": -8.1298081,
+        "lon": -34.9023297,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10781700,
+    "ref": "118",
+    "nome": "Prazeres - Boa Viagem",
+    "operador": "Borborema;Vera Cruz",
+    "rede": "GRCT",
+    "de": "Praça de Cajueiro Seco",
+    "para": "Shopping Riomar",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7202106400,
+        "lat": -8.1357469,
+        "lon": -34.9092533,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229134,
+        "lat": -8.1717309,
+        "lon": -34.9329055,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214177,
+        "lat": -8.1717735,
+        "lon": -34.9328952,
+        "role": "platform"
+      },
+      {
+        "ref": 7261229165,
+        "lat": -8.1709737,
+        "lon": -34.9308494,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229166,
+        "lat": -8.171151,
+        "lon": -34.9263753,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229167,
+        "lat": -8.1701013,
+        "lon": -34.9253045,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229168,
+        "lat": -8.1677481,
+        "lon": -34.9251772,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229169,
+        "lat": -8.1660441,
+        "lon": -34.9240291,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447164,
+        "lat": -8.1620123,
+        "lon": -34.9252144,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447212,
+        "lat": -8.1600274,
+        "lon": -34.9272558,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447215,
+        "lat": -8.1562063,
+        "lon": -34.92296,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447214,
+        "lat": -8.1543634,
+        "lon": -34.9203834,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447216,
+        "lat": -8.1518822,
+        "lon": -34.9194228,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447218,
+        "lat": -8.1483948,
+        "lon": -34.9188054,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447219,
+        "lat": -8.1452116,
+        "lon": -34.9182782,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447220,
+        "lat": -8.1413536,
+        "lon": -34.9176429,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510800,
+        "lat": -8.1386269,
+        "lon": -34.9172006,
+        "role": "stop"
+      },
+      {
+        "ref": 6629692232,
+        "lat": -8.1345349,
+        "lon": -34.914723,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106399,
+        "lat": -8.1352107,
+        "lon": -34.9116224,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106401,
+        "lat": -8.1351878,
+        "lon": -34.9070181,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960685,
+        "lat": -8.1341695,
+        "lon": -34.9052175,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960686,
+        "lat": -8.1331473,
+        "lon": -34.9031375,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960687,
+        "lat": -8.1316633,
+        "lon": -34.9014475,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960688,
+        "lat": -8.1290927,
+        "lon": -34.900658,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960689,
+        "lat": -8.1252727,
+        "lon": -34.899254,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229171,
+        "lat": -8.1233956,
+        "lon": -34.9010941,
+        "role": "stop"
+      },
+      {
+        "ref": 2633210006,
+        "lat": -8.1208727,
+        "lon": -34.9044324,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229172,
+        "lat": -8.1219739,
+        "lon": -34.9052324,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229173,
+        "lat": -8.1240975,
+        "lon": -34.9049047,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229174,
+        "lat": -8.1243244,
+        "lon": -34.9022696,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960702,
+        "lat": -8.1220246,
+        "lon": -34.8980251,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960703,
+        "lat": -8.118379,
+        "lon": -34.8959531,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960704,
+        "lat": -8.1165454,
+        "lon": -34.8948807,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960705,
+        "lat": -8.1141184,
+        "lon": -34.8933999,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960706,
+        "lat": -8.111558,
+        "lon": -34.8918283,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960707,
+        "lat": -8.1093065,
+        "lon": -34.8905125,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960708,
+        "lat": -8.1072045,
+        "lon": -34.8895597,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960709,
+        "lat": -8.1046716,
+        "lon": -34.8883976,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960715,
+        "lat": -8.1012358,
+        "lon": -34.8868317,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960716,
+        "lat": -8.0966566,
+        "lon": -34.8849443,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960717,
+        "lat": -8.091582,
+        "lon": -34.8837435,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229175,
+        "lat": -8.0907742,
+        "lon": -34.8832787,
+        "role": "stop"
+      },
+      {
+        "ref": 7258300088,
+        "lat": -8.0805224,
+        "lon": -34.876755,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10815952,
+    "ref": "200",
+    "nome": "TI Jaboatão (Parador)",
+    "operador": "Empresa Metropolitana",
+    "rede": "GRCT",
+    "de": "Terminal Jaboatão",
+    "para": "Terminal Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7246515559,
+        "lat": -8.0678399,
+        "lon": -34.8758864,
+        "role": "stop"
+      },
+      {
+        "ref": 7285239873,
+        "lat": -8.0678525,
+        "lon": -34.8758404,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10944628,
+    "ref": "414",
+    "nome": "Torre (Rui Barbosa)",
+    "operador": "Empresa Pedrosa",
+    "rede": "GRCT",
+    "de": "Terminal 414",
+    "para": "Avenida Dantas Barreto",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7352170065,
+        "lat": -8.0413936,
+        "lon": -34.9258441,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170066,
+        "lat": -8.0440844,
+        "lon": -34.9225794,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170069,
+        "lat": -8.0465072,
+        "lon": -34.9223249,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170070,
+        "lat": -8.0475749,
+        "lon": -34.9207048,
+        "role": "stop"
+      },
+      {
+        "ref": 1443766063,
+        "lat": -8.0487639,
+        "lon": -34.9184162,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170075,
+        "lat": -8.0489196,
+        "lon": -34.917549,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170079,
+        "lat": -8.0492497,
+        "lon": -34.9154962,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170082,
+        "lat": -8.0478098,
+        "lon": -34.9116778,
+        "role": "stop"
+      },
+      {
+        "ref": 7352170084,
+        "lat": -8.0476156,
+        "lon": -34.9101722,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232385,
+        "lat": -8.0474188,
+        "lon": -34.9086507,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232386,
+        "lat": -8.0472224,
+        "lon": -34.9071227,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232387,
+        "lat": -8.0469275,
+        "lon": -34.9047429,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757808,
+        "lat": -8.0468241,
+        "lon": -34.9010317,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209775,
+        "lat": -8.0487666,
+        "lon": -34.8988736,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209777,
+        "lat": -8.0517515,
+        "lon": -34.8965619,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232394,
+        "lat": -8.0559076,
+        "lon": -34.8990932,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232397,
+        "lat": -8.056751,
+        "lon": -34.8987425,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10989327,
+    "ref": "185",
+    "nome": "TI Cabo - Cais de Santa Rita",
+    "operador": "Auto Viação São Judas Tadeu",
+    "rede": "GRCT",
+    "de": "Terminal Cabo",
+    "para": "Terminal Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7237510800,
+        "lat": -8.1386269,
+        "lon": -34.9172006,
+        "role": "stop"
+      },
+      {
+        "ref": 7245023329,
+        "lat": -8.2868577,
+        "lon": -35.0364974,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489131,
+        "lat": -8.2824008,
+        "lon": -35.0343161,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489132,
+        "lat": -8.2810006,
+        "lon": -35.032964,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489133,
+        "lat": -8.2776637,
+        "lon": -35.0294216,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489136,
+        "lat": -8.2738473,
+        "lon": -35.0258724,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489137,
+        "lat": -8.2696641,
+        "lon": -35.0218727,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489141,
+        "lat": -8.2644949,
+        "lon": -35.0170647,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489201,
+        "lat": -8.2599945,
+        "lon": -35.0134278,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214079,
+        "lat": -8.2542658,
+        "lon": -35.0089051,
+        "role": "stop"
+      },
+      {
+        "ref": 7245575452,
+        "lat": -8.2490778,
+        "lon": -35.0028828,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214082,
+        "lat": -8.2476943,
+        "lon": -34.9995721,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489266,
+        "lat": -8.246256,
+        "lon": -34.9961335,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489268,
+        "lat": -8.2443897,
+        "lon": -34.9917246,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489289,
+        "lat": -8.240566,
+        "lon": -34.9865791,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489312,
+        "lat": -8.2380431,
+        "lon": -34.983293,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489329,
+        "lat": -8.2360232,
+        "lon": -34.9808947,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489430,
+        "lat": -8.2322921,
+        "lon": -34.9765031,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489441,
+        "lat": -8.2306167,
+        "lon": -34.974343,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214092,
+        "lat": -8.2264139,
+        "lon": -34.9689526,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489498,
+        "lat": -8.2242726,
+        "lon": -34.9668863,
+        "role": "stop"
+      },
+      {
+        "ref": 2311663587,
+        "lat": -8.2222829,
+        "lon": -34.9662316,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214096,
+        "lat": -8.219357,
+        "lon": -34.9654787,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488142,
+        "lat": -8.2145708,
+        "lon": -34.9642478,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488138,
+        "lat": -8.2071792,
+        "lon": -34.9624317,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488136,
+        "lat": -8.2045089,
+        "lon": -34.9612754,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488132,
+        "lat": -8.2028412,
+        "lon": -34.9605201,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488128,
+        "lat": -8.2001007,
+        "lon": -34.9593148,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488124,
+        "lat": -8.1967933,
+        "lon": -34.9578423,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488117,
+        "lat": -8.1945778,
+        "lon": -34.9568555,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488116,
+        "lat": -8.1915901,
+        "lon": -34.9555074,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488087,
+        "lat": -8.1844963,
+        "lon": -34.9518858,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422274,
+        "lat": -8.1830381,
+        "lon": -34.9504508,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422269,
+        "lat": -8.1797033,
+        "lon": -34.9471531,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956781,
+        "lat": -8.1730503,
+        "lon": -34.9396271,
+        "role": "stop"
+      },
+      {
+        "ref": 324205490,
+        "lat": -8.1681766,
+        "lon": -34.9350008,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075220,
+        "lat": -8.165075,
+        "lon": -34.9326984,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075221,
+        "lat": -8.1628793,
+        "lon": -34.9306155,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447215,
+        "lat": -8.1562063,
+        "lon": -34.92296,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447214,
+        "lat": -8.1543634,
+        "lon": -34.9203834,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447216,
+        "lat": -8.1518822,
+        "lon": -34.9194228,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447218,
+        "lat": -8.1483948,
+        "lon": -34.9188054,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447219,
+        "lat": -8.1452116,
+        "lon": -34.9182782,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447220,
+        "lat": -8.1413536,
+        "lon": -34.9176429,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510801,
+        "lat": -8.1333216,
+        "lon": -34.9163276,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194671,
+        "lat": -8.1276042,
+        "lon": -34.9153342,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194672,
+        "lat": -8.1254286,
+        "lon": -34.9149758,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194683,
+        "lat": -8.1206218,
+        "lon": -34.9140619,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200902,
+        "lat": -8.1144446,
+        "lon": -34.912879,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200903,
+        "lat": -8.1115523,
+        "lon": -34.9123147,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200904,
+        "lat": -8.1067433,
+        "lon": -34.9113741,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200906,
+        "lat": -8.1028196,
+        "lon": -34.9105811,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200907,
+        "lat": -8.0989416,
+        "lon": -34.9100201,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200908,
+        "lat": -8.0965484,
+        "lon": -34.909633,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200910,
+        "lat": -8.0937512,
+        "lon": -34.9090107,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200911,
+        "lat": -8.0917038,
+        "lon": -34.9085601,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200912,
+        "lat": -8.0888467,
+        "lon": -34.9079076,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200913,
+        "lat": -8.085922,
+        "lon": -34.9072613,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515549,
+        "lat": -8.0799464,
+        "lon": -34.9036833,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515551,
+        "lat": -8.0791179,
+        "lon": -34.9012883,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515552,
+        "lat": -8.07837,
+        "lon": -34.8991373,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515553,
+        "lat": -8.0769367,
+        "lon": -34.8948436,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515554,
+        "lat": -8.075494,
+        "lon": -34.8905016,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515555,
+        "lat": -8.0747526,
+        "lon": -34.8888282,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515558,
+        "lat": -8.0730861,
+        "lon": -34.8832594,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213484,
+        "lat": -8.0735945,
+        "lon": -34.8859012,
+        "role": "stop"
+      },
+      {
+        "ref": 4500479564,
+        "lat": -8.072433,
+        "lon": -34.8809648,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489572,
+        "lat": -8.0666597,
+        "lon": -34.8759445,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489573,
+        "lat": -8.0628821,
+        "lon": -34.8768142,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489574,
+        "lat": -8.0647433,
+        "lon": -34.8785078,
+        "role": "stop"
+      },
+      {
+        "ref": 5508889071,
+        "lat": -8.0679432,
+        "lon": -34.8755735,
+        "role": "stop"
+      },
+      {
+        "ref": 6607193290,
+        "lat": -8.0679612,
+        "lon": -34.8755444,
+        "role": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10990441,
+    "ref": "185",
+    "nome": "Cais de Santa Rita - TI Cabo",
+    "operador": "Auto Viação São Judas Tadeu",
+    "rede": "GRCT",
+    "de": "Terminal Cais de Santa Rita",
+    "para": "Terminal Cabo",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 5508889071,
+        "lat": -8.0679432,
+        "lon": -34.8755735,
+        "role": "stop"
+      },
+      {
+        "ref": 6607193290,
+        "lat": -8.0679612,
+        "lon": -34.8755444,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190045,
+        "lat": -8.0713167,
+        "lon": -34.8799664,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190046,
+        "lat": -8.0708232,
+        "lon": -34.8828957,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190049,
+        "lat": -8.0735549,
+        "lon": -34.8857716,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515556,
+        "lat": -8.0747196,
+        "lon": -34.8887693,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190050,
+        "lat": -8.0754424,
+        "lon": -34.8903537,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190051,
+        "lat": -8.0767461,
+        "lon": -34.8942378,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954152,
+        "lat": -8.0782271,
+        "lon": -34.8986846,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954153,
+        "lat": -8.0790111,
+        "lon": -34.9009699,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954155,
+        "lat": -8.0807295,
+        "lon": -34.9059273,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200924,
+        "lat": -8.0858116,
+        "lon": -34.9074039,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200925,
+        "lat": -8.0892234,
+        "lon": -34.9081673,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200926,
+        "lat": -8.0921051,
+        "lon": -34.908808,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200934,
+        "lat": -8.0958597,
+        "lon": -34.9096414,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200944,
+        "lat": -8.0993639,
+        "lon": -34.9102171,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200945,
+        "lat": -8.1030712,
+        "lon": -34.9108079,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200957,
+        "lat": -8.1072253,
+        "lon": -34.9116377,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200966,
+        "lat": -8.1093115,
+        "lon": -34.9120393,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214188,
+        "lat": -8.1116586,
+        "lon": -34.9125256,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200975,
+        "lat": -8.1144058,
+        "lon": -34.9130405,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200985,
+        "lat": -8.1166839,
+        "lon": -34.9135157,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200991,
+        "lat": -8.1205176,
+        "lon": -34.9142256,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214193,
+        "lat": -8.12468,
+        "lon": -34.9150329,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214194,
+        "lat": -8.1272074,
+        "lon": -34.9154669,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214195,
+        "lat": -8.1333672,
+        "lon": -34.9165179,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510802,
+        "lat": -8.1400671,
+        "lon": -34.9176256,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447120,
+        "lat": -8.1438944,
+        "lon": -34.9182333,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447121,
+        "lat": -8.1453004,
+        "lon": -34.9184674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447122,
+        "lat": -8.1476901,
+        "lon": -34.9188674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447123,
+        "lat": -8.1509359,
+        "lon": -34.9194623,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447124,
+        "lat": -8.1543449,
+        "lon": -34.9205804,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447125,
+        "lat": -8.1552994,
+        "lon": -34.9217498,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447126,
+        "lat": -8.1569117,
+        "lon": -34.9245252,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422267,
+        "lat": -8.1585586,
+        "lon": -34.9268522,
+        "role": "stop"
+      },
+      {
+        "ref": 7237302559,
+        "lat": -8.1600764,
+        "lon": -34.928539,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075222,
+        "lat": -8.161442,
+        "lon": -34.9297521,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075223,
+        "lat": -8.1628734,
+        "lon": -34.9311243,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075224,
+        "lat": -8.166281,
+        "lon": -34.9343592,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956778,
+        "lat": -8.1715084,
+        "lon": -34.9393719,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422268,
+        "lat": -8.1737621,
+        "lon": -34.9415475,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422270,
+        "lat": -8.1807855,
+        "lon": -34.9482344,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422273,
+        "lat": -8.1831276,
+        "lon": -34.9505391,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488094,
+        "lat": -8.184958,
+        "lon": -34.9522985,
+        "role": "stop"
+      },
+      {
+        "ref": 2311663690,
+        "lat": -8.1868671,
+        "lon": -34.953361,
+        "role": "stop"
+      },
+      {
+        "ref": 4645929385,
+        "lat": -8.1911507,
+        "lon": -34.955313,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488119,
+        "lat": -8.1947987,
+        "lon": -34.9569541,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488122,
+        "lat": -8.1964165,
+        "lon": -34.9576695,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488130,
+        "lat": -8.2004906,
+        "lon": -34.9594915,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488131,
+        "lat": -8.2029974,
+        "lon": -34.9605889,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488135,
+        "lat": -8.2049129,
+        "lon": -34.9614577,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488139,
+        "lat": -8.2076435,
+        "lon": -34.9625702,
+        "role": "stop"
+      },
+      {
+        "ref": 7251488141,
+        "lat": -8.2143861,
+        "lon": -34.9642019,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489542,
+        "lat": -8.2196119,
+        "lon": -34.9655438,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225770,
+        "lat": -8.2240523,
+        "lon": -34.9667806,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489455,
+        "lat": -8.2268037,
+        "lon": -34.969465,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225771,
+        "lat": -8.2304094,
+        "lon": -34.9740758,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225778,
+        "lat": -8.2325004,
+        "lon": -34.9767695,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225786,
+        "lat": -8.234265,
+        "lon": -34.9790719,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225787,
+        "lat": -8.2360565,
+        "lon": -34.9812402,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225788,
+        "lat": -8.2391759,
+        "lon": -34.9849428,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489283,
+        "lat": -8.2415767,
+        "lon": -34.9877859,
+        "role": "stop"
+      },
+      {
+        "ref": 2311670684,
+        "lat": -8.2466232,
+        "lon": -34.9970486,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489265,
+        "lat": -8.2479485,
+        "lon": -35.000194,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225806,
+        "lat": -8.2491581,
+        "lon": -35.0030583,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225808,
+        "lat": -8.2542041,
+        "lon": -35.0090851,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214078,
+        "lat": -8.2554893,
+        "lon": -35.010229,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225822,
+        "lat": -8.2600069,
+        "lon": -35.0140141,
+        "role": "stop"
+      },
+      {
+        "ref": 7222319798,
+        "lat": -8.2636805,
+        "lon": -35.017069,
+        "role": "stop"
+      },
+      {
+        "ref": 5122159458,
+        "lat": -8.269566,
+        "lon": -35.0221456,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225825,
+        "lat": -8.2781321,
+        "lon": -35.030386,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214058,
+        "lat": -8.2812116,
+        "lon": -35.0332791,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215000,
+        "lat": -8.2842994,
+        "lon": -35.0362377,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225852,
+        "lat": -8.2860891,
+        "lon": -35.036971,
+        "role": "stop"
+      },
+      {
+        "ref": 7396225854,
+        "lat": -8.2876509,
+        "lon": -35.0364906,
+        "role": "stop"
+      },
+      {
+        "ref": 7395489121,
+        "lat": -8.2846695,
+        "lon": -35.0320513,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10990442,
+    "ref": "167",
+    "nome": "Imip - TI Tancredo Neves",
+    "operador": "Expresso Vera Cruz",
+    "rede": "GRCT",
+    "de": "Terminal Cais de Santa Rita",
+    "para": "Terminal Tancredo Neves",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7396190050,
+        "lat": -8.0754424,
+        "lon": -34.8903537,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190045,
+        "lat": -8.0713167,
+        "lon": -34.8799664,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190046,
+        "lat": -8.0708232,
+        "lon": -34.8828957,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190049,
+        "lat": -8.0735549,
+        "lon": -34.8857716,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515556,
+        "lat": -8.0747196,
+        "lon": -34.8887693,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190051,
+        "lat": -8.0767461,
+        "lon": -34.8942378,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954152,
+        "lat": -8.0782271,
+        "lon": -34.8986846,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954153,
+        "lat": -8.0790111,
+        "lon": -34.9009699,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954155,
+        "lat": -8.0807295,
+        "lon": -34.9059273,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200924,
+        "lat": -8.0858116,
+        "lon": -34.9074039,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200925,
+        "lat": -8.0892234,
+        "lon": -34.9081673,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200926,
+        "lat": -8.0921051,
+        "lon": -34.908808,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200934,
+        "lat": -8.0958597,
+        "lon": -34.9096414,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200944,
+        "lat": -8.0993639,
+        "lon": -34.9102171,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200945,
+        "lat": -8.1030712,
+        "lon": -34.9108079,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200957,
+        "lat": -8.1072253,
+        "lon": -34.9116377,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200966,
+        "lat": -8.1093115,
+        "lon": -34.9120393,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214188,
+        "lat": -8.1116586,
+        "lon": -34.9125256,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200975,
+        "lat": -8.1144058,
+        "lon": -34.9130405,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200985,
+        "lat": -8.1166839,
+        "lon": -34.9135157,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 10990443,
+    "ref": "166",
+    "nome": "Rua do Sol - TI Cajueiro Seco",
+    "operador": "Expresso Vera Cruz",
+    "rede": "GRCT",
+    "de": "Rua do Sol",
+    "para": "Terminal Cajueiro Seco",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7251422262,
+        "lat": -8.063467,
+        "lon": -34.8807914,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213618,
+        "lat": -8.0634519,
+        "lon": -34.8808613,
+        "role": "platform"
+      },
+      {
+        "ref": 7251422263,
+        "lat": -8.0650748,
+        "lon": -34.8820131,
+        "role": "stop"
+      },
+      {
+        "ref": 7235371473,
+        "lat": -8.0684135,
+        "lon": -34.8836959,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190047,
+        "lat": -8.0718426,
+        "lon": -34.8837193,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190049,
+        "lat": -8.0735549,
+        "lon": -34.8857716,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515556,
+        "lat": -8.0747196,
+        "lon": -34.8887693,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190050,
+        "lat": -8.0754424,
+        "lon": -34.8903537,
+        "role": "stop"
+      },
+      {
+        "ref": 7396190051,
+        "lat": -8.0767461,
+        "lon": -34.8942378,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954152,
+        "lat": -8.0782271,
+        "lon": -34.8986846,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954153,
+        "lat": -8.0790111,
+        "lon": -34.9009699,
+        "role": "stop"
+      },
+      {
+        "ref": 7250954155,
+        "lat": -8.0807295,
+        "lon": -34.9059273,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200924,
+        "lat": -8.0858116,
+        "lon": -34.9074039,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200925,
+        "lat": -8.0892234,
+        "lon": -34.9081673,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200926,
+        "lat": -8.0921051,
+        "lon": -34.908808,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200934,
+        "lat": -8.0958597,
+        "lon": -34.9096414,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200944,
+        "lat": -8.0993639,
+        "lon": -34.9102171,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200945,
+        "lat": -8.1030712,
+        "lon": -34.9108079,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200957,
+        "lat": -8.1072253,
+        "lon": -34.9116377,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200966,
+        "lat": -8.1093115,
+        "lon": -34.9120393,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214188,
+        "lat": -8.1116586,
+        "lon": -34.9125256,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200975,
+        "lat": -8.1144058,
+        "lon": -34.9130405,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200985,
+        "lat": -8.1166839,
+        "lon": -34.9135157,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200991,
+        "lat": -8.1205176,
+        "lon": -34.9142256,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214193,
+        "lat": -8.12468,
+        "lon": -34.9150329,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214194,
+        "lat": -8.1272074,
+        "lon": -34.9154669,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214195,
+        "lat": -8.1333672,
+        "lon": -34.9165179,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510802,
+        "lat": -8.1400671,
+        "lon": -34.9176256,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447120,
+        "lat": -8.1438944,
+        "lon": -34.9182333,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447121,
+        "lat": -8.1453004,
+        "lon": -34.9184674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447122,
+        "lat": -8.1476901,
+        "lon": -34.9188674,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447123,
+        "lat": -8.1509359,
+        "lon": -34.9194623,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447124,
+        "lat": -8.1543449,
+        "lon": -34.9205804,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447125,
+        "lat": -8.1552994,
+        "lon": -34.9217498,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447126,
+        "lat": -8.1569117,
+        "lon": -34.9245252,
+        "role": "stop"
+      },
+      {
+        "ref": 7251422267,
+        "lat": -8.1585586,
+        "lon": -34.9268522,
+        "role": "stop"
+      },
+      {
+        "ref": 7237302559,
+        "lat": -8.1600764,
+        "lon": -34.928539,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075222,
+        "lat": -8.161442,
+        "lon": -34.9297521,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075223,
+        "lat": -8.1628734,
+        "lon": -34.9311243,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075224,
+        "lat": -8.166281,
+        "lon": -34.9343592,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11037509,
+    "ref": "229",
+    "nome": "Marcos Freire (Opcional)",
+    "operador": "Vera Cruz",
+    "rede": "GRCT",
+    "de": "Terminal de ônibus Conjunto Marcos Freire",
+    "para": "Terminal Cais de Santa Rita",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7237326248,
+        "lat": -8.1354409,
+        "lon": -34.9755364,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326247,
+        "lat": -8.1368666,
+        "lon": -34.9745317,
+        "role": "stop"
+      },
+      {
+        "ref": 2317367467,
+        "lat": -8.1380189,
+        "lon": -34.9735895,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326239,
+        "lat": -8.1392065,
+        "lon": -34.9708843,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326237,
+        "lat": -8.1392366,
+        "lon": -34.9684682,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326214,
+        "lat": -8.1406165,
+        "lon": -34.9671434,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326212,
+        "lat": -8.1433282,
+        "lon": -34.9672435,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326195,
+        "lat": -8.1444527,
+        "lon": -34.9664038,
+        "role": "stop"
+      },
+      {
+        "ref": 7485255784,
+        "lat": -8.1483219,
+        "lon": -34.9646842,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326256,
+        "lat": -8.151633,
+        "lon": -34.9622048,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326257,
+        "lat": -8.1539376,
+        "lon": -34.9585667,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326258,
+        "lat": -8.1537263,
+        "lon": -34.9553145,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326259,
+        "lat": -8.154406,
+        "lon": -34.9521085,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326260,
+        "lat": -8.1552711,
+        "lon": -34.9482961,
+        "role": "stop"
+      },
+      {
+        "ref": 7063300389,
+        "lat": -8.1549317,
+        "lon": -34.9448584,
+        "role": "stop"
+      },
+      {
+        "ref": 7237326261,
+        "lat": -8.1546056,
+        "lon": -34.9429064,
+        "role": "stop"
+      },
+      {
+        "ref": 7063271981,
+        "lat": -8.156316,
+        "lon": -34.9417336,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956773,
+        "lat": -8.1606042,
+        "lon": -34.9401967,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956774,
+        "lat": -8.1634425,
+        "lon": -34.9393306,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956775,
+        "lat": -8.1666684,
+        "lon": -34.938349,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956777,
+        "lat": -8.1689209,
+        "lon": -34.9379774,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956778,
+        "lat": -8.1715084,
+        "lon": -34.9393719,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956779,
+        "lat": -8.1736302,
+        "lon": -34.9417187,
+        "role": "stop"
+      },
+      {
+        "ref": 7236956780,
+        "lat": -8.1753977,
+        "lon": -34.942694,
+        "role": "stop"
+      },
+      {
+        "ref": 324205490,
+        "lat": -8.1681766,
+        "lon": -34.9350008,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075220,
+        "lat": -8.165075,
+        "lon": -34.9326984,
+        "role": "stop"
+      },
+      {
+        "ref": 7237075221,
+        "lat": -8.1628793,
+        "lon": -34.9306155,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447215,
+        "lat": -8.1562063,
+        "lon": -34.92296,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447214,
+        "lat": -8.1543634,
+        "lon": -34.9203834,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447216,
+        "lat": -8.1518822,
+        "lon": -34.9194228,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447218,
+        "lat": -8.1483948,
+        "lon": -34.9188054,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447219,
+        "lat": -8.1452116,
+        "lon": -34.9182782,
+        "role": "stop"
+      },
+      {
+        "ref": 7237447220,
+        "lat": -8.1413536,
+        "lon": -34.9176429,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510800,
+        "lat": -8.1386269,
+        "lon": -34.9172006,
+        "role": "stop"
+      },
+      {
+        "ref": 7237510801,
+        "lat": -8.1333216,
+        "lon": -34.9163276,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194672,
+        "lat": -8.1254286,
+        "lon": -34.9149758,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194683,
+        "lat": -8.1206218,
+        "lon": -34.9140619,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200885,
+        "lat": -8.1182253,
+        "lon": -34.9136119,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200902,
+        "lat": -8.1144446,
+        "lon": -34.912879,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200903,
+        "lat": -8.1115523,
+        "lon": -34.9123147,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200904,
+        "lat": -8.1067433,
+        "lon": -34.9113741,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200906,
+        "lat": -8.1028196,
+        "lon": -34.9105811,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200907,
+        "lat": -8.0989416,
+        "lon": -34.9100201,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200908,
+        "lat": -8.0965484,
+        "lon": -34.909633,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200910,
+        "lat": -8.0937512,
+        "lon": -34.9090107,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200911,
+        "lat": -8.0917038,
+        "lon": -34.9085601,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200912,
+        "lat": -8.0888467,
+        "lon": -34.9079076,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200913,
+        "lat": -8.085922,
+        "lon": -34.9072613,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515549,
+        "lat": -8.0799464,
+        "lon": -34.9036833,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515551,
+        "lat": -8.0791179,
+        "lon": -34.9012883,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515552,
+        "lat": -8.07837,
+        "lon": -34.8991373,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515553,
+        "lat": -8.0769367,
+        "lon": -34.8948436,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515554,
+        "lat": -8.075494,
+        "lon": -34.8905016,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515555,
+        "lat": -8.0747526,
+        "lon": -34.8888282,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213484,
+        "lat": -8.0735945,
+        "lon": -34.8859012,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515558,
+        "lat": -8.0730861,
+        "lon": -34.8832594,
+        "role": "stop"
+      },
+      {
+        "ref": 4500479564,
+        "lat": -8.072433,
+        "lon": -34.8809648,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515560,
+        "lat": -8.0679964,
+        "lon": -34.8759318,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11151674,
+    "ref": "2444",
+    "nome": "TI Getúlio Vargas - Conde da Boa Vista (BRT)",
+    "operador": "Mobi-PE",
+    "rede": "Grande Recife Consórcio de Transporte",
+    "de": "Terminal Getúlio Vargas",
+    "para": "EBRT Guararapes",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034803,
+        "lat": -8.0581173,
+        "lon": -34.9054239,
+        "role": "stop"
+      },
+      {
+        "ref": 7143096780,
+        "lat": -8.0567364,
+        "lon": -34.8985671,
+        "role": "stop"
+      },
+      {
+        "ref": 7671132547,
+        "lat": -8.0574799,
+        "lon": -34.8903214,
+        "role": "stop"
+      },
+      {
+        "ref": 7516067218,
+        "lat": -8.0606738,
+        "lon": -34.8844056,
+        "role": "stop"
+      },
+      {
+        "ref": 7143096783,
+        "lat": -8.0632398,
+        "lon": -34.8795523,
+        "role": "stop"
+      },
+      {
+        "ref": 6802812805,
+        "lat": -8.0603491,
+        "lon": -34.884732,
+        "role": "stop"
+      },
+      {
+        "ref": 7671132548,
+        "lat": -8.0571785,
+        "lon": -34.8907973,
+        "role": "stop"
+      },
+      {
+        "ref": 7138295546,
+        "lat": -8.0566399,
+        "lon": -34.8985704,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034816,
+        "lat": -8.0580295,
+        "lon": -34.9054232,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11207734,
+    "ref": "2920",
+    "nome": "TI CDU - TI Rio Doce",
+    "operador": "Mobi-PE",
+    "rede": "GRCT",
+    "de": "Terminal CDU",
+    "para": "Terminal Rio Doce",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7097013457,
+        "lat": -8.0386816,
+        "lon": -34.9424656,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013458,
+        "lat": -8.0436114,
+        "lon": -34.933568,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013459,
+        "lat": -8.0462151,
+        "lon": -34.9288423,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013460,
+        "lat": -8.048297,
+        "lon": -34.9250659,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013463,
+        "lat": -8.0501298,
+        "lon": -34.9217399,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013464,
+        "lat": -8.0533061,
+        "lon": -34.9160101,
+        "role": "stop"
+      },
+      {
+        "ref": 7097013470,
+        "lat": -8.0563459,
+        "lon": -34.9104553,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423685,
+        "lat": -8.0565441,
+        "lon": -34.9070329,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423687,
+        "lat": -8.0527833,
+        "lon": -34.9067451,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423695,
+        "lat": -8.0510094,
+        "lon": -34.9065899,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423696,
+        "lat": -8.0484207,
+        "lon": -34.9064089,
+        "role": "stop"
+      },
+      {
+        "ref": 7352232387,
+        "lat": -8.0469275,
+        "lon": -34.9047429,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423697,
+        "lat": -8.0449807,
+        "lon": -34.9002338,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423703,
+        "lat": -8.0453789,
+        "lon": -34.8973875,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423704,
+        "lat": -8.0441932,
+        "lon": -34.8939652,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423705,
+        "lat": -8.0426365,
+        "lon": -34.8927867,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423728,
+        "lat": -8.0399315,
+        "lon": -34.8910308,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423729,
+        "lat": -8.0374731,
+        "lon": -34.8902459,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423731,
+        "lat": -8.0360614,
+        "lon": -34.8891269,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423732,
+        "lat": -8.0340591,
+        "lon": -34.8860936,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423733,
+        "lat": -8.0332506,
+        "lon": -34.8849359,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423734,
+        "lat": -8.0323,
+        "lon": -34.8828761,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423742,
+        "lat": -8.0323307,
+        "lon": -34.8796062,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423763,
+        "lat": -8.0320094,
+        "lon": -34.8773309,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423764,
+        "lat": -8.0313331,
+        "lon": -34.8735986,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423765,
+        "lat": -8.0307526,
+        "lon": -34.8709332,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423766,
+        "lat": -8.0293806,
+        "lon": -34.8689588,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423767,
+        "lat": -8.0297836,
+        "lon": -34.8672799,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423768,
+        "lat": -8.0333342,
+        "lon": -34.8687133,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423770,
+        "lat": -8.0370005,
+        "lon": -34.870289,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423771,
+        "lat": -8.0314911,
+        "lon": -34.8655359,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423772,
+        "lat": -8.023845,
+        "lon": -34.859934,
+        "role": "stop"
+      },
+      {
+        "ref": 582300943,
+        "lat": -8.0219462,
+        "lon": -34.8586009,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423773,
+        "lat": -8.0205889,
+        "lon": -34.8562906,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423783,
+        "lat": -8.020922,
+        "lon": -34.8521089,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423784,
+        "lat": -8.020059,
+        "lon": -34.8505991,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423785,
+        "lat": -8.0170921,
+        "lon": -34.8477664,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423786,
+        "lat": -8.0152324,
+        "lon": -34.8457099,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423787,
+        "lat": -8.0122329,
+        "lon": -34.84289,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423793,
+        "lat": -8.0073881,
+        "lon": -34.8416923,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423794,
+        "lat": -8.0050884,
+        "lon": -34.840918,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423795,
+        "lat": -8.0016505,
+        "lon": -34.8402342,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423796,
+        "lat": -7.9989868,
+        "lon": -34.839827,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423797,
+        "lat": -7.9966766,
+        "lon": -34.83954,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423798,
+        "lat": -7.9942467,
+        "lon": -34.8393757,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423800,
+        "lat": -7.992621,
+        "lon": -34.8394945,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423801,
+        "lat": -7.9894567,
+        "lon": -34.8392154,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423802,
+        "lat": -7.9864419,
+        "lon": -34.8386478,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423803,
+        "lat": -7.9842221,
+        "lon": -34.8377153,
+        "role": "stop"
+      },
+      {
+        "ref": 1460613270,
+        "lat": -7.9829178,
+        "lon": -34.8370479,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423805,
+        "lat": -7.9804075,
+        "lon": -34.8358674,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423807,
+        "lat": -7.9768537,
+        "lon": -34.8348954,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423808,
+        "lat": -7.9752817,
+        "lon": -34.8345068,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423809,
+        "lat": -7.9731618,
+        "lon": -34.8337855,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423810,
+        "lat": -7.9706309,
+        "lon": -34.8328996,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423816,
+        "lat": -7.9682904,
+        "lon": -34.8343409,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423817,
+        "lat": -7.9670927,
+        "lon": -34.8351897,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423818,
+        "lat": -7.9651765,
+        "lon": -34.8345846,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423819,
+        "lat": -7.9640572,
+        "lon": -34.8367997,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423820,
+        "lat": -7.9633115,
+        "lon": -34.8391813,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946959,
+        "lat": -7.9620568,
+        "lon": -34.8432717,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946952,
+        "lat": -7.9610452,
+        "lon": -34.8445407,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423969,
+        "lat": -7.9599289,
+        "lon": -34.8459775,
+        "role": "stop"
+      },
+      {
+        "ref": 2633212745,
+        "lat": -7.9588817,
+        "lon": -34.8473328,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423971,
+        "lat": -7.9575902,
+        "lon": -34.8490515,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423972,
+        "lat": -7.9577738,
+        "lon": -34.8502871,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423979,
+        "lat": -7.9589682,
+        "lon": -34.8511827,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946962,
+        "lat": -7.9642094,
+        "lon": -34.8401519,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11255452,
+    "ref": "2920",
+    "nome": "TI Rio Doce - TI CDU",
+    "operador": "Mobi-PE",
+    "rede": "GRCT",
+    "de": "Terminal Rio Doce",
+    "para": "Terminal CDU",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 2633211238,
+        "lat": -8.0343517,
+        "lon": -34.8865026,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946945,
+        "lat": -7.9587716,
+        "lon": -34.8510377,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946946,
+        "lat": -7.9575906,
+        "lon": -34.8501479,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946947,
+        "lat": -7.9573226,
+        "lon": -34.8494169,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946949,
+        "lat": -7.9591039,
+        "lon": -34.8470443,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946950,
+        "lat": -7.9598936,
+        "lon": -34.8460229,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946951,
+        "lat": -7.9615412,
+        "lon": -34.8439185,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946960,
+        "lat": -7.9636192,
+        "lon": -34.841351,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946961,
+        "lat": -7.9644278,
+        "lon": -34.8402192,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946963,
+        "lat": -7.9634147,
+        "lon": -34.8388563,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946964,
+        "lat": -7.963875,
+        "lon": -34.8373801,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946965,
+        "lat": -7.9645704,
+        "lon": -34.8351417,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946966,
+        "lat": -7.9670373,
+        "lon": -34.8351722,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423811,
+        "lat": -7.9708301,
+        "lon": -34.8332816,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946967,
+        "lat": -7.9731805,
+        "lon": -34.8337917,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946968,
+        "lat": -7.974594,
+        "lon": -34.8342727,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946969,
+        "lat": -7.9767943,
+        "lon": -34.8348819,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946970,
+        "lat": -7.9792055,
+        "lon": -34.835444,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946971,
+        "lat": -7.9808382,
+        "lon": -34.8360309,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946972,
+        "lat": -7.9820192,
+        "lon": -34.836604,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946973,
+        "lat": -7.9836893,
+        "lon": -34.8374463,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946974,
+        "lat": -7.9855281,
+        "lon": -34.838338,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946975,
+        "lat": -7.9876045,
+        "lon": -34.8388856,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946976,
+        "lat": -7.9927289,
+        "lon": -34.8394905,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946977,
+        "lat": -7.9947298,
+        "lon": -34.8393671,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946978,
+        "lat": -7.9993546,
+        "lon": -34.8398708,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946979,
+        "lat": -8.000788,
+        "lon": -34.8400773,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946980,
+        "lat": -8.0039726,
+        "lon": -34.840678,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946981,
+        "lat": -8.0071624,
+        "lon": -34.8416032,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946982,
+        "lat": -8.0097914,
+        "lon": -34.842535,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946983,
+        "lat": -8.013546,
+        "lon": -34.8446158,
+        "role": "stop"
+      },
+      {
+        "ref": 7666946984,
+        "lat": -8.0150726,
+        "lon": -34.846237,
+        "role": "stop"
+      },
+      {
+        "ref": 7033907064,
+        "lat": -8.0172912,
+        "lon": -34.8482989,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966585,
+        "lat": -8.0208429,
+        "lon": -34.8520674,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966586,
+        "lat": -8.0200719,
+        "lon": -34.8537668,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966611,
+        "lat": -8.0194407,
+        "lon": -34.8578541,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966612,
+        "lat": -8.0199783,
+        "lon": -34.8612301,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966613,
+        "lat": -8.0233385,
+        "lon": -34.862212,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966614,
+        "lat": -8.0258406,
+        "lon": -34.86407,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966619,
+        "lat": -8.0292471,
+        "lon": -34.866183,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966620,
+        "lat": -8.0295266,
+        "lon": -34.8674852,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966621,
+        "lat": -8.0298224,
+        "lon": -34.8694451,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966622,
+        "lat": -8.0308999,
+        "lon": -34.8713504,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966624,
+        "lat": -8.0315686,
+        "lon": -34.8746919,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966625,
+        "lat": -8.0320244,
+        "lon": -34.8774361,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966626,
+        "lat": -8.0322227,
+        "lon": -34.880861,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966627,
+        "lat": -8.0324051,
+        "lon": -34.8832613,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966629,
+        "lat": -8.0359358,
+        "lon": -34.888923,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966643,
+        "lat": -8.0374891,
+        "lon": -34.8911997,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966662,
+        "lat": -8.0417547,
+        "lon": -34.894029,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966663,
+        "lat": -8.0430739,
+        "lon": -34.8957336,
+        "role": "stop"
+      },
+      {
+        "ref": 7046801805,
+        "lat": -8.0438275,
+        "lon": -34.8980324,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209780,
+        "lat": -8.0439084,
+        "lon": -34.9012431,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966667,
+        "lat": -8.0458513,
+        "lon": -34.9062242,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966669,
+        "lat": -8.0462276,
+        "lon": -34.9090015,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966671,
+        "lat": -8.048826,
+        "lon": -34.9087008,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966672,
+        "lat": -8.0518915,
+        "lon": -34.9083631,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966678,
+        "lat": -8.0543038,
+        "lon": -34.9087882,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034817,
+        "lat": -8.0562961,
+        "lon": -34.9104225,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034818,
+        "lat": -8.0532202,
+        "lon": -34.9159705,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034819,
+        "lat": -8.0500592,
+        "lon": -34.9217003,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034820,
+        "lat": -8.0482194,
+        "lon": -34.9250244,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034821,
+        "lat": -8.0461267,
+        "lon": -34.9288052,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034822,
+        "lat": -8.0435132,
+        "lon": -34.9335267,
+        "role": "stop"
+      },
+      {
+        "ref": 7097034823,
+        "lat": -8.0385982,
+        "lon": -34.9424298,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966680,
+        "lat": -8.0365659,
+        "lon": -34.945131,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11714674,
+    "ref": "C301",
+    "nome": "San Martin - Boa Viagem",
+    "operador": "Sistema Complementar do Recife",
+    "rede": "GRCT",
+    "de": "Terminal de Roda de Fogo",
+    "para": "Shopping Recife",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7972173192,
+        "lat": -8.0579799,
+        "lon": -34.9390231,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173193,
+        "lat": -8.0561092,
+        "lon": -34.9385764,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173195,
+        "lat": -8.0524176,
+        "lon": -34.9351894,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173197,
+        "lat": -8.05481,
+        "lon": -34.9323798,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173199,
+        "lat": -8.0573143,
+        "lon": -34.931731,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216981,
+        "lat": -8.0583937,
+        "lon": -34.9323797,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173204,
+        "lat": -8.0605242,
+        "lon": -34.9320082,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173210,
+        "lat": -8.0668979,
+        "lon": -34.9335952,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173211,
+        "lat": -8.0692307,
+        "lon": -34.9334879,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173212,
+        "lat": -8.0695914,
+        "lon": -34.9324996,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173214,
+        "lat": -8.0706114,
+        "lon": -34.9298108,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173216,
+        "lat": -8.0712933,
+        "lon": -34.9286307,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173217,
+        "lat": -8.0719114,
+        "lon": -34.9264256,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173219,
+        "lat": -8.0727503,
+        "lon": -34.9246145,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173220,
+        "lat": -8.0742261,
+        "lon": -34.922552,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173221,
+        "lat": -8.0749902,
+        "lon": -34.9197804,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173222,
+        "lat": -8.0751941,
+        "lon": -34.9177798,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173223,
+        "lat": -8.0758566,
+        "lon": -34.9150559,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173224,
+        "lat": -8.0765161,
+        "lon": -34.9128418,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173225,
+        "lat": -8.0769254,
+        "lon": -34.909642,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173226,
+        "lat": -8.0776219,
+        "lon": -34.9074144,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200923,
+        "lat": -8.0793284,
+        "lon": -34.9067713,
+        "role": "stop"
+      },
+      {
+        "ref": 2633213933,
+        "lat": -8.0808518,
+        "lon": -34.9062722,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200924,
+        "lat": -8.0858116,
+        "lon": -34.9074039,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173227,
+        "lat": -8.0868163,
+        "lon": -34.9097679,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173228,
+        "lat": -8.0890721,
+        "lon": -34.910287,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173240,
+        "lat": -8.0923119,
+        "lon": -34.9110003,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173265,
+        "lat": -8.0922759,
+        "lon": -34.9140917,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173266,
+        "lat": -8.0925209,
+        "lon": -34.915912,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173267,
+        "lat": -8.0951804,
+        "lon": -34.9167889,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173270,
+        "lat": -8.0969389,
+        "lon": -34.9170814,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173271,
+        "lat": -8.0974912,
+        "lon": -34.9146552,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173279,
+        "lat": -8.097938,
+        "lon": -34.9126407,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200944,
+        "lat": -8.0993639,
+        "lon": -34.9102171,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200945,
+        "lat": -8.1030712,
+        "lon": -34.9108079,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173280,
+        "lat": -8.1061377,
+        "lon": -34.9126736,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173281,
+        "lat": -8.1066936,
+        "lon": -34.914576,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173282,
+        "lat": -8.1084365,
+        "lon": -34.9165597,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173284,
+        "lat": -8.1091851,
+        "lon": -34.9188744,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173285,
+        "lat": -8.1092692,
+        "lon": -34.9214952,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173286,
+        "lat": -8.1109191,
+        "lon": -34.9200309,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214340,
+        "lat": -8.1102878,
+        "lon": -34.9186706,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214342,
+        "lat": -8.1087877,
+        "lon": -34.9169546,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173287,
+        "lat": -8.1089801,
+        "lon": -34.9163936,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173288,
+        "lat": -8.1098101,
+        "lon": -34.9131748,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173290,
+        "lat": -8.1102947,
+        "lon": -34.911192,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173291,
+        "lat": -8.1105847,
+        "lon": -34.9084702,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173314,
+        "lat": -8.1113339,
+        "lon": -34.9071907,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173315,
+        "lat": -8.1132061,
+        "lon": -34.9047218,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173317,
+        "lat": -8.1147302,
+        "lon": -34.9017537,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936774,
+        "lat": -8.1163645,
+        "lon": -34.8959788,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173318,
+        "lat": -8.1176093,
+        "lon": -34.9006577,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209994,
+        "lat": -8.1203435,
+        "lon": -34.9022335,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936779,
+        "lat": -8.122598,
+        "lon": -34.8994815,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936780,
+        "lat": -8.1244047,
+        "lon": -34.9001676,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936781,
+        "lat": -8.1272104,
+        "lon": -34.9011996,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936782,
+        "lat": -8.1298081,
+        "lon": -34.9023297,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936783,
+        "lat": -8.1317399,
+        "lon": -34.9052947,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106385,
+        "lat": -8.1322769,
+        "lon": -34.9078843,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106386,
+        "lat": -8.1327154,
+        "lon": -34.910383,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106387,
+        "lat": -8.1328778,
+        "lon": -34.91172,
+        "role": "stop"
+      },
+      {
+        "ref": 7202106388,
+        "lat": -8.1328514,
+        "lon": -34.914086,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194671,
+        "lat": -8.1276042,
+        "lon": -34.9153342,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194672,
+        "lat": -8.1254286,
+        "lon": -34.9149758,
+        "role": "stop"
+      },
+      {
+        "ref": 7202194683,
+        "lat": -8.1206218,
+        "lon": -34.9140619,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173321,
+        "lat": -8.1201655,
+        "lon": -34.9123962,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173322,
+        "lat": -8.1199368,
+        "lon": -34.9199921,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173323,
+        "lat": -8.1177528,
+        "lon": -34.9224321,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173324,
+        "lat": -8.1160254,
+        "lon": -34.923929,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173325,
+        "lat": -8.1143632,
+        "lon": -34.9233405,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173326,
+        "lat": -8.1134496,
+        "lon": -34.9222742,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214339,
+        "lat": -8.1115865,
+        "lon": -34.9201514,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214340,
+        "lat": -8.1102878,
+        "lon": -34.9186706,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214342,
+        "lat": -8.1087877,
+        "lon": -34.9169546,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173327,
+        "lat": -8.1074094,
+        "lon": -34.9153914,
+        "role": "stop"
+      },
+      {
+        "ref": 7246515548,
+        "lat": -8.1072937,
+        "lon": -34.91342,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200904,
+        "lat": -8.1067433,
+        "lon": -34.9113741,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200906,
+        "lat": -8.1028196,
+        "lon": -34.9105811,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200907,
+        "lat": -8.0989416,
+        "lon": -34.9100201,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173278,
+        "lat": -8.0978864,
+        "lon": -34.9128452,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173273,
+        "lat": -8.0974499,
+        "lon": -34.9148362,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173329,
+        "lat": -8.0969317,
+        "lon": -34.9171115,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173268,
+        "lat": -8.0957917,
+        "lon": -34.9169287,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173265,
+        "lat": -8.0922759,
+        "lon": -34.9140917,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173331,
+        "lat": -8.0905318,
+        "lon": -34.9154067,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173332,
+        "lat": -8.090429,
+        "lon": -34.9130662,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173333,
+        "lat": -8.0908685,
+        "lon": -34.9110837,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173334,
+        "lat": -8.0901617,
+        "lon": -34.9105236,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200912,
+        "lat": -8.0888467,
+        "lon": -34.9079076,
+        "role": "stop"
+      },
+      {
+        "ref": 7202200913,
+        "lat": -8.085922,
+        "lon": -34.9072613,
+        "role": "stop"
+      },
+      {
+        "ref": 7593467571,
+        "lat": -8.0818156,
+        "lon": -34.9056702,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173336,
+        "lat": -8.0802308,
+        "lon": -34.9061817,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173339,
+        "lat": -8.0765216,
+        "lon": -34.9072252,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173340,
+        "lat": -8.0768114,
+        "lon": -34.9103873,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216153,
+        "lat": -8.0764954,
+        "lon": -34.9129827,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173342,
+        "lat": -8.0758474,
+        "lon": -34.9150949,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173343,
+        "lat": -8.0750336,
+        "lon": -34.9191786,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173344,
+        "lat": -8.0744141,
+        "lon": -34.9220352,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173345,
+        "lat": -8.0728478,
+        "lon": -34.9243579,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173218,
+        "lat": -8.0718878,
+        "lon": -34.9264857,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173347,
+        "lat": -8.0712493,
+        "lon": -34.9281467,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173213,
+        "lat": -8.0703797,
+        "lon": -34.9304154,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173348,
+        "lat": -8.0694383,
+        "lon": -34.9329006,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173349,
+        "lat": -8.0689662,
+        "lon": -34.9343367,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173210,
+        "lat": -8.0668979,
+        "lon": -34.9335952,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173351,
+        "lat": -8.0608393,
+        "lon": -34.9320538,
+        "role": "stop"
+      },
+      {
+        "ref": 2633216981,
+        "lat": -8.0583937,
+        "lon": -34.9323797,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173199,
+        "lat": -8.0573143,
+        "lon": -34.931731,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173198,
+        "lat": -8.0561142,
+        "lon": -34.9323235,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173353,
+        "lat": -8.0522157,
+        "lon": -34.934452,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173354,
+        "lat": -8.0528133,
+        "lon": -34.9366452,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173355,
+        "lat": -8.0562415,
+        "lon": -34.938608,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173356,
+        "lat": -8.0579385,
+        "lon": -34.9390132,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173194,
+        "lat": -8.0526884,
+        "lon": -34.9362052,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11718371,
+    "ref": "C205",
+    "nome": "Jardim São Paulo - Boa Viagem",
+    "operador": "Sistema Complementar do Recife",
+    "rede": "GRCT",
+    "de": "Terminal de Jardim Uchôa (Praça Bido Krause)",
+    "para": "Shopping Recife",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7973881053,
+        "lat": -8.0793439,
+        "lon": -34.9710042,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881069,
+        "lat": -8.0809108,
+        "lon": -34.9689655,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881073,
+        "lat": -8.0813271,
+        "lon": -34.9670034,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881075,
+        "lat": -8.0816235,
+        "lon": -34.9643101,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881078,
+        "lat": -8.0820658,
+        "lon": -34.9608752,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881082,
+        "lat": -8.0822963,
+        "lon": -34.959565,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881084,
+        "lat": -8.0833137,
+        "lon": -34.957677,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887706,
+        "lat": -8.084666,
+        "lon": -34.9557675,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887710,
+        "lat": -8.0846299,
+        "lon": -34.9540615,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887712,
+        "lat": -8.0832796,
+        "lon": -34.9539206,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887713,
+        "lat": -8.0815742,
+        "lon": -34.9528537,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887715,
+        "lat": -8.081018,
+        "lon": -34.9525591,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887719,
+        "lat": -8.0780866,
+        "lon": -34.9510368,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887720,
+        "lat": -8.0774817,
+        "lon": -34.9489797,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888012,
+        "lat": -8.0776052,
+        "lon": -34.9473835,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888014,
+        "lat": -8.0778351,
+        "lon": -34.9450514,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888015,
+        "lat": -8.0781498,
+        "lon": -34.9446658,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888025,
+        "lat": -8.0806195,
+        "lon": -34.944929,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888030,
+        "lat": -8.0799477,
+        "lon": -34.9410211,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888033,
+        "lat": -8.0812874,
+        "lon": -34.9400437,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888037,
+        "lat": -8.0837077,
+        "lon": -34.9389448,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888042,
+        "lat": -8.087498,
+        "lon": -34.9374555,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888043,
+        "lat": -8.0894182,
+        "lon": -34.937043,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888045,
+        "lat": -8.091015,
+        "lon": -34.9365915,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215244,
+        "lat": -8.0926185,
+        "lon": -34.9359415,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215245,
+        "lat": -8.0943006,
+        "lon": -34.93603,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215246,
+        "lat": -8.0968462,
+        "lon": -34.9361191,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022771,
+        "lat": -8.0984118,
+        "lon": -34.9361888,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215239,
+        "lat": -8.0991658,
+        "lon": -34.9350429,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215237,
+        "lat": -8.0995702,
+        "lon": -34.9331772,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215234,
+        "lat": -8.098782,
+        "lon": -34.9318472,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215235,
+        "lat": -8.0975598,
+        "lon": -34.9305441,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214441,
+        "lat": -8.0969907,
+        "lon": -34.9287016,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022782,
+        "lat": -8.0996343,
+        "lon": -34.9283157,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022783,
+        "lat": -8.1048188,
+        "lon": -34.9276023,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022794,
+        "lat": -8.107412,
+        "lon": -34.9272316,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214453,
+        "lat": -8.1086637,
+        "lon": -34.9270652,
+        "role": "stop"
+      },
+      {
+        "ref": 4272548971,
+        "lat": -8.1120045,
+        "lon": -34.9265785,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022806,
+        "lat": -8.1141705,
+        "lon": -34.9257358,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022807,
+        "lat": -8.1166345,
+        "lon": -34.9235632,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022808,
+        "lat": -8.1185438,
+        "lon": -34.9219125,
+        "role": "stop"
+      },
+      {
+        "ref": 7143022809,
+        "lat": -8.1198625,
+        "lon": -34.9203393,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229173,
+        "lat": -8.1240975,
+        "lon": -34.9049047,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888054,
+        "lat": -8.1212756,
+        "lon": -34.9039674,
+        "role": "stop"
+      },
+      {
+        "ref": 8011329619,
+        "lat": -8.1248226,
+        "lon": -34.8995628,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960702,
+        "lat": -8.1220246,
+        "lon": -34.8980251,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960703,
+        "lat": -8.118379,
+        "lon": -34.8959531,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960704,
+        "lat": -8.1165454,
+        "lon": -34.8948807,
+        "role": "stop"
+      },
+      {
+        "ref": 7201960705,
+        "lat": -8.1141184,
+        "lon": -34.8933999,
+        "role": "stop"
+      },
+      {
+        "ref": 8011329632,
+        "lat": -8.1127436,
+        "lon": -34.8929875,
+        "role": "stop"
+      },
+      {
+        "ref": 7201936773,
+        "lat": -8.1138636,
+        "lon": -34.8944193,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888055,
+        "lat": -8.1147244,
+        "lon": -34.8975433,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888058,
+        "lat": -8.1137572,
+        "lon": -34.8993765,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888059,
+        "lat": -8.1165101,
+        "lon": -34.9009212,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209983,
+        "lat": -8.1196357,
+        "lon": -34.9012843,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888062,
+        "lat": -8.1227242,
+        "lon": -34.9015151,
+        "role": "stop"
+      },
+      {
+        "ref": 9309771709,
+        "lat": -8.1208459,
+        "lon": -34.9046577,
+        "role": "stop"
+      },
+      {
+        "ref": 7261229172,
+        "lat": -8.1219739,
+        "lon": -34.9052324,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888063,
+        "lat": -8.1230067,
+        "lon": -34.906841,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173322,
+        "lat": -8.1199368,
+        "lon": -34.9199921,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173324,
+        "lat": -8.1160254,
+        "lon": -34.923929,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888064,
+        "lat": -8.1117331,
+        "lon": -34.9264882,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888065,
+        "lat": -8.1100537,
+        "lon": -34.926717,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888066,
+        "lat": -8.1030734,
+        "lon": -34.9277126,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888185,
+        "lat": -8.0998183,
+        "lon": -34.9281533,
+        "role": "stop"
+      },
+      {
+        "ref": 2633214396,
+        "lat": -8.0970466,
+        "lon": -34.9285505,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888194,
+        "lat": -8.0950325,
+        "lon": -34.9288415,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888195,
+        "lat": -8.0921642,
+        "lon": -34.9292422,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888196,
+        "lat": -8.089496,
+        "lon": -34.9296139,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888197,
+        "lat": -8.0867865,
+        "lon": -34.9311224,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888200,
+        "lat": -8.0894966,
+        "lon": -34.9297375,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888201,
+        "lat": -8.0936565,
+        "lon": -34.929843,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888202,
+        "lat": -8.0958208,
+        "lon": -34.9291696,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888052,
+        "lat": -8.0986268,
+        "lon": -34.9316937,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888051,
+        "lat": -8.099514,
+        "lon": -34.9333985,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888050,
+        "lat": -8.0991698,
+        "lon": -34.9349819,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888049,
+        "lat": -8.0971801,
+        "lon": -34.9361317,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888048,
+        "lat": -8.0941036,
+        "lon": -34.9360228,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888046,
+        "lat": -8.0908598,
+        "lon": -34.9367029,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888044,
+        "lat": -8.0891116,
+        "lon": -34.9370977,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888041,
+        "lat": -8.0870336,
+        "lon": -34.9375681,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888040,
+        "lat": -8.0839276,
+        "lon": -34.9388449,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888031,
+        "lat": -8.0805546,
+        "lon": -34.9403764,
+        "role": "stop"
+      },
+      {
+        "ref": 2633215726,
+        "lat": -8.0801394,
+        "lon": -34.9414833,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888028,
+        "lat": -8.0806542,
+        "lon": -34.9449333,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888017,
+        "lat": -8.0784687,
+        "lon": -34.9446934,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888013,
+        "lat": -8.0777365,
+        "lon": -34.9461179,
+        "role": "stop"
+      },
+      {
+        "ref": 7973888011,
+        "lat": -8.0775708,
+        "lon": -34.9477289,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887721,
+        "lat": -8.0774813,
+        "lon": -34.9491348,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887718,
+        "lat": -8.0785738,
+        "lon": -34.9516303,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887717,
+        "lat": -8.0809697,
+        "lon": -34.9525345,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887711,
+        "lat": -8.0834673,
+        "lon": -34.9539043,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887708,
+        "lat": -8.084922,
+        "lon": -34.9542487,
+        "role": "stop"
+      },
+      {
+        "ref": 7973887707,
+        "lat": -8.084747,
+        "lon": -34.9556406,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881083,
+        "lat": -8.0833996,
+        "lon": -34.9575596,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881081,
+        "lat": -8.0823873,
+        "lon": -34.9593351,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881077,
+        "lat": -8.0820239,
+        "lon": -34.9611774,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881076,
+        "lat": -8.0816627,
+        "lon": -34.9639751,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881074,
+        "lat": -8.081443,
+        "lon": -34.9659471,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881072,
+        "lat": -8.0811551,
+        "lon": -34.9680201,
+        "role": "stop"
+      },
+      {
+        "ref": 7973881070,
+        "lat": -8.080839,
+        "lon": -34.9692702,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 11739217,
+    "ref": "C108",
+    "nome": "Dois Unidos - Torre",
+    "operador": "Sistema Complementar do Recife",
+    "rede": "GRCT",
+    "de": "Terminal C108",
+    "para": "Super Bompreço Benfica",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 7993919373,
+        "lat": -7.9794697,
+        "lon": -34.9182621,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919375,
+        "lat": -7.9807731,
+        "lon": -34.9173925,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919376,
+        "lat": -7.9826662,
+        "lon": -34.916392,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919757,
+        "lat": -7.9853009,
+        "lon": -34.9173115,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919801,
+        "lat": -7.9872465,
+        "lon": -34.9184352,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919825,
+        "lat": -7.9880614,
+        "lon": -34.9192245,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919858,
+        "lat": -7.9883222,
+        "lon": -34.9177958,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919883,
+        "lat": -7.9891978,
+        "lon": -34.9163265,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919890,
+        "lat": -7.9900506,
+        "lon": -34.9154177,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919918,
+        "lat": -7.9916853,
+        "lon": -34.9136465,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919923,
+        "lat": -7.9930933,
+        "lon": -34.912414,
+        "role": "stop"
+      },
+      {
+        "ref": 7201077835,
+        "lat": -7.9944169,
+        "lon": -34.9108695,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919929,
+        "lat": -7.996126,
+        "lon": -34.9092467,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919965,
+        "lat": -7.9992555,
+        "lon": -34.9061869,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919987,
+        "lat": -8.0008867,
+        "lon": -34.9033346,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919989,
+        "lat": -8.0018323,
+        "lon": -34.9021928,
+        "role": "stop"
+      },
+      {
+        "ref": 1560948978,
+        "lat": -8.0036278,
+        "lon": -34.9011435,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919992,
+        "lat": -8.0040434,
+        "lon": -34.8998289,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919999,
+        "lat": -8.0057405,
+        "lon": -34.9001606,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920001,
+        "lat": -8.0062149,
+        "lon": -34.9011236,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920012,
+        "lat": -8.0075581,
+        "lon": -34.9028989,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920016,
+        "lat": -8.0085777,
+        "lon": -34.9053187,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920022,
+        "lat": -8.0081204,
+        "lon": -34.9083184,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920024,
+        "lat": -8.0076238,
+        "lon": -34.9110688,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920032,
+        "lat": -8.0083097,
+        "lon": -34.9127262,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920042,
+        "lat": -8.0096175,
+        "lon": -34.9135274,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920044,
+        "lat": -8.0111315,
+        "lon": -34.9144208,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920045,
+        "lat": -8.0125853,
+        "lon": -34.9148166,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920046,
+        "lat": -8.0136999,
+        "lon": -34.914863,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920050,
+        "lat": -8.0154878,
+        "lon": -34.913923,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920054,
+        "lat": -8.0165734,
+        "lon": -34.9137226,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920056,
+        "lat": -8.0179334,
+        "lon": -34.9126868,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920094,
+        "lat": -8.0208531,
+        "lon": -34.9116359,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920096,
+        "lat": -8.0231901,
+        "lon": -34.9117029,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920100,
+        "lat": -8.0269655,
+        "lon": -34.9136866,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920101,
+        "lat": -8.0266883,
+        "lon": -34.9164211,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920102,
+        "lat": -8.0287427,
+        "lon": -34.9171369,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920104,
+        "lat": -8.0280735,
+        "lon": -34.9204049,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920105,
+        "lat": -8.0299169,
+        "lon": -34.9203461,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920106,
+        "lat": -8.0306409,
+        "lon": -34.9180824,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920107,
+        "lat": -8.0315798,
+        "lon": -34.9151366,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920108,
+        "lat": -8.0299524,
+        "lon": -34.9109799,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920110,
+        "lat": -8.0310873,
+        "lon": -34.90896,
+        "role": "stop"
+      },
+      {
+        "ref": 1475563591,
+        "lat": -8.0324988,
+        "lon": -34.9100226,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209766,
+        "lat": -8.0335892,
+        "lon": -34.9097925,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920113,
+        "lat": -8.0413516,
+        "lon": -34.9086632,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920117,
+        "lat": -8.0450885,
+        "lon": -34.9098695,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966671,
+        "lat": -8.048826,
+        "lon": -34.9087008,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966672,
+        "lat": -8.0518915,
+        "lon": -34.9083631,
+        "role": "stop"
+      },
+      {
+        "ref": 7666966678,
+        "lat": -8.0543038,
+        "lon": -34.9087882,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423685,
+        "lat": -8.0565441,
+        "lon": -34.9070329,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423687,
+        "lat": -8.0527833,
+        "lon": -34.9067451,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423695,
+        "lat": -8.0510094,
+        "lon": -34.9065899,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423696,
+        "lat": -8.0484207,
+        "lon": -34.9064089,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920137,
+        "lat": -8.0468527,
+        "lon": -34.9067757,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920138,
+        "lat": -8.0443507,
+        "lon": -34.9075984,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920114,
+        "lat": -8.0414179,
+        "lon": -34.9085627,
+        "role": "stop"
+      },
+      {
+        "ref": 2082915629,
+        "lat": -8.0352845,
+        "lon": -34.9088812,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920139,
+        "lat": -8.0352636,
+        "lon": -34.9075716,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757835,
+        "lat": -8.0362859,
+        "lon": -34.9018498,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757837,
+        "lat": -8.0313617,
+        "lon": -34.9050963,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757838,
+        "lat": -8.0305085,
+        "lon": -34.9061233,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920140,
+        "lat": -8.0297194,
+        "lon": -34.9077022,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920141,
+        "lat": -8.0282699,
+        "lon": -34.9112428,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920142,
+        "lat": -8.0275907,
+        "lon": -34.9135229,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920101,
+        "lat": -8.0266883,
+        "lon": -34.9164211,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920143,
+        "lat": -8.0250172,
+        "lon": -34.9168384,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920144,
+        "lat": -8.0256821,
+        "lon": -34.9149754,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920098,
+        "lat": -8.0253835,
+        "lon": -34.9131183,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920145,
+        "lat": -8.0246907,
+        "lon": -34.9114496,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920097,
+        "lat": -8.0233184,
+        "lon": -34.9117321,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920095,
+        "lat": -8.0210382,
+        "lon": -34.9116297,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920089,
+        "lat": -8.0186216,
+        "lon": -34.9111428,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920090,
+        "lat": -8.0182165,
+        "lon": -34.9121272,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920055,
+        "lat": -8.0171064,
+        "lon": -34.9133702,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920049,
+        "lat": -8.0152567,
+        "lon": -34.9140109,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920047,
+        "lat": -8.0138629,
+        "lon": -34.9148566,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920043,
+        "lat": -8.0109841,
+        "lon": -34.9143423,
+        "role": "stop"
+      },
+      {
+        "ref": 7223274058,
+        "lat": -8.0082154,
+        "lon": -34.9126518,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920031,
+        "lat": -8.0076435,
+        "lon": -34.9116235,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920023,
+        "lat": -8.008078,
+        "lon": -34.9094477,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920021,
+        "lat": -8.0081471,
+        "lon": -34.9079163,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920014,
+        "lat": -8.0085604,
+        "lon": -34.9049928,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920013,
+        "lat": -8.0079119,
+        "lon": -34.9032419,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920000,
+        "lat": -8.00609,
+        "lon": -34.9008538,
+        "role": "stop"
+      },
+      {
+        "ref": 2633210623,
+        "lat": -8.0044186,
+        "lon": -34.8996477,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919990,
+        "lat": -8.0036543,
+        "lon": -34.9010737,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919988,
+        "lat": -8.0013306,
+        "lon": -34.9026006,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919986,
+        "lat": -7.9999494,
+        "lon": -34.9049455,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919964,
+        "lat": -7.9988805,
+        "lon": -34.907069,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919928,
+        "lat": -7.9962304,
+        "lon": -34.9092376,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919927,
+        "lat": -7.9945291,
+        "lon": -34.9107939,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919922,
+        "lat": -7.9928597,
+        "lon": -34.9126842,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919919,
+        "lat": -7.9915175,
+        "lon": -34.9138238,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919885,
+        "lat": -7.9891855,
+        "lon": -34.9163399,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919843,
+        "lat": -7.9882387,
+        "lon": -34.9179853,
+        "role": "stop"
+      },
+      {
+        "ref": 7201250122,
+        "lat": -7.987924,
+        "lon": -34.9192963,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919800,
+        "lat": -7.9872336,
+        "lon": -34.9182976,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919758,
+        "lat": -7.9861622,
+        "lon": -34.9173134,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919746,
+        "lat": -7.9849385,
+        "lon": -34.9173202,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920157,
+        "lat": -7.9807298,
+        "lon": -34.917414,
+        "role": "stop"
+      },
+      {
+        "ref": 7993919374,
+        "lat": -7.9795474,
+        "lon": -34.9182047,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 13435737,
+    "ref": "C110",
+    "nome": "Afogados - Campo Grande",
+    "operador": "Sistema Complementar do Recife",
+    "rede": "GRCT",
+    "de": "Largo da Paz",
+    "para": "Shopping Tacaruna",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 9248457542,
+        "lat": -8.0307191,
+        "lon": -34.9015766,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173336,
+        "lat": -8.0802308,
+        "lon": -34.9061817,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173339,
+        "lat": -8.0765216,
+        "lon": -34.9072252,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173340,
+        "lat": -8.0768114,
+        "lon": -34.9103873,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173224,
+        "lat": -8.0765161,
+        "lon": -34.9128418,
+        "role": "stop"
+      },
+      {
+        "ref": 7972173342,
+        "lat": -8.0758474,
+        "lon": -34.9150949,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457528,
+        "lat": -8.0738279,
+        "lon": -34.9183278,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457529,
+        "lat": -8.0719532,
+        "lon": -34.9181629,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457530,
+        "lat": -8.0700135,
+        "lon": -34.91776,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457531,
+        "lat": -8.0675131,
+        "lon": -34.9172143,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457532,
+        "lat": -8.0655121,
+        "lon": -34.9151558,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457533,
+        "lat": -8.0662662,
+        "lon": -34.9137453,
+        "role": "stop"
+      },
+      {
+        "ref": 1541498327,
+        "lat": -8.0657296,
+        "lon": -34.9125593,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457534,
+        "lat": -8.063593,
+        "lon": -34.9119425,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457535,
+        "lat": -8.0604068,
+        "lon": -34.9110509,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457537,
+        "lat": -8.0575464,
+        "lon": -34.9102484,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423685,
+        "lat": -8.0565441,
+        "lon": -34.9070329,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423687,
+        "lat": -8.0527833,
+        "lon": -34.9067451,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423695,
+        "lat": -8.0510094,
+        "lon": -34.9065899,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423696,
+        "lat": -8.0484207,
+        "lon": -34.9064089,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920137,
+        "lat": -8.0468527,
+        "lon": -34.9067757,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920138,
+        "lat": -8.0443507,
+        "lon": -34.9075984,
+        "role": "stop"
+      },
+      {
+        "ref": 7993920114,
+        "lat": -8.0414179,
+        "lon": -34.9085627,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457538,
+        "lat": -8.0376002,
+        "lon": -34.9100587,
+        "role": "stop"
+      },
+      {
+        "ref": 7244705220,
+        "lat": -8.0378439,
+        "lon": -34.9109955,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457539,
+        "lat": -8.0374801,
+        "lon": -34.9129411,
+        "role": "stop"
+      },
+      {
+        "ref": 7160757799,
+        "lat": -8.036588,
+        "lon": -34.9140767,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209702,
+        "lat": -8.034065,
+        "lon": -34.9111434,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209766,
+        "lat": -8.0335892,
+        "lon": -34.9097925,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457540,
+        "lat": -8.0336376,
+        "lon": -34.9047472,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457541,
+        "lat": -8.0328288,
+        "lon": -34.9029521,
+        "role": "stop"
+      },
+      {
+        "ref": 2633209761,
+        "lat": -8.0277687,
+        "lon": -34.8987027,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457545,
+        "lat": -8.0272997,
+        "lon": -34.898258,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457546,
+        "lat": -8.0250517,
+        "lon": -34.897408,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457547,
+        "lat": -8.0234671,
+        "lon": -34.8954447,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457548,
+        "lat": -8.025764,
+        "lon": -34.8933596,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457549,
+        "lat": -8.0295958,
+        "lon": -34.8925826,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457550,
+        "lat": -8.03194,
+        "lon": -34.8921148,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457551,
+        "lat": -8.0340237,
+        "lon": -34.8916851,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457552,
+        "lat": -8.0348258,
+        "lon": -34.8922954,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423731,
+        "lat": -8.0360614,
+        "lon": -34.8891269,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423732,
+        "lat": -8.0340591,
+        "lon": -34.8860936,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423733,
+        "lat": -8.0332506,
+        "lon": -34.8849359,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423734,
+        "lat": -8.0323,
+        "lon": -34.8828761,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423742,
+        "lat": -8.0323307,
+        "lon": -34.8796062,
+        "role": "stop"
+      },
+      {
+        "ref": 7624423763,
+        "lat": -8.0320094,
+        "lon": -34.8773309,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457553,
+        "lat": -8.0325768,
+        "lon": -34.8757622,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457554,
+        "lat": -8.0342698,
+        "lon": -34.8768476,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457555,
+        "lat": -8.0352396,
+        "lon": -34.880093,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457556,
+        "lat": -8.0359827,
+        "lon": -34.8802892,
+        "role": "stop"
+      },
+      {
+        "ref": 1417435794,
+        "lat": -8.0387441,
+        "lon": -34.87927,
+        "role": "stop"
+      },
+      {
+        "ref": 9248457557,
+        "lat": -8.0394538,
+        "lon": -34.8778463,
+        "role": "stop"
+      },
+      {
+        "ref": 1746157586,
+        "lat": -8.0379023,
+        "lon": -34.8745112,
+        "role": "stop"
+      }
+    ]
+  },
+  {
+    "id": 20132801,
+    "ref": "23",
+    "nome": "Feira Nova para Recife",
+    "operador": "Expresso 1002",
+    "rede": "Intermunicipal Pernambuco",
+    "de": "Feira Nova",
+    "para": "Desembarque - Terminal Intermunicipal Dantas Barreto",
+    "tipo": "linha_onibus",
+    "paradas": [
+      {
+        "ref": 13481568490,
+        "lat": -7.947972,
+        "lon": -35.3857643,
+        "role": "stop"
+      },
+      {
+        "ref": 13481568491,
+        "lat": -7.9470432,
+        "lon": -35.3850914,
+        "role": "stop"
+      },
+      {
+        "ref": 13481568494,
+        "lat": -7.9472743,
+        "lon": -35.3794038,
+        "role": "stop"
+      },
+      {
+        "ref": 13481568495,
+        "lat": -7.9555138,
+        "lon": -35.3467313,
+        "role": "stop"
+      },
+      {
+        "ref": 13481568496,
+        "lat": -7.9270395,
+        "lon": -35.2967244,
+        "role": "stop"
+      },
+      {
+        "ref": 13481568497,
+        "lat": -7.927486,
+        "lon": -35.2955206,
+        "role": "stop"
+      },
+      {
+        "ref": 13481602817,
+        "lat": -7.9342194,
+        "lon": -35.2920482,
+        "role": "stop"
+      },
+      {
+        "ref": 13481602818,
+        "lat": -7.9337776,
+        "lon": -35.2888853,
+        "role": "stop"
+      },
+      {
+        "ref": 13481602819,
+        "lat": -7.9345963,
+        "lon": -35.2822283,
+        "role": "stop"
+      },
+      {
+        "ref": 13481602820,
+        "lat": -7.8527814,
+        "lon": -35.2521301,
+        "role": "stop"
+      },
+      {
+        "ref": 7212809659,
+        "lat": -7.8442134,
+        "lon": -35.2600041,
+        "role": "stop"
+      }
+    ]
+  }
+]

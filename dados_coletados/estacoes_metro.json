@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1418921322,
+    "lat": -8.1098917,
+    "lon": -34.9090843,
+    "nome": "Antônio Falcão",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 2633213465,
+    "lat": -8.0685068,
+    "lon": -34.8843115,
+    "nome": "TI Recife",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 3691433952,
+    "lat": -8.063168,
+    "lon": -34.8708123,
+    "nome": "Sem nome",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 3807598931,
+    "lat": -8.0661033,
+    "lon": -34.8702605,
+    "nome": "Pier do Parque de Esculturas",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 5279929237,
+    "lat": -8.0691737,
+    "lon": -34.8853656,
+    "nome": "Recife",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 5279929241,
+    "lat": -8.0772839,
+    "lon": -34.9062953,
+    "nome": "Afogados",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 5279929242,
+    "lat": -8.0732099,
+    "lon": -34.8953949,
+    "nome": "Joana Bezerra",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 5280081384,
+    "lat": -8.0902049,
+    "lon": -34.9075129,
+    "nome": "Imbiribeira",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 9429536083,
+    "lat": -8.0630438,
+    "lon": -34.8797767,
+    "nome": "Guararapes",
+    "operador": "Mobi-PE;GRCT;Urbana PE",
+    "linha": "",
+    "tipo": "estacao_metro"
+  },
+  {
+    "id": 12152291029,
+    "lat": -8.0637068,
+    "lon": -34.8710941,
+    "nome": "Pier do Catamaran Tours",
+    "operador": "",
+    "linha": "",
+    "tipo": "estacao_metro"
+  }
+]
