@@ -2,6 +2,8 @@
 
 Este projeto implementa um sistema de otimização de rotas de transporte público multimodal para a cidade do Recife, focando na conexão entre **Cinema São Luiz (Boa Vista)** e **Faculdade Nova Roma (Boa Viagem)**.
 
+Integrantes: Adrian Modesto, Artur Lima, Celso Gabriel, Gustavo dos Santos e Lucas Pereira
+
 ## Estrutura do Projeto
 
 ### Scripts Principais

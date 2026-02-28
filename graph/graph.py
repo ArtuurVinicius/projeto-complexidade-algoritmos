@@ -1,5 +1,7 @@
 import pickle
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')  # Usar backend não-interativo
 import networkx as nx
 import numpy as np
 from matplotlib.patches import Patch
@@ -76,7 +78,8 @@ def plot_graph_basic():
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig('transport_graph_viz.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    plt.close()
+    print('Visualização salva: transport_graph_viz.png')
 
 def plot_route_example():
     """Visualizar uma rota específica encontrada pelos algoritmos."""
@@ -174,7 +177,8 @@ def plot_route_example():
         plt.grid(True, alpha=0.3)
         plt.tight_layout()
         plt.savefig('route_visualization.png', dpi=300, bbox_inches='tight')
-        plt.show()
+        plt.close()
+        print('Visualização da rota salva: route_visualization.png')
         
         # Imprimir detalhes da rota
         print("\nDetalhes da rota:")
@@ -240,13 +244,41 @@ def analyze_graph_stats():
     print(f"Grau mínimo: {np.min(degrees)}")
 
 if __name__ == "__main__":
-    print("Analisando grafo...")
-    analyze_graph_stats()
+    import sys
     
-    print("\nGerando visualização completa...")
-    plot_graph_basic()
-    
-    print("\nGerando visualização da rota...")
-    plot_route_example()
-    
-    print("Visualizações salvas: transport_graph_viz.png, route_visualization.png")
+    # Verificar argumentos da linha de comando
+    if len(sys.argv) > 1:
+        action = sys.argv[1]
+        if action == "stats":
+            analyze_graph_stats()
+        elif action == "basic":
+            plot_graph_basic()
+        elif action == "route":
+            plot_route_example()
+        elif action == "all":
+            print("Analisando grafo...")
+            analyze_graph_stats()
+            print("\nGerando visualização completa...")
+            plot_graph_basic()
+            print("\nGerando visualização da rota...")
+            plot_route_example()
+        else:
+            print("Uso: python graph.py [stats|basic|route|all]")
+    else:
+        # Executar tudo por padrão
+        print("Analisando grafo...")
+        analyze_graph_stats()
+        
+        print("\nGerando visualização completa...")
+        plot_graph_basic()
+        
+        print("\nGerando visualização da rota...")
+        plot_route_example()
+        
+        print("\n=== ARQUIVOS GERADOS ===")
+        print("- transport_graph_viz.png: Visualização completa do grafo")
+        print("- route_visualization.png: Rota ótima Cinema São Luiz → Faculdade Nova Roma")
+        print("\nPara executar partes específicas:")
+        print("  python graph.py stats  - Apenas estatísticas")
+        print("  python graph.py basic  - Visualização completa")
+        print("  python graph.py route  - Visualização da rota")
