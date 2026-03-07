@@ -77,6 +77,53 @@ def aplicar_cenario(G, cenario):
             data["cost"] = 0.0
         else:
             data["cost"] = data.get("cost", 0.0)
+        # --- Introduzir variabilidade aleatória em tempo, custo e risco ---
+        # jitter de tempo dependente de fluxo e clima
+        # limites base
+        low_jitter = 0.95
+        high_jitter = 1.05
+        if cenario["fluxo"] == "alto":
+            high_jitter = 1.2
+        elif cenario["fluxo"] == "muito_alto":
+            high_jitter = 1.4
+        if cenario["clima"] == "chuva":
+            high_jitter = max(high_jitter, 1.3)
+        # incidentes aumentam variação
+        if cenario["incidentes"]:
+            high_jitter = max(high_jitter, 1.5)
+        # aplicar jitter multiplicativo
+        jitter = random.uniform(low_jitter, high_jitter)
+        data["time_s"] = data.get("time_s", 0.0) * jitter
+
+        # custo: atribuir custo base por modo + aleatoriedade
+        base_cost = data.get("cost", 0.0)
+        if data.get("mode") in ("bus", "rail"):
+            # simular tarifa/tempo de espera como custo entre 0.5 e 2.5
+            base_cost += random.uniform(0.5, 2.5)
+        elif data.get("mode") == "walk":
+            # custo de caminhada baixo (esforço), opcionalmente 0
+            base_cost += random.uniform(0.0, 0.2)
+        else:
+            base_cost += random.uniform(0.0, 0.5)
+        # se cenário indica custo baixo, reduzir
+        if cenario.get("custo") == "baixo":
+            base_cost *= 0.5
+        data["cost"] = round(base_cost, 3)
+
+        # risco: depender da segurança e de características da via
+        if cenario.get("seguranca") == "baixa":
+            risk_base = random.uniform(0.4, 1.0)
+        elif cenario.get("seguranca") == "normal":
+            risk_base = random.uniform(0.05, 0.4)
+        else:
+            risk_base = random.uniform(0.0, 0.1)
+        # aumentar risco se modo for walk em área insegura
+        if data.get("mode") == "walk" and cenario.get("seguranca") == "baixa":
+            risk_base = max(risk_base, random.uniform(0.6, 1.0))
+        # incidentes específicos podem elevar risco
+        if "via_principal" in cenario.get("incidentes", []) and data.get("tipo_via") == "primary":
+            risk_base = min(1.0, risk_base + random.uniform(0.2, 0.6))
+        data["risk"] = round(risk_base, 3)
     return G_sim
 
 # =============================

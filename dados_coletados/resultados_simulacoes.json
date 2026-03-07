@@ -1,632 +1,632 @@
 [
   {
-    "cenario": "Quinta, 11h, nublado, fluxo muito_alto, seg alta, custo baixo, inc via_principal",
+    "cenario": "Quarta, 15h, chuva, fluxo muito_alto, seg baixa, custo baixo, inc evento_esportivo",
     "dijkstra": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 34.68883828740242,
+      "custo": 11.583,
+      "risco": 13.241999999999999,
+      "n_nos": 22
     },
     "astar": {
-      "tempo_min": 37.07854749327684,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 48.1746392180573,
+      "custo": 10.718,
+      "risco": 13.15,
+      "n_nos": 22
     },
     "multiobjetivo": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 37.48813535110971,
+      "custo": 10.887,
+      "risco": 12.364,
+      "n_nos": 21
+    }
+  },
+  {
+    "cenario": "Sabado, 22h, chuva, fluxo baixo, seg alta, custo normal, inc evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 19.6428297919157,
+      "custo": 24.502,
+      "risco": 0.913,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 26.44625738053021,
+      "custo": 24.467,
+      "risco": 1.166,
+      "n_nos": 26
+    },
+    "multiobjetivo": {
+      "tempo_min": 19.6428297919157,
+      "custo": 24.502,
+      "risco": 0.913,
+      "n_nos": 24
+    }
+  },
+  {
+    "cenario": "Quarta, 11h, nublado, fluxo muito_alto, seg normal, custo normal, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 34.48703032317417,
+      "custo": 18.819,
+      "risco": 3.121,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 45.15917671778495,
+      "custo": 21.397,
+      "risco": 4.359,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 35.2925697188764,
+      "custo": 18.737,
+      "risco": 2.584,
+      "n_nos": 21
+    }
+  },
+  {
+    "cenario": "Sexta, 8h, nublado, fluxo alto, seg alta, custo normal, inc nenhum",
+    "dijkstra": {
+      "tempo_min": 25.5703951169918,
+      "custo": 22.993,
+      "risco": 0.951,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 31.719073982099992,
+      "custo": 21.85,
+      "risco": 1.042,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 25.66573955810999,
+      "custo": 21.514,
+      "risco": 0.74,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Quinta, 13h, nublado, fluxo alto, seg alta, custo normal, inc evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 29.150189151376498,
+      "custo": 18.96,
+      "risco": 0.972,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 34.74126288194122,
+      "custo": 23.142,
+      "risco": 0.589,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 29.3049215897109,
+      "custo": 18.44,
+      "risco": 0.831,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Sabado, 19h, nublado, fluxo muito_alto, seg alta, custo normal, inc nenhum",
+    "dijkstra": {
+      "tempo_min": 32.50097177818999,
+      "custo": 23.669,
+      "risco": 0.84,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 42.17046669622492,
+      "custo": 25.238,
+      "risco": 0.953,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 32.50097177818999,
+      "custo": 23.669,
+      "risco": 0.84,
+      "n_nos": 24
+    }
+  },
+  {
+    "cenario": "Terca, 8h, chuva, fluxo medio, seg alta, custo normal, inc evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 22.77908501427679,
+      "custo": 23.669,
+      "risco": 0.907,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 28.604795205440777,
+      "custo": 25.449,
+      "risco": 0.786,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 22.91972133866025,
+      "custo": 21.55,
+      "risco": 0.835,
       "n_nos": 23
     }
   },
   {
-    "cenario": "Sexta, 11h, sol, fluxo alto, seg normal, custo normal, inc via_principal",
+    "cenario": "Sabado, 20h, chuva, fluxo alto, seg normal, custo normal, inc via_principal,evento_esportivo",
     "dijkstra": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 29.88986591406035,
+      "custo": 21.598,
+      "risco": 4.247,
+      "n_nos": 22
     },
     "astar": {
-      "tempo_min": 30.126319838287433,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 37.41961221412839,
+      "custo": 25.339000000000002,
+      "risco": 5.048,
+      "n_nos": 24
     },
     "multiobjetivo": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 30.610316963805687,
+      "custo": 20.639,
+      "risco": 4.015,
       "n_nos": 23
     }
   },
   {
-    "cenario": "Sexta, 21h, chuva, fluxo medio, seg normal, custo baixo, inc via_principal,evento_esportivo",
+    "cenario": "Terca, 18h, chuva, fluxo medio, seg normal, custo baixo, inc via_principal",
     "dijkstra": {
-      "tempo_min": 19.63325080239002,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 23.19586055888566,
+      "custo": 10.639,
+      "risco": 4.471,
       "n_nos": 23
     },
     "astar": {
-      "tempo_min": 25.484638757811062,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 29.895488153531925,
+      "custo": 11.883,
+      "risco": 4.622,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 24.783114052275913,
+      "custo": 9.478,
+      "risco": 3.782,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Sabado, 13h, sol, fluxo medio, seg normal, custo baixo, inc evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 21.02114393650061,
+      "custo": 12.484,
+      "risco": 3.4859999999999998,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 27.61570583397447,
+      "custo": 12.236,
+      "risco": 4.04,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 22.943673781168187,
+      "custo": 9.641,
+      "risco": 2.388,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Segunda, 19h, nublado, fluxo medio, seg normal, custo normal, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 21.571769459713533,
+      "custo": 20.913,
+      "risco": 4.026,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 27.313922266835917,
+      "custo": 20.179000000000002,
+      "risco": 4.915,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 23.930354408465142,
+      "custo": 15.031,
+      "risco": 2.818,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Sexta, 15h, nublado, fluxo muito_alto, seg normal, custo baixo, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 34.14682306671808,
+      "custo": 10.444,
+      "risco": 3.893,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 42.328320415697725,
+      "custo": 11.02,
+      "risco": 5.081,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 35.7653916273636,
+      "custo": 8.724,
+      "risco": 3.03,
+      "n_nos": 20
+    }
+  },
+  {
+    "cenario": "Segunda, 15h, chuva, fluxo muito_alto, seg alta, custo normal, inc evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 38.028789538245384,
+      "custo": 21.012,
+      "risco": 0.706,
+      "n_nos": 21
+    },
+    "astar": {
+      "tempo_min": 47.023056522407316,
+      "custo": 27.567,
+      "risco": 0.8079999999999999,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 38.028789538245384,
+      "custo": 21.012,
+      "risco": 0.706,
+      "n_nos": 21
+    }
+  },
+  {
+    "cenario": "Terca, 20h, nublado, fluxo muito_alto, seg normal, custo baixo, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 35.63641877473652,
+      "custo": 10.839,
+      "risco": 3.678,
+      "n_nos": 21
+    },
+    "astar": {
+      "tempo_min": 44.0835737952329,
+      "custo": 12.619,
+      "risco": 4.776,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 37.598173975136206,
+      "custo": 8.901,
+      "risco": 2.955,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Domingo, 14h, sol, fluxo muito_alto, seg baixa, custo baixo, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 33.30371517326147,
+      "custo": 9.59,
+      "risco": 15.949,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 42.94969763536168,
+      "custo": 9.996,
+      "risco": 16.933,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 36.31967608413601,
+      "custo": 9.152,
+      "risco": 11.886,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Sabado, 6h, sol, fluxo muito_alto, seg baixa, custo normal, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 37.17857900756305,
+      "custo": 27.263,
+      "risco": 15.68,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 42.593630155813315,
+      "custo": 21.939,
+      "risco": 16.374,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 39.72184503569159,
+      "custo": 22.12,
+      "risco": 10.953,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Sexta, 6h, chuva, fluxo medio, seg normal, custo baixo, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 21.67885723635,
+      "custo": 12.214,
+      "risco": 3.601,
+      "n_nos": 21
+    },
+    "astar": {
+      "tempo_min": 30.127521129657534,
+      "custo": 11.346,
+      "risco": 4.303,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 22.983493764310918,
+      "custo": 9.132,
+      "risco": 2.8,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Quinta, 17h, nublado, fluxo baixo, seg alta, custo normal, inc nenhum",
+    "dijkstra": {
+      "tempo_min": 16.73426593451613,
+      "custo": 19.644,
+      "risco": 0.828,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 22.9376524834122,
+      "custo": 23.637,
+      "risco": 1.003,
       "n_nos": 23
     },
     "multiobjetivo": {
-      "tempo_min": 19.63325080239002,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 16.834984073489597,
+      "custo": 19.704,
+      "risco": 0.771,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Quarta, 14h, sol, fluxo medio, seg normal, custo baixo, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 21.93142281011533,
+      "custo": 10.564,
+      "risco": 3.9619999999999997,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 25.962456417041686,
+      "custo": 11.443999999999999,
+      "risco": 4.456,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 23.102847736306195,
+      "custo": 8.854,
+      "risco": 3.13,
+      "n_nos": 20
+    }
+  },
+  {
+    "cenario": "Quarta, 9h, sol, fluxo alto, seg alta, custo baixo, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 26.972335448675796,
+      "custo": 9.833,
+      "risco": 1.031,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 34.51249341122669,
+      "custo": 10.515,
+      "risco": 0.889,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 26.972335448675796,
+      "custo": 9.833,
+      "risco": 1.031,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Quarta, 7h, sol, fluxo muito_alto, seg alta, custo normal, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 34.55530081703988,
+      "custo": 17.075,
+      "risco": 0.928,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 41.41813055071548,
+      "custo": 22.476,
+      "risco": 1.063,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 34.55530081703988,
+      "custo": 17.075,
+      "risco": 0.928,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Quarta, 19h, nublado, fluxo alto, seg baixa, custo baixo, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 27.552168555503,
+      "custo": 8.634,
+      "risco": 12.024,
+      "n_nos": 21
+    },
+    "astar": {
+      "tempo_min": 35.253923621893364,
+      "custo": 9.824,
+      "risco": 14.658,
+      "n_nos": 23
+    },
+    "multiobjetivo": {
+      "tempo_min": 29.377585995199844,
+      "custo": 6.546,
+      "risco": 10.745,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Quarta, 20h, nublado, fluxo muito_alto, seg normal, custo baixo, inc nenhum",
+    "dijkstra": {
+      "tempo_min": 35.00435872747439,
+      "custo": 10.053,
+      "risco": 4.155,
+      "n_nos": 25
+    },
+    "astar": {
+      "tempo_min": 42.70289604504638,
+      "custo": 11.066,
+      "risco": 4.824,
+      "n_nos": 25
+    },
+    "multiobjetivo": {
+      "tempo_min": 36.18885542187211,
+      "custo": 8.571,
+      "risco": 3.304,
+      "n_nos": 22
+    }
+  },
+  {
+    "cenario": "Domingo, 10h, sol, fluxo medio, seg baixa, custo baixo, inc nenhum",
+    "dijkstra": {
+      "tempo_min": 18.400031066317414,
+      "custo": 9.95,
+      "risco": 14.477,
+      "n_nos": 22
+    },
+    "astar": {
+      "tempo_min": 24.70537523491464,
+      "custo": 9.756,
+      "risco": 14.677,
+      "n_nos": 23
+    },
+    "multiobjetivo": {
+      "tempo_min": 21.645155552484734,
+      "custo": 8.13,
+      "risco": 10.257,
+      "n_nos": 17
+    }
+  },
+  {
+    "cenario": "Quarta, 21h, sol, fluxo alto, seg normal, custo normal, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 29.62987266742913,
+      "custo": 22.098,
+      "risco": 3.945,
+      "n_nos": 24
+    },
+    "astar": {
+      "tempo_min": 34.6794760369752,
+      "custo": 21.777,
+      "risco": 4.64,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 30.631602067723012,
+      "custo": 15.746,
+      "risco": 3.4,
+      "n_nos": 19
+    }
+  },
+  {
+    "cenario": "Sexta, 14h, chuva, fluxo baixo, seg normal, custo baixo, inc via_principal,evento_esportivo",
+    "dijkstra": {
+      "tempo_min": 20.646966603910457,
+      "custo": 10.257,
+      "risco": 4.703,
+      "n_nos": 25
+    },
+    "astar": {
+      "tempo_min": 27.08281466242656,
+      "custo": 11.77,
+      "risco": 5.113,
+      "n_nos": 24
+    },
+    "multiobjetivo": {
+      "tempo_min": 22.393846123753057,
+      "custo": 9.667,
+      "risco": 3.144,
+      "n_nos": 21
+    }
+  },
+  {
+    "cenario": "Sabado, 18h, chuva, fluxo medio, seg normal, custo normal, inc via_principal",
+    "dijkstra": {
+      "tempo_min": 23.923665521814304,
+      "custo": 23.405,
+      "risco": 4.1450000000000005,
+      "n_nos": 25
+    },
+    "astar": {
+      "tempo_min": 29.529803490462733,
+      "custo": 24.477999999999998,
+      "risco": 5.075,
+      "n_nos": 26
+    },
+    "multiobjetivo": {
+      "tempo_min": 24.1397230299077,
+      "custo": 19.28,
+      "risco": 3.098,
       "n_nos": 23
     }
   },
   {
-    "cenario": "Sabado, 17h, sol, fluxo alto, seg normal, custo normal, inc via_principal",
+    "cenario": "Terca, 15h, chuva, fluxo baixo, seg alta, custo normal, inc via_principal",
     "dijkstra": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 21.36001608417077,
+      "custo": 19.19,
+      "risco": 0.867,
+      "n_nos": 22
     },
     "astar": {
-      "tempo_min": 30.126319838287433,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 25.694213872743173,
+      "custo": 20.244,
+      "risco": 0.895,
+      "n_nos": 26
     },
     "multiobjetivo": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 21.484712604181198,
+      "custo": 19.28,
+      "risco": 0.808,
       "n_nos": 23
     }
   },
   {
-    "cenario": "Sexta, 10h, chuva, fluxo medio, seg baixa, custo normal, inc evento_esportivo",
+    "cenario": "Sexta, 10h, nublado, fluxo baixo, seg baixa, custo normal, inc via_principal",
     "dijkstra": {
-      "tempo_min": 19.63325080239002,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 19.47709057131864,
+      "custo": 25.352,
+      "risco": 14.52,
       "n_nos": 23
     },
     "astar": {
-      "tempo_min": 25.484638757811062,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 26.922897884803042,
+      "custo": 23.202,
+      "risco": 16.543,
+      "n_nos": 24
     },
     "multiobjetivo": {
-      "tempo_min": 19.63325080239002,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 22.4149780125249,
+      "custo": 15.678,
+      "risco": 11.281,
+      "n_nos": 19
     }
   },
   {
-    "cenario": "Sabado, 6h, nublado, fluxo alto, seg baixa, custo baixo, inc via_principal,evento_esportivo",
+    "cenario": "Sexta, 9h, chuva, fluxo baixo, seg alta, custo baixo, inc via_principal",
     "dijkstra": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 19.76195196250462,
+      "custo": 10.957,
+      "risco": 0.839,
+      "n_nos": 25
     },
     "astar": {
-      "tempo_min": 30.126319838287433,
-      "custo": 0.0,
-      "risco": 0.0,
+      "tempo_min": 25.83770906153359,
+      "custo": 10.78,
+      "risco": 0.921,
       "n_nos": 23
     },
     "multiobjetivo": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quinta, 16h, nublado, fluxo muito_alto, seg baixa, custo baixo, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 37.07854749327684,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 15h, nublado, fluxo muito_alto, seg alta, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 37.07854749327684,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quinta, 10h, chuva, fluxo alto, seg normal, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 33.130030385154384,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 7h, chuva, fluxo baixo, seg normal, custo baixo, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 22.936174882029956,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 21h, sol, fluxo baixo, seg normal, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 17h, nublado, fluxo alto, seg normal, custo baixo, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 30.126319838287433,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Domingo, 13h, chuva, fluxo baixo, seg alta, custo normal, inc via_principal",
-    "dijkstra": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 22.936174882029956,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quarta, 19h, sol, fluxo baixo, seg alta, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Domingo, 12h, chuva, fluxo alto, seg baixa, custo baixo, inc nenhum",
-    "dijkstra": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 33.130030385154384,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Domingo, 12h, sol, fluxo medio, seg normal, custo normal, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 18.62972574248555,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 23.174092183298022,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 18.62972574248555,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 6h, chuva, fluxo baixo, seg normal, custo normal, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 22.936174882029956,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 17.669925722151017,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quarta, 10h, chuva, fluxo muito_alto, seg alta, custo normal, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 31.413201283824034,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 40.77542201249771,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 31.413201283824034,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 13h, nublado, fluxo baixo, seg baixa, custo baixo, inc via_principal",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Terca, 17h, sol, fluxo baixo, seg normal, custo baixo, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Terca, 22h, sol, fluxo baixo, seg normal, custo normal, inc via_principal",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 20h, nublado, fluxo muito_alto, seg baixa, custo baixo, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 37.07854749327684,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quarta, 6h, sol, fluxo baixo, seg alta, custo normal, inc via_principal",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Segunda, 7h, chuva, fluxo alto, seg normal, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 33.130030385154384,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 25.523226043107027,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sexta, 19h, nublado, fluxo medio, seg alta, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 18.62972574248555,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 23.174092183298022,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 18.62972574248555,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Terca, 21h, chuva, fluxo muito_alto, seg baixa, custo normal, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 31.413201283824034,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 40.77542201249771,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 31.413201283824034,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sexta, 18h, nublado, fluxo baixo, seg alta, custo normal, inc evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Quarta, 9h, nublado, fluxo muito_alto, seg normal, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 37.07854749327684,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 29.807561187976884,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Sabado, 19h, nublado, fluxo alto, seg alta, custo normal, inc via_principal,evento_esportivo",
-    "dijkstra": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 30.126319838287433,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 24.218643465231217,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    }
-  },
-  {
-    "cenario": "Segunda, 19h, sol, fluxo baixo, seg normal, custo baixo, inc via_principal",
-    "dijkstra": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "astar": {
-      "tempo_min": 24.552584037826765,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
-    },
-    "multiobjetivo": {
-      "tempo_min": 16.766753168236995,
-      "custo": 0.0,
-      "risco": 0.0,
-      "n_nos": 23
+      "tempo_min": 19.80783328037231,
+      "custo": 9.925,
+      "risco": 0.64,
+      "n_nos": 22
     }
   }
 ]
