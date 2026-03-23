@@ -1,26 +1,54 @@
+import json
 import pickle
-import matplotlib.pyplot as plt
+import sys
+from pathlib import Path
+
 import matplotlib
 matplotlib.use('Agg')  # Usar backend não-interativo
+import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 from matplotlib.patches import Patch
 
-# Carregar o grafo
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
+from best_routes import build_road_graph, generate_three_best_routes
+
+GRAPH_PATH = BASE_DIR / 'transport_graph.gpickle'
+BEST_ROUTES_PATH = BASE_DIR / 'dados_coletados' / 'best_routes.json'
+
 def load_graph():
-    with open('../transport_graph.gpickle', 'rb') as f:
+    """Carrega o grafo multimodal salvo em transport_graph.gpickle."""
+    with open(GRAPH_PATH, 'rb') as f:
         return pickle.load(f)
+
+
+def load_best_routes(force_regenerate=False):
+    """Carrega as 3 melhores rotas e gera o arquivo se necessario."""
+    if force_regenerate or not BEST_ROUTES_PATH.exists():
+        return generate_three_best_routes(output_path=str(BEST_ROUTES_PATH))
+
+    with open(BEST_ROUTES_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def _extract_positions(G):
+    pos = {}
+    for node, data in G.nodes(data=True):
+        lat = data.get('lat')
+        lon = data.get('lon')
+        if lat is not None and lon is not None:
+            pos[node] = (lon, lat)
+    return pos
 
 def plot_graph_basic():
     """Visualização básica do grafo usando matplotlib."""
     G = load_graph()
     
     # Extrair coordenadas para posicionamento
-    pos = {}
-    for node, data in G.nodes(data=True):
-        if data.get('lat') is not None and data.get('lon') is not None:
-            # Inverter lon/lat para x/y e ajustar escala
-            pos[node] = (data['lon'], data['lat'])
+    pos = _extract_positions(G)
     
     plt.figure(figsize=(15, 12))
     
@@ -77,128 +105,161 @@ def plot_graph_basic():
     
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('transport_graph_viz.png', dpi=300, bbox_inches='tight')
+    plt.savefig(BASE_DIR / 'transport_graph_viz.png', dpi=300, bbox_inches='tight')
     plt.close()
     print('Visualização salva: transport_graph_viz.png')
 
-def plot_route_example():
-    """Visualizar uma rota específica encontrada pelos algoritmos."""
+
+def _plot_public_route(best_routes):
+    """Plota a melhor rota de transporte publico sobre o grafo multimodal."""
     G = load_graph()
-    
-    # Encontrar nós mais próximos da origem e destino
-    def find_nearest_node(lat, lon):
-        best = None
-        best_d = float('inf')
-        for n, d in G.nodes(data=True):
-            if d.get('lat') is None:
-                continue
-            dist = ((lat - d['lat'])**2 + (lon - d['lon'])**2)**0.5
-            if dist < best_d:
-                best_d = dist
-                best = n
-        return best
-    
-    origin_node = find_nearest_node(-8.0631, -34.8771)  # Cinema São Luiz
-    dest_node = find_nearest_node(-8.1197, -34.9014)    # Faculdade Nova Roma
-    
-    # Calcular rota usando Dijkstra
-    try:
-        path = nx.shortest_path(G, origin_node, dest_node, weight='time_s')
-        print(f"Rota encontrada: {len(path)} nós")
-        
-        # Extrair coordenadas
-        pos = {}
-        for node, data in G.nodes(data=True):
-            if data.get('lat') is not None and data.get('lon') is not None:
-                pos[node] = (data['lon'], data['lat'])
-        
-        plt.figure(figsize=(12, 10))
-        
-        # Desenhar todo o grafo (background)
-        nx.draw_networkx_edges(G, pos, edge_color='lightgray', width=0.3, alpha=0.3)
-        nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=10, alpha=0.5)
-        
-        # Destacar a rota
-        path_edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
-        path_nodes = path
-        
-        # Colorir arestas da rota por modo
-        for u, v in path_edges:
-            edge_data = G[u][v]
-            # Pegar primeira aresta se houver múltiplas
-            edge_attrs = list(edge_data.values())[0] if edge_data else {}
-            mode = edge_attrs.get('mode', 'unknown')
-            
-            if mode == 'walk':
-                color = 'green'
-                width = 3
-            elif mode == 'bus':
-                color = 'blue'
-                width = 4
-            elif mode == 'rail':
-                color = 'red'
-                width = 5
-            else:
-                color = 'black'
-                width = 3
-                
-            nx.draw_networkx_edges(G, pos, edgelist=[(u, v)], 
-                                 edge_color=color, width=width, alpha=0.8)
-        
-        # Destacar nós da rota
-        nx.draw_networkx_nodes(G, pos, nodelist=path_nodes,
-                             node_color='yellow', node_size=50, alpha=0.9)
-        
-        # Marcar origem e destino
-        nx.draw_networkx_nodes(G, pos, nodelist=[origin_node],
-                             node_color='green', node_size=150, alpha=1.0)
-        nx.draw_networkx_nodes(G, pos, nodelist=[dest_node],
-                             node_color='red', node_size=150, alpha=1.0)
-        
-        plt.title(f'Rota Ótima: Cinema São Luiz → Faculdade Nova Roma\n({len(path)} paradas)', 
-                  fontsize=14, fontweight='bold')
-        plt.xlabel('Longitude')
-        plt.ylabel('Latitude')
-        
-        # Legenda para a rota
-        legend_elements = [
-            plt.Line2D([0], [0], color='green', linewidth=3, label='Caminhada'),
-            plt.Line2D([0], [0], color='blue', linewidth=4, label='Ônibus'),
-            plt.Line2D([0], [0], color='red', linewidth=5, label='Metrô'),
-            plt.Line2D([0], [0], marker='o', color='green', linestyle='None', 
-                      markersize=8, label='Origem'),
-            plt.Line2D([0], [0], marker='o', color='red', linestyle='None', 
-                      markersize=8, label='Destino'),
-            plt.Line2D([0], [0], marker='o', color='yellow', linestyle='None', 
-                      markersize=6, label='Rota')
-        ]
-        plt.legend(handles=legend_elements, loc='best')
-        
-        plt.grid(True, alpha=0.3)
-        plt.tight_layout()
-        plt.savefig('route_visualization.png', dpi=300, bbox_inches='tight')
-        plt.close()
-        print('Visualização da rota salva: route_visualization.png')
-        
-        # Imprimir detalhes da rota
-        print("\nDetalhes da rota:")
-        total_time = 0
-        for i in range(len(path)-1):
-            u, v = path[i], path[i+1]
-            edge_data = G[u][v]
-            edge_attrs = list(edge_data.values())[0] if edge_data else {}
-            
-            mode = edge_attrs.get('mode', 'unknown')
-            time_s = edge_attrs.get('time_s', 0)
-            distance_m = edge_attrs.get('distance_m', 0)
-            total_time += time_s
-            
-            print(f"  {i+1:2d}. {mode:8s} - {time_s/60:5.1f} min, {distance_m:6.0f} m")
-        
-        print(f"\nTempo total: {total_time/60:.1f} minutos")
-        
-    except nx.NetworkXNoPath:
-        print("Nenhuma rota encontrada entre origem e destino!")
+    route = next((r for r in best_routes['routes'] if r['modal'] == 'transporte_publico'), None)
+    if route is None:
+        raise ValueError('Rota de transporte publico nao encontrada em best_routes.json')
+
+    path = route.get('path', [])
+    if len(path) < 2:
+        raise ValueError('Rota de transporte publico invalida (menos de 2 nos)')
+
+    pos = _extract_positions(G)
+    plt.figure(figsize=(12, 10))
+
+    # Background do grafo completo
+    nx.draw_networkx_edges(G, pos, edge_color='lightgray', width=0.25, alpha=0.25)
+    nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=8, alpha=0.25)
+
+    # Arestas da rota com cor por modal
+    for u, v in zip(path, path[1:]):
+        if not G.has_edge(u, v):
+            continue
+        edge_attrs = min(G[u][v].values(), key=lambda x: x.get('time_s', float('inf')))
+        mode = edge_attrs.get('mode', 'unknown')
+        if mode == 'walk':
+            color = 'green'
+            width = 2.0
+        elif mode == 'bus':
+            color = 'blue'
+            width = 3.2
+        elif mode == 'rail':
+            color = 'red'
+            width = 3.6
+        else:
+            color = 'black'
+            width = 2.0
+        nx.draw_networkx_edges(G, pos, edgelist=[(u, v)], edge_color=color, width=width, alpha=0.9)
+
+    nx.draw_networkx_nodes(G, pos, nodelist=path, node_color='yellow', node_size=35, alpha=0.9)
+    nx.draw_networkx_nodes(G, pos, nodelist=[path[0]], node_color='green', node_size=140, alpha=1.0)
+    nx.draw_networkx_nodes(G, pos, nodelist=[path[-1]], node_color='red', node_size=140, alpha=1.0)
+
+    plt.title(
+        'Melhor Rota - Transporte Público\n'
+        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km",
+        fontsize=14,
+        fontweight='bold',
+    )
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
+    plt.grid(True, alpha=0.3)
+
+    legend_elements = [
+        plt.Line2D([0], [0], color='green', linewidth=2, label='Caminhada'),
+        plt.Line2D([0], [0], color='blue', linewidth=3, label='Ônibus'),
+        plt.Line2D([0], [0], color='red', linewidth=3, label='Metrô'),
+        plt.Line2D([0], [0], marker='o', color='green', linestyle='None', markersize=8, label='Origem'),
+        plt.Line2D([0], [0], marker='o', color='red', linestyle='None', markersize=8, label='Destino'),
+    ]
+    plt.legend(handles=legend_elements, loc='best')
+
+    out = BASE_DIR / 'best_route_transporte_publico.png'
+    plt.tight_layout()
+    plt.savefig(out, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f'Visualização salva: {out.name}')
+
+
+def _plot_road_route(best_routes, modal):
+    """Plota a melhor rota de carro ou moto sobre o grafo viario."""
+    route = next((r for r in best_routes['routes'] if r['modal'] == modal), None)
+    if route is None:
+        raise ValueError(f'Rota de {modal} nao encontrada em best_routes.json')
+
+    path = route.get('path', [])
+    if len(path) < 2:
+        raise ValueError(f'Rota de {modal} invalida (menos de 2 nos)')
+
+    road_modal = 'car' if modal == 'carro_proprio' else 'moto'
+    G = build_road_graph(road_modal)
+    pos = _extract_positions(G)
+
+    plt.figure(figsize=(12, 10))
+
+    # Limita o fundo ao entorno da rota para evitar renderizacao muito pesada
+    route_lats = [G.nodes[n]['lat'] for n in path if n in G.nodes]
+    route_lons = [G.nodes[n]['lon'] for n in path if n in G.nodes]
+    margin = 0.01
+    min_lat = min(route_lats) - margin
+    max_lat = max(route_lats) + margin
+    min_lon = min(route_lons) - margin
+    max_lon = max(route_lons) + margin
+
+    def _inside_bbox(node_id):
+        nd = G.nodes[node_id]
+        return min_lat <= nd['lat'] <= max_lat and min_lon <= nd['lon'] <= max_lon
+
+    bg_edges = [(u, v) for u, v in G.edges() if _inside_bbox(u) and _inside_bbox(v)]
+
+    # Background viario (recorte local)
+    nx.draw_networkx_edges(G, pos, edgelist=bg_edges, edge_color='lightgray', width=0.2, alpha=0.22)
+
+    # Rota destacada
+    route_edges = [(u, v) for u, v in zip(path, path[1:]) if G.has_edge(u, v)]
+    route_color = 'darkorange' if modal == 'carro_proprio' else 'purple'
+    nx.draw_networkx_edges(G, pos, edgelist=route_edges, edge_color=route_color, width=2.8, alpha=0.95)
+    nx.draw_networkx_nodes(G, pos, nodelist=path, node_color='yellow', node_size=15, alpha=0.8)
+    nx.draw_networkx_nodes(G, pos, nodelist=[path[0]], node_color='green', node_size=120, alpha=1.0)
+    nx.draw_networkx_nodes(G, pos, nodelist=[path[-1]], node_color='red', node_size=120, alpha=1.0)
+
+    titulo_modal = 'Carro Próprio' if modal == 'carro_proprio' else 'Moto'
+    plt.title(
+        f'Melhor Rota - {titulo_modal}\n'
+        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km",
+        fontsize=14,
+        fontweight='bold',
+    )
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
+    plt.grid(True, alpha=0.3)
+    plt.xlim(min_lon, max_lon)
+    plt.ylim(min_lat, max_lat)
+
+    legend_elements = [
+        plt.Line2D([0], [0], color='lightgray', linewidth=2, alpha=0.5, label='Rede viária'),
+        plt.Line2D([0], [0], color=route_color, linewidth=3, label='Melhor rota'),
+        plt.Line2D([0], [0], marker='o', color='green', linestyle='None', markersize=8, label='Origem'),
+        plt.Line2D([0], [0], marker='o', color='red', linestyle='None', markersize=8, label='Destino'),
+    ]
+    plt.legend(handles=legend_elements, loc='upper right')
+
+    suffix = 'carro' if modal == 'carro_proprio' else 'moto'
+    out = BASE_DIR / f'best_route_{suffix}.png'
+    plt.tight_layout()
+    plt.savefig(out, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f'Visualização salva: {out.name}')
+
+
+def plot_best_routes(force_regenerate=False):
+    """Gera os 3 grafos das melhores rotas: publico, carro e moto."""
+    best_routes = load_best_routes(force_regenerate=force_regenerate)
+    _plot_public_route(best_routes)
+    _plot_road_route(best_routes, modal='carro_proprio')
+    _plot_road_route(best_routes, modal='moto')
+
+def plot_route_example():
+    """Compatibilidade: plota a rota otima de transporte publico."""
+    best_routes = load_best_routes(force_regenerate=False)
+    _plot_public_route(best_routes)
 
 def analyze_graph_stats():
     """Analisar estatísticas do grafo."""
@@ -244,8 +305,6 @@ def analyze_graph_stats():
     print(f"Grau mínimo: {np.min(degrees)}")
 
 if __name__ == "__main__":
-    import sys
-    
     # Verificar argumentos da linha de comando
     if len(sys.argv) > 1:
         action = sys.argv[1]
@@ -255,15 +314,28 @@ if __name__ == "__main__":
             plot_graph_basic()
         elif action == "route":
             plot_route_example()
+        elif action == "route_public":
+            best_routes = load_best_routes(force_regenerate=False)
+            _plot_public_route(best_routes)
+        elif action == "route_car":
+            best_routes = load_best_routes(force_regenerate=False)
+            _plot_road_route(best_routes, modal='carro_proprio')
+        elif action == "route_moto":
+            best_routes = load_best_routes(force_regenerate=False)
+            _plot_road_route(best_routes, modal='moto')
+        elif action == "routes":
+            plot_best_routes(force_regenerate=False)
+        elif action == "routes_refresh":
+            plot_best_routes(force_regenerate=True)
         elif action == "all":
             print("Analisando grafo...")
             analyze_graph_stats()
             print("\nGerando visualização completa...")
             plot_graph_basic()
-            print("\nGerando visualização da rota...")
-            plot_route_example()
+            print("\nGerando visualizações das melhores rotas...")
+            plot_best_routes(force_regenerate=False)
         else:
-            print("Uso: python graph.py [stats|basic|route|all]")
+            print("Uso: python graph.py [stats|basic|route|route_public|route_car|route_moto|routes|routes_refresh|all]")
     else:
         # Executar tudo por padrão
         print("Analisando grafo...")
@@ -272,13 +344,15 @@ if __name__ == "__main__":
         print("\nGerando visualização completa...")
         plot_graph_basic()
         
-        print("\nGerando visualização da rota...")
-        plot_route_example()
+        print("\nGerando visualizações das melhores rotas...")
+        plot_best_routes(force_regenerate=False)
         
         print("\n=== ARQUIVOS GERADOS ===")
         print("- transport_graph_viz.png: Visualização completa do grafo")
-        print("- route_visualization.png: Rota ótima Cinema São Luiz → Faculdade Nova Roma")
+        print("- best_route_transporte_publico.png: Melhor rota de transporte público")
+        print("- best_route_carro.png: Melhor rota de carro próprio")
+        print("- best_route_moto.png: Melhor rota de moto")
         print("\nPara executar partes específicas:")
         print("  python graph.py stats  - Apenas estatísticas")
         print("  python graph.py basic  - Visualização completa")
-        print("  python graph.py route  - Visualização da rota")
+        print("  python graph.py routes - Todas as 3 melhores rotas")

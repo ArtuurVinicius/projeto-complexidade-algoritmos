@@ -9,7 +9,6 @@ try:
 except ImportError:
     raise ImportError("networkx is required: pip install networkx")
 
-# Optional fast spatial index
 try:
     from scipy.spatial import cKDTree
     _HAVE_KDTREE = True

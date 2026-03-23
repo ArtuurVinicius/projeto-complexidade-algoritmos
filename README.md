@@ -11,6 +11,7 @@ Integrantes: Adrian Modesto, Artur Lima, Celso Gabriel, Gustavo dos Santos e Luc
 - **`main.py`** - Coleta dados de transporte via OpenStreetMap (Overpass API)
 - **`build_graph.py`** - Constrói grafo multimodal a partir dos dados coletados
 - **`routing_examples.py`** - Exemplos de algoritmos de roteamento (Dijkstra, A*, multiobjetivo)
+- **`best_routes.py`** - Gera 3 melhores rotas: transporte público, carro próprio e moto
 
 ### Dados Coletados (`dados_coletados/`)
 
@@ -56,6 +57,16 @@ Integrantes: Adrian Modesto, Artur Lima, Celso Gabriel, Gustavo dos Santos e Luc
 - Dijkstra (tempo mínimo): ~18.6 min, 23 nós
 - A* com heurística haversine: 23 nós  
 - Peso composto (multiobjetivo): 23 nós
+
+### 5. Gerar as 3 Melhores Rotas (Transporte Público, Carro e Moto)
+
+```bash
+.\venv\Scripts\python.exe best_routes.py
+```
+
+**Saída**:
+- Cria `dados_coletados/best_routes.json`
+- Exibe no terminal o resumo das 3 rotas com tempo, distância e número de nós
 
 ## Modelagem do Grafo
 
