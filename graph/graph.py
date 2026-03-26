@@ -19,6 +19,81 @@ from best_routes import build_road_graph, generate_three_best_routes
 GRAPH_PATH = BASE_DIR / 'transport_graph.gpickle'
 BEST_ROUTES_PATH = BASE_DIR / 'dados_coletados' / 'best_routes.json'
 
+CONGESTION_COLORS = {
+    'livre': '#2ca02c',
+    'moderado': '#f1c40f',
+    'intenso': '#ff7f0e',
+    'severo': '#d62728',
+}
+
+
+def _edge_speed_ms(edge_attrs):
+    dist = edge_attrs.get('distance_m', 0.0)
+    time_s = edge_attrs.get('time_s', 0.0)
+    if not time_s or time_s <= 0:
+        return 0.0
+    return dist / time_s
+
+
+def _road_free_flow_speed_ms(edge_attrs, road_modal):
+    road_type = str(edge_attrs.get('road_type', '')).lower()
+    base_by_type = {
+        'trunk': 16.7,
+        'primary': 13.9,
+        'secondary': 11.1,
+        'tertiary': 9.7,
+        'residential': 8.3,
+    }
+    speed = base_by_type.get(road_type, 10.0)
+    if road_modal == 'moto':
+        speed *= 1.1
+    return speed
+
+
+def _public_free_flow_speed_ms(edge_attrs):
+    mode = edge_attrs.get('mode', 'unknown')
+    return {
+        'walk': 1.4,
+        'bus': 8.0,
+        'rail': 15.0,
+    }.get(mode, 5.0)
+
+
+def _congestion_level(speed_ratio):
+    # speed_ratio = velocidade observada / velocidade livre
+    if speed_ratio >= 0.85:
+        return 'livre'
+    if speed_ratio >= 0.65:
+        return 'moderado'
+    if speed_ratio >= 0.40:
+        return 'intenso'
+    return 'severo'
+
+
+def _road_edge_congestion(edge_attrs, road_modal):
+    observed = _edge_speed_ms(edge_attrs)
+    free_flow = _road_free_flow_speed_ms(edge_attrs, road_modal)
+    ratio = observed / free_flow if free_flow > 0 else 0.0
+    ratio = max(0.0, min(1.2, ratio))
+    level = _congestion_level(ratio)
+    return level, CONGESTION_COLORS[level], ratio
+
+
+def _public_edge_congestion(edge_attrs):
+    observed = _edge_speed_ms(edge_attrs)
+    free_flow = _public_free_flow_speed_ms(edge_attrs)
+    ratio = observed / free_flow if free_flow > 0 else 0.0
+    ratio = max(0.0, min(1.2, ratio))
+    level = _congestion_level(ratio)
+    return level, CONGESTION_COLORS[level], ratio
+
+
+def _congestion_share(levels):
+    if not levels:
+        return 0.0
+    congested = sum(1 for lv in levels if lv in ('intenso', 'severo'))
+    return 100.0 * congested / len(levels)
+
 def load_graph():
     """Carrega o grafo multimodal salvo em transport_graph.gpickle."""
     with open(GRAPH_PATH, 'rb') as f:
@@ -128,25 +203,36 @@ def _plot_public_route(best_routes):
     nx.draw_networkx_edges(G, pos, edge_color='lightgray', width=0.25, alpha=0.25)
     nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=8, alpha=0.25)
 
-    # Arestas da rota com cor por modal
+    # Arestas da rota com cor por congestionamento e estilo por modal
+    congestion_levels = []
     for u, v in zip(path, path[1:]):
         if not G.has_edge(u, v):
             continue
         edge_attrs = min(G[u][v].values(), key=lambda x: x.get('time_s', float('inf')))
         mode = edge_attrs.get('mode', 'unknown')
+        level, color, _ = _public_edge_congestion(edge_attrs)
+        congestion_levels.append(level)
         if mode == 'walk':
-            color = 'green'
             width = 2.0
+            style = '--'
         elif mode == 'bus':
-            color = 'blue'
             width = 3.2
+            style = '-'
         elif mode == 'rail':
-            color = 'red'
             width = 3.6
+            style = '-.'
         else:
-            color = 'black'
             width = 2.0
-        nx.draw_networkx_edges(G, pos, edgelist=[(u, v)], edge_color=color, width=width, alpha=0.9)
+            style = '-'
+        nx.draw_networkx_edges(
+            G,
+            pos,
+            edgelist=[(u, v)],
+            edge_color=color,
+            width=width,
+            style=style,
+            alpha=0.95,
+        )
 
     nx.draw_networkx_nodes(G, pos, nodelist=path, node_color='yellow', node_size=35, alpha=0.9)
     nx.draw_networkx_nodes(G, pos, nodelist=[path[0]], node_color='green', node_size=140, alpha=1.0)
@@ -154,7 +240,8 @@ def _plot_public_route(best_routes):
 
     plt.title(
         'Melhor Rota - Transporte Público\n'
-        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km",
+        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km"
+        f" | Trechos congestionados: {_congestion_share(congestion_levels):.0f}%",
         fontsize=14,
         fontweight='bold',
     )
@@ -163,9 +250,13 @@ def _plot_public_route(best_routes):
     plt.grid(True, alpha=0.3)
 
     legend_elements = [
-        plt.Line2D([0], [0], color='green', linewidth=2, label='Caminhada'),
-        plt.Line2D([0], [0], color='blue', linewidth=3, label='Ônibus'),
-        plt.Line2D([0], [0], color='red', linewidth=3, label='Metrô'),
+        plt.Line2D([0], [0], color='black', linewidth=2, linestyle='--', label='Caminhada'),
+        plt.Line2D([0], [0], color='black', linewidth=3, linestyle='-', label='Ônibus'),
+        plt.Line2D([0], [0], color='black', linewidth=3, linestyle='-.', label='Metrô'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['livre'], linewidth=3, label='Congestionamento: livre'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['moderado'], linewidth=3, label='Congestionamento: moderado'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['intenso'], linewidth=3, label='Congestionamento: intenso'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['severo'], linewidth=3, label='Congestionamento: severo'),
         plt.Line2D([0], [0], marker='o', color='green', linestyle='None', markersize=8, label='Origem'),
         plt.Line2D([0], [0], marker='o', color='red', linestyle='None', markersize=8, label='Destino'),
     ]
@@ -212,10 +303,15 @@ def _plot_road_route(best_routes, modal):
     # Background viario (recorte local)
     nx.draw_networkx_edges(G, pos, edgelist=bg_edges, edge_color='lightgray', width=0.2, alpha=0.22)
 
-    # Rota destacada
+    # Rota destacada com cores de congestionamento por segmento
     route_edges = [(u, v) for u, v in zip(path, path[1:]) if G.has_edge(u, v)]
-    route_color = 'darkorange' if modal == 'carro_proprio' else 'purple'
-    nx.draw_networkx_edges(G, pos, edgelist=route_edges, edge_color=route_color, width=2.8, alpha=0.95)
+    congestion_levels = []
+    for u, v in route_edges:
+        edge_attrs = G[u][v]
+        level, color, _ = _road_edge_congestion(edge_attrs, road_modal=road_modal)
+        congestion_levels.append(level)
+        nx.draw_networkx_edges(G, pos, edgelist=[(u, v)], edge_color=color, width=3.0, alpha=0.96)
+
     nx.draw_networkx_nodes(G, pos, nodelist=path, node_color='yellow', node_size=15, alpha=0.8)
     nx.draw_networkx_nodes(G, pos, nodelist=[path[0]], node_color='green', node_size=120, alpha=1.0)
     nx.draw_networkx_nodes(G, pos, nodelist=[path[-1]], node_color='red', node_size=120, alpha=1.0)
@@ -223,7 +319,8 @@ def _plot_road_route(best_routes, modal):
     titulo_modal = 'Carro Próprio' if modal == 'carro_proprio' else 'Moto'
     plt.title(
         f'Melhor Rota - {titulo_modal}\n'
-        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km",
+        f"Tempo: {route['time_s'] / 60:.1f} min | Distância: {route['distance_m'] / 1000:.2f} km"
+        f" | Trechos congestionados: {_congestion_share(congestion_levels):.0f}%",
         fontsize=14,
         fontweight='bold',
     )
@@ -235,7 +332,10 @@ def _plot_road_route(best_routes, modal):
 
     legend_elements = [
         plt.Line2D([0], [0], color='lightgray', linewidth=2, alpha=0.5, label='Rede viária'),
-        plt.Line2D([0], [0], color=route_color, linewidth=3, label='Melhor rota'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['livre'], linewidth=3, label='Congestionamento: livre'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['moderado'], linewidth=3, label='Congestionamento: moderado'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['intenso'], linewidth=3, label='Congestionamento: intenso'),
+        plt.Line2D([0], [0], color=CONGESTION_COLORS['severo'], linewidth=3, label='Congestionamento: severo'),
         plt.Line2D([0], [0], marker='o', color='green', linestyle='None', markersize=8, label='Origem'),
         plt.Line2D([0], [0], marker='o', color='red', linestyle='None', markersize=8, label='Destino'),
     ]
