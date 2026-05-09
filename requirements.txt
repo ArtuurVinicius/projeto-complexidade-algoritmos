@@ -2,3 +2,5 @@ networkx
 scipy
 matplotlib
 numpy
+fastapi
+uvicorn[standard]
