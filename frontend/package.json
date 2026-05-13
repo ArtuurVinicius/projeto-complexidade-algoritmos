@@ -1,0 +1,18 @@
+{
+  "name": "routing-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para sistema de rotas",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
