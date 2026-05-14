@@ -1,0 +1,15 @@
+{
+  "name": "algoritmos-graph-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API for graph building from the algoritmos dataset",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
