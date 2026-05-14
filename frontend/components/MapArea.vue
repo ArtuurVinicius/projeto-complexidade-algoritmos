@@ -1,7 +1,7 @@
 <template>
   <div class="map-area">
     <div class="map-placeholder">
-      <p>📍 Área reservada para o mapa</p>
+      <p>Área reservada para o mapa</p>
       <p class="subtitle">Em desenvolvimento</p>
     </div>
   </div>
