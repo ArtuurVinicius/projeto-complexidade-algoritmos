@@ -1,41 +1,38 @@
 <template>
-  <div class="map-area">
-    <div class="map-placeholder">
-      <p>Área reservada para o mapa</p>
-      <p class="subtitle">Em desenvolvimento</p>
-    </div>
-  </div>
+  <div id="map"></div>
 </template>
 
 <script setup>
-// Componente reservado para integração futura do mapa
+import { onMounted } from 'vue'
+import L from 'leaflet'
+
+import 'leaflet/dist/leaflet.css'
+
+onMounted(() => {
+
+  // Coordenadas Recife
+  const map = L.map('map').setView([-8.0476, -34.8770], 13)
+
+  // Tiles do OpenStreetMap
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map)
+
+  // Marcador exemplo
+  L.marker([-8.0476, -34.8770])
+    .addTo(map)
+    .bindPopup('Recife')
+    .openPopup()
+})
 </script>
 
 <style scoped>
+#map {
+  width: 100%;
+  height: 100%;
+}
+
 .map-area {
   flex: 1;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.map-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  color: #bdbdbd;
-}
-
-.map-placeholder p {
-  margin: 0;
-  font-size: 18px;
-}
-
-.map-placeholder .subtitle {
-  font-size: 14px;
-  color: #d0d0d0;
 }
 </style>
