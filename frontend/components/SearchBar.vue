@@ -1,5 +1,5 @@
 <template>
-  <div class="search-header" :class="{ dark: isDark }">
+  <div class="search-header">
 
     <div class="route-inputs">
 
@@ -37,13 +37,6 @@
         <span class="mdi mdi-map-search-outline"></span>
       </button>
 
-      <button class="theme-btn" @click="toggleTheme">
-        <span
-          class="mdi"
-          :class="isDark ? 'mdi-weather-sunny' : 'mdi-weather-night'"
-        ></span>
-      </button>
-
     </div>
 
     <div class="filters">
@@ -68,8 +61,6 @@ import { ref } from 'vue'
 
 const origin = ref('Cinema São Luis')
 const destination = ref('Faculdade Nova Roma')
-
-const isDark = ref(false)
 
 const selectedFilters = ref([])
 
@@ -100,10 +91,6 @@ const swapLocations = () => {
   destination.value = temp
 }
 
-const toggleTheme = () => {
-  isDark.value = !isDark.value
-}
-
 const toggleFilter = (filter) => {
   const index = selectedFilters.value.indexOf(filter)
 
@@ -121,11 +108,11 @@ const getFilterIcon = (filter) => {
 
 <style scoped>
 .search-header {
-  background-color: white;
+  background-color: #1e1e1e;
 
   padding: 15px;
 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
   display: flex;
   flex-direction: column;
@@ -150,15 +137,16 @@ const getFilterIcon = (filter) => {
 .input-group label {
   font-size: 12px;
   font-weight: 600;
-  color: #202124;
-
-  transition: color 0.3s;
+  color: white;
 }
 
 .route-input {
   padding: 10px 12px;
 
-  border: 1px solid #ddd;
+  background-color: #2c2c2c;
+  color: white;
+
+  border: 1px solid #555;
   border-radius: 4px;
 
   font-size: 14px;
@@ -166,6 +154,10 @@ const getFilterIcon = (filter) => {
   outline: none;
 
   transition: all 0.3s;
+}
+
+.route-input::placeholder {
+  color: #aaa;
 }
 
 .route-input:focus {
@@ -179,9 +171,10 @@ const getFilterIcon = (filter) => {
 .swap-button button {
   padding: 10px 12px;
 
-  background-color: #abd5ff;
+  background-color: #2c2c2c;
+  color: white;
 
-  border: 1px solid #ddd;
+  border: 1px solid #555;
   border-radius: 4px;
 
   cursor: pointer;
@@ -192,7 +185,7 @@ const getFilterIcon = (filter) => {
 }
 
 .swap-button button:hover {
-  background-color: #e8e8e8;
+  background-color: #3a3a3a;
   border-color: #4285f4;
 }
 
@@ -216,26 +209,6 @@ const getFilterIcon = (filter) => {
   background-color: #3367d6;
 }
 
-.theme-btn {
-  padding: 12px;
-
-  background-color: #222;
-  color: white;
-
-  border: none;
-  border-radius: 4px;
-
-  cursor: pointer;
-
-  font-size: 18px;
-
-  transition: all 0.3s;
-}
-
-.theme-btn:hover {
-  opacity: 0.9;
-}
-
 .filters {
   display: flex;
   gap: 8px;
@@ -249,91 +222,32 @@ const getFilterIcon = (filter) => {
 
   padding: 8px 16px;
 
-  background-color: #abd5ff;
+  background-color: #2c2c2c;
+  color: white;
 
-  border: 1px solid #ddd;
+  border: 1px solid #555;
   border-radius: 20px;
 
   cursor: pointer;
 
   font-size: 13px;
-  color: black;
 
   transition: all 0.3s;
 
   white-space: nowrap;
 }
 
+.filter-btn .mdi {
+  font-size: 16px;
+}
+
 .filter-btn:hover {
-  background-color: #e8e8e8;
+  background-color: #3a3a3a;
   border-color: #4285f4;
 }
 
 .filter-btn.active {
   background-color: #4285f4;
-  color: white;
   border-color: #4285f4;
-}
-
-.filter-btn .mdi {
-  font-size: 16px;
-}
-
-.filter-btn.active .mdi {
-  color: white;
-}
-
-/* DARK MODE */
-
-.dark {
-  background-color: #1e1e1e;
-}
-
-.dark .input-group label {
-  color: white;
-}
-
-.dark .route-input {
-  background-color: #2c2c2c;
-  color: white;
-  border-color: #555;
-}
-
-.dark .route-input::placeholder {
-  color: #aaa;
-}
-
-.dark .swap-button button {
-  background-color: #2c2c2c;
-  color: white;
-  border-color: #555;
-}
-
-.dark .swap-button button:hover {
-  background-color: #3a3a3a;
-}
-
-.dark .filter-btn {
-  background-color: #2c2c2c;
-  color: white;
-  border-color: #555;
-}
-
-.dark .filter-btn .mdi {
-  color: white;
-}
-
-.dark .filter-btn:hover {
-  background-color: #3a3a3a;
-}
-
-.dark .filter-btn.active {
-  background-color: #4285f4;
-  border-color: #4285f4;
-}
-
-.dark .theme-btn {
-  background-color: #f5f5f5;
-  color: black;
 }
 </style>
