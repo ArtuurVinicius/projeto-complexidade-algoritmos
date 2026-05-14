@@ -14,6 +14,8 @@ const {
 
 const router = express.Router();
 
+const osrmService = require('../services/osrmService');
+
 /*
 Endpoints:
 - GET /api/graph/transport
@@ -58,6 +60,59 @@ router.get('/road', (req, res, next) => {
     const graph = getRoadGraphJson({ modal, rebuild });
 
     res.json({ status: 'ok', data: graph });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// Get geometry between two existing nodes using OSRM
+router.get('/route', async (req, res, next) => {
+  try {
+    const from = req.query.from;
+    const to = req.query.to;
+    const profile = req.query.profile ? String(req.query.profile) : 'driving';
+    if (!from || !to) {
+      return res.status(400).json({ status: 'error', message: 'from and to query parameters are required' });
+    }
+
+    // get graph nodes
+    const graph = getTransportGraphJson();
+    const nodes = graph.nodes.reduce((acc, n) => { acc[n.id] = n; return acc; }, {});
+    const nFrom = nodes[from];
+    const nTo = nodes[to];
+    if (!nFrom) return res.status(404).json({ status: 'error', message: `from node not found: ${from}` });
+    if (!nTo) return res.status(404).json({ status: 'error', message: `to node not found: ${to}` });
+
+    const geom = await osrmService.getRouteGeojson([nFrom.lon, nFrom.lat], [nTo.lon, nTo.lat], profile);
+    res.json({ status: 'ok', data: geom });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// Return geometries for first N transport edges (useful for frontend map overlay)
+router.get('/transport/edges-geo', async (req, res, next) => {
+  try {
+    const limit = req.query.limit ? Number(req.query.limit) : 100;
+    const profile = req.query.profile ? String(req.query.profile) : 'driving';
+    const graph = getTransportGraphJson();
+    const nodesMap = graph.nodes.reduce((acc, n) => { acc[n.id] = n; return acc; }, {});
+    const edges = graph.edges.slice(0, limit);
+
+    const results = [];
+    for (const e of edges) {
+      const a = nodesMap[e.from];
+      const b = nodesMap[e.to];
+      if (!a || !b) continue;
+      try {
+        const geom = await osrmService.getRouteGeojson([a.lon, a.lat], [b.lon, b.lat], profile);
+        results.push({ edge: e, geometry: geom });
+      } catch (err) {
+        // skip failures but keep metadata
+        results.push({ edge: e, error: String(err) });
+      }
+    }
+    res.json({ status: 'ok', data: results });
   } catch (err) {
     next(err);
   }

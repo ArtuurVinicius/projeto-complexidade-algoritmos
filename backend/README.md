@@ -25,6 +25,34 @@ The API reads JSON files from `algoritmos/dados_coletados`. You can override the
 - POST /api/graph/transport/nodes
 - POST /api/graph/transport/edges
 
+### OSRM Integration
+The backend can query an OSRM server to return route geometries between graph nodes. By default it uses the public OSRM endpoint `https://router.project-osrm.org` but you can set a different base with the environment variable `OSRM_URL` (e.g. `http://localhost:5000/route/v1`).
+
+- GET /api/graph/route?from=<nodeId>&to=<nodeId>&profile=driving
+  - Returns OSRM route (distance, duration and GeoJSON LineString) between two transport graph nodes.
+- GET /api/graph/transport/edges-geo?limit=100&profile=driving
+  - Returns geometries for the first `limit` transport edges. Useful for drawing edges directly on a frontend map.
+
+Response format for `edges-geo`:
+```
+{ "status": "ok", "data": [ { "edge": { ... }, "geometry": { distance, duration, geometry: { type: 'LineString', coordinates: [...] } } }, ... ] }
+```
+
+Frontend example (Leaflet) to draw edge geometries:
+```javascript
+fetch('/api/graph/transport/edges-geo?limit=200')
+  .then(r => r.json())
+  .then(json => {
+    if (json.status !== 'ok') throw new Error('API error');
+    json.data.forEach(item => {
+      if (item.geometry && item.geometry.geometry) {
+        const coords = item.geometry.geometry.coordinates.map(c => [c[1], c[0]]); // [lat,lon]
+        L.polyline(coords, { color: 'blue', weight: 2 }).addTo(map);
+      }
+    });
+  });
+```
+
 ### Payloads
 POST /api/graph/transport/nodes
 ```

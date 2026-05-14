@@ -19,6 +19,7 @@ app.use((req, res) => {
 app.use((err, req, res, next) => {
   const status = Number.isInteger(err.statusCode) ? err.statusCode : 500;
   const message = err.message || 'Internal server error';
+  console.error('Express error:', err && err.stack ? err.stack : err);
   res.status(status).json({ status: 'error', message });
 });
 

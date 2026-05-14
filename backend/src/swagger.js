@@ -214,6 +214,35 @@ const swaggerSpec = swaggerJsdoc({
           },
         },
       },
+      '/api/graph/route': {
+        get: {
+          tags: ['Graph'],
+          summary: 'Get OSRM route geometry between two node ids (transport graph)',
+          parameters: [
+            { name: 'from', in: 'query', required: true, schema: { type: 'string' } },
+            { name: 'to', in: 'query', required: true, schema: { type: 'string' } },
+            { name: 'profile', in: 'query', required: false, schema: { type: 'string', example: 'driving' } },
+          ],
+          responses: {
+            200: { description: 'GeoJSON route', content: { 'application/json': { schema: { type: 'object' } } } },
+            400: { description: 'Invalid query', content: { 'application/json': { schema: { $ref: '#/components/schemas/ErrorResponse' } } } },
+            404: { description: 'Node not found', content: { 'application/json': { schema: { $ref: '#/components/schemas/ErrorResponse' } } } },
+          },
+        },
+      },
+      '/api/graph/transport/edges-geo': {
+        get: {
+          tags: ['Graph'],
+          summary: 'Get geometries for first N transport edges using OSRM',
+          parameters: [
+            { name: 'limit', in: 'query', required: false, schema: { type: 'integer', default: 100 } },
+            { name: 'profile', in: 'query', required: false, schema: { type: 'string', example: 'driving' } },
+          ],
+          responses: {
+            200: { description: 'List of edges with geometry', content: { 'application/json': { schema: { type: 'object' } } } },
+          },
+        },
+      },
     },
     components: {
       schemas: {

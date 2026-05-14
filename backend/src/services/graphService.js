@@ -403,4 +403,6 @@ module.exports = {
   getRoadGraphJson,
   addTransportNode,
   addTransportEdge,
+  // exported for advanced usages
+  _getTransportGraphState: getTransportGraph,
 };
