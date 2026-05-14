@@ -1,8 +1,11 @@
 <template>
   <div class="search-header">
+
     <div class="route-inputs">
+
       <div class="input-group">
         <label>Origem</label>
+
         <input
           v-model="origin"
           type="text"
@@ -11,11 +14,16 @@
           @keyup.enter="performSearch"
         />
       </div>
+
       <div class="swap-button">
-        <button @click="swapLocations" title="Trocar origem e destino">⇅</button>
+        <button @click="swapLocations" title="Trocar origem e destino">
+          <span class="mdi mdi-swap-horizontal"></span>
+        </button>
       </div>
+
       <div class="input-group">
         <label>Destino</label>
+
         <input
           v-model="destination"
           type="text"
@@ -24,9 +32,13 @@
           @keyup.enter="performSearch"
         />
       </div>
-      <button class="search-btn" @click="performSearch">🔍</button>
+
+      <button class="search-btn" @click="performSearch">
+        <span class="mdi mdi-map-search-outline"></span>
+      </button>
+
     </div>
-    
+
     <div class="filters">
       <button
         v-for="filter in filters"
@@ -35,9 +47,12 @@
         :class="{ active: selectedFilters.includes(filter) }"
         @click="toggleFilter(filter)"
       >
-        {{ getFilterIcon(filter) }} {{ filter }}
+        <span :class="['mdi', getFilterIcon(filter)]"></span>
+
+        {{ filter }}
       </button>
     </div>
+
   </div>
 </template>
 
@@ -46,6 +61,7 @@ import { ref } from 'vue'
 
 const origin = ref('Cinema São Luis')
 const destination = ref('Faculdade Nova Roma')
+
 const selectedFilters = ref([])
 
 const filters = [
@@ -55,15 +71,18 @@ const filters = [
 ]
 
 const filterIcons = {
-  'Transporte público': '🚌',
-  'Carro': '🚗',
-  'Moto': '🏍️'
+  'Transporte público': 'mdi-bus',
+  'Carro': 'mdi-car',
+  'Moto': 'mdi-motorbike'
 }
 
 const emit = defineEmits(['search'])
 
 const performSearch = () => {
-  emit('search', { origin: origin.value, destination: destination.value })
+  emit('search', {
+    origin: origin.value,
+    destination: destination.value
+  })
 }
 
 const swapLocations = () => {
@@ -74,6 +93,7 @@ const swapLocations = () => {
 
 const toggleFilter = (filter) => {
   const index = selectedFilters.value.indexOf(filter)
+
   if (index > -1) {
     selectedFilters.value.splice(index, 1)
   } else {
@@ -82,18 +102,23 @@ const toggleFilter = (filter) => {
 }
 
 const getFilterIcon = (filter) => {
-  return filterIcons[filter] || '📍'
+  return filterIcons[filter] || 'mdi-map-marker'
 }
 </script>
 
 <style scoped>
 .search-header {
-  background-color: white;
+  background-color: #1e1e1e;
+
   padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
   display: flex;
   flex-direction: column;
   gap: 12px;
+
+  transition: all 0.3s;
 }
 
 .route-inputs {
@@ -112,16 +137,27 @@ const getFilterIcon = (filter) => {
 .input-group label {
   font-size: 12px;
   font-weight: 600;
-  color: #202124;
+  color: white;
 }
 
 .route-input {
   padding: 10px 12px;
-  border: 1px solid #ddd;
+
+  background-color: #2c2c2c;
+  color: white;
+
+  border: 1px solid #555;
   border-radius: 4px;
+
   font-size: 14px;
+
   outline: none;
-  transition: border-color 0.3s;
+
+  transition: all 0.3s;
+}
+
+.route-input::placeholder {
+  color: #aaa;
 }
 
 .route-input:focus {
@@ -130,33 +166,43 @@ const getFilterIcon = (filter) => {
 
 .swap-button {
   display: flex;
-  margin-bottom: 0;
 }
 
 .swap-button button {
   padding: 10px 12px;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+
+  background-color: #2c2c2c;
+  color: white;
+
+  border: 1px solid #555;
   border-radius: 4px;
+
   cursor: pointer;
-  font-size: 16px;
+
+  font-size: 18px;
+
   transition: all 0.3s;
 }
 
 .swap-button button:hover {
-  background-color: #e8e8e8;
+  background-color: #3a3a3a;
   border-color: #4285f4;
 }
 
 .search-btn {
   padding: 12px 20px;
+
   background-color: #4285f4;
   color: white;
+
   border: none;
   border-radius: 4px;
+
   cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
+
+  font-size: 18px;
+
+  transition: all 0.3s;
 }
 
 .search-btn:hover {
@@ -170,24 +216,38 @@ const getFilterIcon = (filter) => {
 }
 
 .filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
   padding: 8px 16px;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+
+  background-color: #2c2c2c;
+  color: white;
+
+  border: 1px solid #555;
   border-radius: 20px;
+
   cursor: pointer;
+
   font-size: 13px;
+
   transition: all 0.3s;
+
   white-space: nowrap;
 }
 
+.filter-btn .mdi {
+  font-size: 16px;
+}
+
 .filter-btn:hover {
-  background-color: #e8e8e8;
+  background-color: #3a3a3a;
   border-color: #4285f4;
 }
 
 .filter-btn.active {
   background-color: #4285f4;
-  color: white;
   border-color: #4285f4;
 }
 </style>

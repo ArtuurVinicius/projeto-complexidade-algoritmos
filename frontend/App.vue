@@ -1,11 +1,13 @@
 <template>
-  <div class="container">
-    <search-bar @search="handleSearch" />
-    <div class="main-content">
-      <sidebar :origin="searchRoute.origin" :destination="searchRoute.destination" />
-      <map-area />
+  <v-app>
+    <div class="container">
+      <search-bar @search="handleSearch" />
+      <div class="main-content">
+        <sidebar :origin="searchRoute.origin" :destination="searchRoute.destination" />
+        <map-area />
+      </div>
     </div>
-  </div>
+  </v-app>
 </template>
 
 <script setup>

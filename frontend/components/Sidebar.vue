@@ -3,64 +3,15 @@
     <div class="location-info">
       <div class="route-header">
         <div class="route-item">
-          <span class="route-label">📍 Origem</span>
+          <span class="route-label">Origem</span>
           <p class="route-name">{{ origin || 'Cinema São Luis' }}</p>
         </div>
         <div class="route-divider"></div>
         <div class="route-item">
-          <span class="route-label">🎯 Destino</span>
+          <span class="route-label">Destino</span>
           <p class="route-name">{{ destination || 'Faculdade Nova Roma' }}</p>
         </div>
       </div>
-      
-      <div class="address-details">
-      </div>
-
-      <div class="action-buttons">
-        <button class="action-btn">
-          <span class="icon">🗺️</span>
-          <span>Rotas</span>
-        </button>
-        <button class="action-btn">
-          <span class="icon">💾</span>
-          <span>Salvar</span>
-        </button>
-        <button class="action-btn">
-          <span class="icon">➕</span>
-          <span>Próximo</span>
-        </button>
-        <button class="action-btn">
-          <span class="icon">📱</span>
-          <span>Enviar para smartphone</span>
-        </button>
-      </div>
-
-      <div class="menu-options">
-        <button class="menu-item">
-          <span>✏️</span>
-          <span>Sugerir uma edição em R. de São Jorge, 240 - Recife</span>
-        </button>
-        <button class="menu-item">
-          <span>❤️</span>
-          <span>Adicionar um lugar que está faltando</span>
-        </button>
-        <button class="menu-item">
-          <span>🏢</span>
-          <span>Adicionar sua empresa</span>
-        </button>
-        <button class="menu-item">
-          <span>📍</span>
-          <span>Adicionar marcador</span>
-        </button>
-        <button class="menu-item">
-          <span>📜</span>
-          <span>Seu histórico do Google Maps</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="sidebar-footer">
-      <p>© 2026 Google Maps</p>
     </div>
   </div>
 </template>
