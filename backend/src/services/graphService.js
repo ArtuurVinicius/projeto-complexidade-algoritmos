@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const osrmService = require('./osrmService');
+
 const ROOT_DIR = path.resolve(__dirname, '..', '..', '..');
 const ALG_DIR = process.env.ALGORITMOS_DIR
   ? path.resolve(process.env.ALGORITMOS_DIR)
@@ -361,6 +363,400 @@ function getRoadGraphJson(options = {}) {
   return graphToJson(graph);
 }
 
+function cloneGraphState(graph) {
+  return {
+    type: graph.type,
+    nodes: new Map(graph.nodes),
+    nodeOrder: [...graph.nodeOrder],
+    edges: graph.edges.map((edge) => ({ ...edge })),
+    nextEdgeId: graph.nextEdgeId,
+    meta: { ...graph.meta },
+  };
+}
+
+function addAccessNode(graph, id, location) {
+  if (graph.nodes.has(id)) {
+    return;
+  }
+  graph.nodes.set(id, {
+    id,
+    lat: location.lat,
+    lon: location.lon,
+    name: location.name || '',
+    type: 'access',
+  });
+  graph.nodeOrder.push(id);
+}
+
+function addAccessEdges(graph, accessId, radiusM) {
+  const accessNode = graph.nodes.get(accessId);
+  if (!accessNode) {
+    return;
+  }
+
+  graph.nodes.forEach((node, nodeId) => {
+    if (nodeId === accessId) {
+      return;
+    }
+    const dist = haversine(accessNode.lat, accessNode.lon, node.lat, node.lon);
+    if (dist > radiusM) {
+      return;
+    }
+
+    const timeS = dist / 1.4;
+    addEdge(graph, accessId, nodeId, {
+      mode: 'walk',
+      distance_m: dist,
+      time_s: timeS,
+      cost: 0.0,
+    });
+    addEdge(graph, nodeId, accessId, {
+      mode: 'walk',
+      distance_m: dist,
+      time_s: timeS,
+      cost: 0.0,
+    });
+  });
+}
+
+function getModalSpeedMs(modal) {
+  const defaultKmh = modal === 'moto' ? 36.0 : 30.0;
+  return Math.max(1.0, defaultKmh / 3.6);
+}
+
+function addRoadAccessEdges(graph, accessId, radiusM, modal) {
+  const accessNode = graph.nodes.get(accessId);
+  if (!accessNode) {
+    return;
+  }
+
+  const candidates = [];
+  graph.nodes.forEach((node, nodeId) => {
+    if (nodeId === accessId) {
+      return;
+    }
+    const dist = haversine(accessNode.lat, accessNode.lon, node.lat, node.lon);
+    candidates.push({ id: nodeId, dist });
+  });
+
+  candidates.sort((a, b) => a.dist - b.dist);
+  const withinRadius = candidates.filter((candidate) => candidate.dist <= radiusM);
+  const selected = withinRadius.length > 0 ? withinRadius : candidates;
+  const topCandidates = selected.slice(0, 5);
+  const speedMs = getModalSpeedMs(modal);
+
+  topCandidates.forEach((candidate) => {
+    const timeS = candidate.dist / speedMs;
+    addEdge(graph, accessId, candidate.id, {
+      mode: modal,
+      distance_m: candidate.dist,
+      time_s: timeS,
+      cost: 0.0,
+    });
+    addEdge(graph, candidate.id, accessId, {
+      mode: modal,
+      distance_m: candidate.dist,
+      time_s: timeS,
+      cost: 0.0,
+    });
+  });
+}
+
+class MinHeap {
+  constructor() {
+    this.items = [];
+  }
+
+  push(entry) {
+    this.items.push(entry);
+    this.bubbleUp(this.items.length - 1);
+  }
+
+  pop() {
+    if (this.items.length === 0) {
+      return null;
+    }
+    const top = this.items[0];
+    const last = this.items.pop();
+    if (this.items.length > 0 && last) {
+      this.items[0] = last;
+      this.bubbleDown(0);
+    }
+    return top;
+  }
+
+  bubbleUp(index) {
+    let idx = index;
+    while (idx > 0) {
+      const parent = Math.floor((idx - 1) / 2);
+      if (this.items[parent].dist <= this.items[idx].dist) {
+        break;
+      }
+      [this.items[parent], this.items[idx]] = [this.items[idx], this.items[parent]];
+      idx = parent;
+    }
+  }
+
+  bubbleDown(index) {
+    let idx = index;
+    const length = this.items.length;
+    while (true) {
+      const left = idx * 2 + 1;
+      const right = idx * 2 + 2;
+      let smallest = idx;
+
+      if (left < length && this.items[left].dist < this.items[smallest].dist) {
+        smallest = left;
+      }
+      if (right < length && this.items[right].dist < this.items[smallest].dist) {
+        smallest = right;
+      }
+      if (smallest === idx) {
+        break;
+      }
+      [this.items[idx], this.items[smallest]] = [this.items[smallest], this.items[idx]];
+      idx = smallest;
+    }
+  }
+
+  isEmpty() {
+    return this.items.length === 0;
+  }
+}
+
+function computeShortestPath(graph, startId, endId) {
+  const adjacency = new Map();
+  graph.edges.forEach((edge) => {
+    if (!adjacency.has(edge.from)) {
+      adjacency.set(edge.from, []);
+    }
+    adjacency.get(edge.from).push(edge);
+  });
+
+  const distances = new Map();
+  const previous = new Map();
+  const heap = new MinHeap();
+
+  distances.set(startId, 0);
+  heap.push({ id: startId, dist: 0 });
+
+  while (!heap.isEmpty()) {
+    const current = heap.pop();
+    if (!current) {
+      break;
+    }
+
+    const knownDist = distances.get(current.id);
+    if (knownDist === undefined || current.dist !== knownDist) {
+      continue;
+    }
+
+    if (current.id === endId) {
+      break;
+    }
+
+    const edges = adjacency.get(current.id) || [];
+    edges.forEach((edge) => {
+      const nextDist = current.dist + edge.time_s;
+      const prevDist = distances.get(edge.to);
+      if (prevDist === undefined || nextDist < prevDist) {
+        distances.set(edge.to, nextDist);
+        previous.set(edge.to, edge);
+        heap.push({ id: edge.to, dist: nextDist });
+      }
+    });
+  }
+
+  if (!distances.has(endId)) {
+    return null;
+  }
+
+  const pathEdges = [];
+  let cursor = endId;
+  while (cursor !== startId) {
+    const edge = previous.get(cursor);
+    if (!edge) {
+      break;
+    }
+    pathEdges.push(edge);
+    cursor = edge.from;
+  }
+
+  if (cursor !== startId) {
+    return null;
+  }
+
+  return pathEdges.reverse();
+}
+
+function getTransportProfile(mode) {
+  if (mode === 'walk') {
+    return 'walking';
+  }
+  return 'driving';
+}
+
+async function getTransportRouteJson(options = {}) {
+  const walkThresholdM = options.walkThresholdM || DEFAULT_WALK_THRESHOLD_M;
+  const baseGraph = getTransportGraph(options);
+  const graph = cloneGraphState(baseGraph);
+  const accessRadiusM = Math.max(walkThresholdM, 600);
+
+  const originId = 'origin:cinema-sao-luiz';
+  const destinationId = 'destination:faculdade-nova-roma';
+
+  addAccessNode(graph, originId, ORIGIN);
+  addAccessNode(graph, destinationId, DESTINATION);
+
+  addAccessEdges(graph, originId, accessRadiusM);
+  addAccessEdges(graph, destinationId, accessRadiusM);
+
+  const pathEdges = computeShortestPath(graph, originId, destinationId);
+  if (!pathEdges) {
+    throw createError(404, 'No route found between origin and destination');
+  }
+
+  const nodesById = graph.nodes;
+  const edges = [];
+  const totals = { distance_m: 0, time_s: 0 };
+
+  for (const edge of pathEdges) {
+    const fromNode = nodesById.get(edge.from);
+    const toNode = nodesById.get(edge.to);
+    let geometry = null;
+
+    if (fromNode && toNode) {
+      const profile = getTransportProfile(edge.mode);
+      try {
+        const osrm = await osrmService.getRouteGeojson(
+          [fromNode.lon, fromNode.lat],
+          [toNode.lon, toNode.lat],
+          profile
+        );
+        geometry = osrm.geometry;
+      } catch (err) {
+        console.warn('OSRM transport edge failed:', err && err.message ? err.message : err);
+      }
+    }
+
+    edges.push({
+      id: edge.id,
+      from: edge.from,
+      to: edge.to,
+      mode: edge.mode,
+      distance_m: edge.distance_m,
+      time_s: edge.time_s,
+      cost: edge.cost || 0.0,
+      route: edge.route || '',
+      from_coord: fromNode ? { lat: fromNode.lat, lon: fromNode.lon } : null,
+      to_coord: toNode ? { lat: toNode.lat, lon: toNode.lon } : null,
+      geometry,
+    });
+
+    totals.distance_m += edge.distance_m || 0;
+    totals.time_s += edge.time_s || 0;
+  }
+
+  return {
+    type: 'transport-route',
+    meta: {
+      origin: ORIGIN,
+      destination: DESTINATION,
+      walkThresholdM,
+      builtAt: new Date().toISOString(),
+    },
+    summary: {
+      edgeCount: edges.length,
+      total_distance_m: totals.distance_m,
+      total_time_s: totals.time_s,
+    },
+    edges,
+  };
+}
+
+async function getRoadRouteJson(options = {}) {
+  const modal = options.modal || 'car';
+  if (modal !== 'car' && modal !== 'moto') {
+    throw createError(400, 'modal must be car or moto');
+  }
+
+  const baseGraph = getRoadGraph(modal, options.rebuild);
+  const graph = cloneGraphState(baseGraph);
+
+  const originId = 'origin:cinema-sao-luiz';
+  const destinationId = 'destination:faculdade-nova-roma';
+  const accessRadiusM = 1000;
+
+  addAccessNode(graph, originId, ORIGIN);
+  addAccessNode(graph, destinationId, DESTINATION);
+
+  addRoadAccessEdges(graph, originId, accessRadiusM, modal);
+  addRoadAccessEdges(graph, destinationId, accessRadiusM, modal);
+
+  const pathEdges = computeShortestPath(graph, originId, destinationId);
+  if (!pathEdges) {
+    throw createError(404, 'No route found between origin and destination');
+  }
+
+  const nodesById = graph.nodes;
+  const edges = pathEdges.map((edge) => {
+    const fromNode = nodesById.get(edge.from);
+    const toNode = nodesById.get(edge.to);
+    return {
+      id: edge.id,
+      from: edge.from,
+      to: edge.to,
+      mode: edge.mode,
+      distance_m: edge.distance_m,
+      time_s: edge.time_s,
+      cost: edge.cost || 0.0,
+      route: edge.route || '',
+      road_type: edge.road_type || '',
+      road_name: edge.road_name || '',
+      from_coord: fromNode ? { lat: fromNode.lat, lon: fromNode.lon } : null,
+      to_coord: toNode ? { lat: toNode.lat, lon: toNode.lon } : null,
+    };
+  });
+
+  const totals = edges.reduce(
+    (acc, edge) => {
+      acc.distance_m += edge.distance_m || 0;
+      acc.time_s += edge.time_s || 0;
+      return acc;
+    },
+    { distance_m: 0, time_s: 0 }
+  );
+
+  let geometry = null;
+  try {
+    const osrm = await osrmService.getRouteGeojson(
+      [ORIGIN.lon, ORIGIN.lat],
+      [DESTINATION.lon, DESTINATION.lat],
+      'driving'
+    );
+    geometry = osrm.geometry;
+  } catch (err) {
+    console.warn('OSRM road route failed:', err && err.message ? err.message : err);
+  }
+
+  return {
+    type: 'road-route',
+    meta: {
+      origin: ORIGIN,
+      destination: DESTINATION,
+      modal,
+      builtAt: new Date().toISOString(),
+    },
+    summary: {
+      edgeCount: edges.length,
+      total_distance_m: totals.distance_m,
+      total_time_s: totals.time_s,
+    },
+    geometry,
+    edges,
+  };
+}
+
 function addTransportNode(payload) {
   const graph = getTransportGraph();
   if (graph.nodes.has(payload.id)) {
@@ -400,7 +796,9 @@ function addTransportEdge(payload) {
 
 module.exports = {
   getTransportGraphJson,
+  getTransportRouteJson,
   getRoadGraphJson,
+  getRoadRouteJson,
   addTransportNode,
   addTransportEdge,
   // exported for advanced usages

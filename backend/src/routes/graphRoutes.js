@@ -2,7 +2,9 @@ const express = require('express');
 
 const {
   getTransportGraphJson,
+  getTransportRouteJson,
   getRoadGraphJson,
+  getRoadRouteJson,
   addTransportNode,
   addTransportEdge,
 } = require('../services/graphService');
@@ -23,7 +25,7 @@ Endpoints:
 - POST /api/graph/transport/nodes
 - POST /api/graph/transport/edges
 */
-router.get('/transport', (req, res, next) => {
+router.get('/transport', async (req, res, next) => {
   try {
     let walkThresholdM;
     if (req.query.walkThresholdM !== undefined) {
@@ -38,15 +40,18 @@ router.get('/transport', (req, res, next) => {
     }
 
     const rebuild = String(req.query.rebuild || '').toLowerCase() === 'true';
-    const graph = getTransportGraphJson({ walkThresholdM, rebuild });
+    const wantsRoute = String(req.query.route || '').toLowerCase() === 'true';
+    const payload = wantsRoute
+      ? await getTransportRouteJson({ walkThresholdM, rebuild })
+      : getTransportGraphJson({ walkThresholdM, rebuild });
 
-    res.json({ status: 'ok', data: graph });
+    res.json({ status: 'ok', data: payload });
   } catch (err) {
     next(err);
   }
 });
 
-router.get('/road', (req, res, next) => {
+router.get('/road', async (req, res, next) => {
   try {
     const modal = req.query.modal ? String(req.query.modal).toLowerCase() : 'car';
     if (modal !== 'car' && modal !== 'moto') {
@@ -57,9 +62,12 @@ router.get('/road', (req, res, next) => {
     }
 
     const rebuild = String(req.query.rebuild || '').toLowerCase() === 'true';
-    const graph = getRoadGraphJson({ modal, rebuild });
+    const wantsRoute = String(req.query.route || '').toLowerCase() === 'true';
+    const payload = wantsRoute
+      ? await getRoadRouteJson({ modal, rebuild })
+      : getRoadGraphJson({ modal, rebuild });
 
-    res.json({ status: 'ok', data: graph });
+    res.json({ status: 'ok', data: payload });
   } catch (err) {
     next(err);
   }

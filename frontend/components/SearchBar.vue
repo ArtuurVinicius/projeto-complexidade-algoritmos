@@ -44,7 +44,7 @@
         v-for="filter in filters"
         :key="filter"
         class="filter-btn"
-        :class="{ active: selectedFilters.includes(filter) }"
+        :class="{ active: selectedFilter === filter }"
         @click="toggleFilter(filter)"
       >
         <span :class="['mdi', getFilterIcon(filter)]"></span>
@@ -62,16 +62,16 @@ import { ref } from 'vue'
 const origin = ref('Cinema São Luis')
 const destination = ref('Faculdade Nova Roma')
 
-const selectedFilters = ref([])
+const selectedFilter = ref('Transporte publico')
 
 const filters = [
-  'Transporte público',
+  'Transporte publico',
   'Carro',
   'Moto'
 ]
 
 const filterIcons = {
-  'Transporte público': 'mdi-bus',
+  'Transporte publico': 'mdi-bus',
   'Carro': 'mdi-car',
   'Moto': 'mdi-motorbike'
 }
@@ -81,7 +81,8 @@ const emit = defineEmits(['search'])
 const performSearch = () => {
   emit('search', {
     origin: origin.value,
-    destination: destination.value
+    destination: destination.value,
+    mode: selectedFilter.value
   })
 }
 
@@ -92,13 +93,7 @@ const swapLocations = () => {
 }
 
 const toggleFilter = (filter) => {
-  const index = selectedFilters.value.indexOf(filter)
-
-  if (index > -1) {
-    selectedFilters.value.splice(index, 1)
-  } else {
-    selectedFilters.value.push(filter)
-  }
+  selectedFilter.value = filter
 }
 
 const getFilterIcon = (filter) => {

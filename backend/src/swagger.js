@@ -51,6 +51,13 @@ const swaggerSpec = swaggerJsdoc({
               schema: { type: 'number', minimum: 0, default: 200 },
             },
             {
+              name: 'route',
+              in: 'query',
+              description: 'Return only the route between origin and destination',
+              required: false,
+              schema: { type: 'boolean', default: false },
+            },
+            {
               name: 'rebuild',
               in: 'query',
               description: 'Force rebuild of the cached graph',
@@ -63,7 +70,12 @@ const swaggerSpec = swaggerJsdoc({
               description: 'Transport graph',
               content: {
                 'application/json': {
-                  schema: { $ref: '#/components/schemas/GraphResponse' },
+                  schema: {
+                    oneOf: [
+                      { $ref: '#/components/schemas/GraphResponse' },
+                      { $ref: '#/components/schemas/TransportRouteResponse' },
+                    ],
+                  },
                 },
               },
             },
@@ -99,6 +111,13 @@ const swaggerSpec = swaggerJsdoc({
               schema: { type: 'string', enum: ['car', 'moto'], default: 'car' },
             },
             {
+              name: 'route',
+              in: 'query',
+              description: 'Return only the route between origin and destination',
+              required: false,
+              schema: { type: 'boolean', default: false },
+            },
+            {
               name: 'rebuild',
               in: 'query',
               description: 'Force rebuild of the cached graph',
@@ -111,7 +130,12 @@ const swaggerSpec = swaggerJsdoc({
               description: 'Road graph',
               content: {
                 'application/json': {
-                  schema: { $ref: '#/components/schemas/GraphResponse' },
+                  schema: {
+                    oneOf: [
+                      { $ref: '#/components/schemas/GraphResponse' },
+                      { $ref: '#/components/schemas/RoadRouteResponse' },
+                    ],
+                  },
                 },
               },
             },
@@ -261,6 +285,22 @@ const swaggerSpec = swaggerJsdoc({
           },
           required: ['status', 'data'],
         },
+        TransportRouteResponse: {
+          type: 'object',
+          properties: {
+            status: { type: 'string', example: 'ok' },
+            data: { $ref: '#/components/schemas/TransportRoute' },
+          },
+          required: ['status', 'data'],
+        },
+        RoadRouteResponse: {
+          type: 'object',
+          properties: {
+            status: { type: 'string', example: 'ok' },
+            data: { $ref: '#/components/schemas/RoadRoute' },
+          },
+          required: ['status', 'data'],
+        },
         NodeResponse: {
           type: 'object',
           properties: {
@@ -350,6 +390,128 @@ const swaggerSpec = swaggerJsdoc({
             route: { type: 'string' },
             road_type: { type: 'string' },
             road_name: { type: 'string' },
+          },
+          required: ['id', 'from', 'to', 'mode', 'distance_m', 'time_s'],
+        },
+        TransportRoute: {
+          type: 'object',
+          properties: {
+            type: { type: 'string', example: 'transport-route' },
+            meta: {
+              type: 'object',
+              properties: {
+                origin: { $ref: '#/components/schemas/Location' },
+                destination: { $ref: '#/components/schemas/Location' },
+                walkThresholdM: { type: 'number' },
+                builtAt: { type: 'string', format: 'date-time' },
+              },
+            },
+            summary: {
+              type: 'object',
+              properties: {
+                edgeCount: { type: 'integer' },
+                total_distance_m: { type: 'number' },
+                total_time_s: { type: 'number' },
+              },
+            },
+            edges: {
+              type: 'array',
+              items: { $ref: '#/components/schemas/TransportRouteEdge' },
+            },
+          },
+          required: ['type', 'meta', 'summary', 'edges'],
+        },
+        RoadRoute: {
+          type: 'object',
+          properties: {
+            type: { type: 'string', example: 'road-route' },
+            meta: {
+              type: 'object',
+              properties: {
+                origin: { $ref: '#/components/schemas/Location' },
+                destination: { $ref: '#/components/schemas/Location' },
+                modal: { type: 'string', enum: ['car', 'moto'] },
+                builtAt: { type: 'string', format: 'date-time' },
+              },
+            },
+            summary: {
+              type: 'object',
+              properties: {
+                edgeCount: { type: 'integer' },
+                total_distance_m: { type: 'number' },
+                total_time_s: { type: 'number' },
+              },
+            },
+            geometry: {
+              type: 'object',
+              nullable: true,
+              properties: {
+                type: { type: 'string', example: 'LineString' },
+                coordinates: {
+                  type: 'array',
+                  items: {
+                    type: 'array',
+                    items: { type: 'number' },
+                    minItems: 2,
+                    maxItems: 2,
+                  },
+                },
+              },
+            },
+            edges: {
+              type: 'array',
+              items: { $ref: '#/components/schemas/RoadRouteEdge' },
+            },
+          },
+          required: ['type', 'meta', 'summary', 'edges'],
+        },
+        TransportRouteEdge: {
+          type: 'object',
+          properties: {
+            id: { type: 'integer' },
+            from: { type: 'string' },
+            to: { type: 'string' },
+            mode: { type: 'string' },
+            distance_m: { type: 'number' },
+            time_s: { type: 'number' },
+            cost: { type: 'number' },
+            route: { type: 'string' },
+            from_coord: { $ref: '#/components/schemas/Location' },
+            to_coord: { $ref: '#/components/schemas/Location' },
+            geometry: {
+              type: 'object',
+              nullable: true,
+              properties: {
+                type: { type: 'string', example: 'LineString' },
+                coordinates: {
+                  type: 'array',
+                  items: {
+                    type: 'array',
+                    items: { type: 'number' },
+                    minItems: 2,
+                    maxItems: 2,
+                  },
+                },
+              },
+            },
+          },
+          required: ['id', 'from', 'to', 'mode', 'distance_m', 'time_s'],
+        },
+        RoadRouteEdge: {
+          type: 'object',
+          properties: {
+            id: { type: 'integer' },
+            from: { type: 'string' },
+            to: { type: 'string' },
+            mode: { type: 'string' },
+            distance_m: { type: 'number' },
+            time_s: { type: 'number' },
+            cost: { type: 'number' },
+            route: { type: 'string' },
+            road_type: { type: 'string' },
+            road_name: { type: 'string' },
+            from_coord: { $ref: '#/components/schemas/Location' },
+            to_coord: { $ref: '#/components/schemas/Location' },
           },
           required: ['id', 'from', 'to', 'mode', 'distance_m', 'time_s'],
         },
