@@ -16,6 +16,10 @@ const props = defineProps({
   routeErrors: {
     type: Object,
     default: () => ({})
+  },
+  selectedRoute: {
+    type: String,
+    default: null
   }
 })
 
@@ -41,6 +45,25 @@ const resolveRouteColor = (key, routeData) => {
     return routeColors.transport
   }
   return getRouteColor(key)
+}
+
+const getVehicleIcon = (key, routeData) => {
+  if (routeData?.meta?.modal === 'car') {
+    return 'mdi-car'
+  }
+  if (routeData?.meta?.modal === 'moto') {
+    return 'mdi-motorbike'
+  }
+  if (routeData?.type === 'transport-route') {
+    return 'mdi-bus'
+  }
+  return 'mdi-map-marker'
+}
+
+const formatTime = (seconds) => {
+  if (!seconds || seconds < 0) return '0 min'
+  const minutes = Math.round(seconds / 60)
+  return `${minutes} min`
 }
 
 const clearRoute = () => {
@@ -89,6 +112,7 @@ const renderRoutes = (routes) => {
   let metaDestination = null
 
   const orderedKeys = ['transport', 'car', 'moto']
+  const routeIndicators = []
 
   orderedKeys.forEach((key) => {
     const routeData = routes[key]
@@ -106,6 +130,14 @@ const renderRoutes = (routes) => {
     const color = resolveRouteColor(key, routeData)
     const usedGeometry = renderGeometry(routeData.geometry, color, bounds)
     if (usedGeometry) {
+      // Armazenar informações do indicador se a rota foi renderizada
+      if (routeData.summary) {
+        routeIndicators.push({
+          key,
+          routeData,
+          color
+        })
+      }
       return
     }
     routeData.edges.forEach((edge) => {
@@ -127,6 +159,15 @@ const renderRoutes = (routes) => {
         opacity: 0.85
       }).addTo(routeLayer)
     })
+    
+    // Armazenar informações do indicador se renderizado por edges
+    if (routeData.summary) {
+      routeIndicators.push({
+        key,
+        routeData,
+        color
+      })
+    }
   })
 
   if (metaOrigin) {
@@ -141,9 +182,69 @@ const renderRoutes = (routes) => {
       .bindPopup(metaDestination.name || 'Destino')
   }
 
+  // Adicionar indicadores de tempo e tipo de veículo - apenas da rota selecionada
+  if (props.selectedRoute) {
+    const selectedIndicator = routeIndicators.find(ind => ind.key === props.selectedRoute)
+    if (selectedIndicator) {
+      const { routeData, color } = selectedIndicator
+      const totalTime = routeData.summary?.total_time_s || 0
+      const timeText = formatTime(totalTime)
+      const modal = routeData.meta?.modal || 'transport'
+      
+      // Calcular posição para o indicador (um pouco abaixo e à direita do primeiro ponto)
+      let indicatorLat = metaOrigin?.lat || -8.0631
+      let indicatorLon = metaOrigin?.lon || -34.8771
+      
+      // Ajustar posição um pouco para não sobrepor origem
+      const offset = 0.003
+      indicatorLat -= offset
+      indicatorLon += offset
+
+      // Criar HTML customizado para o indicador
+      const html = `
+        <div style="
+          background: white;
+          border: 2px solid ${color};
+          border-radius: 6px;
+          padding: 6px 10px;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 13px;
+          font-weight: 600;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          white-space: nowrap;
+        ">
+          <span style="font-size: 16px;">
+            ${getVehicleIconEmoji(modal)}
+          </span>
+          <span style="color: ${color}; font-weight: bold;">${timeText}</span>
+        </div>
+      `
+
+      const marker = L.marker([indicatorLat, indicatorLon], {
+        icon: L.divIcon({
+          html,
+          className: 'route-time-indicator',
+          iconSize: [120, 32],
+          iconAnchor: [60, 16]
+        })
+      }).addTo(routeLayer)
+    }
+  }
+
   if (bounds.length > 0) {
     map.fitBounds(bounds, { padding: [20, 20] })
   }
+}
+
+const getVehicleIconEmoji = (modal) => {
+  const icons = {
+    'car': '🚗',
+    'moto': '🏍️',
+    'transport': '🚌'
+  }
+  return icons[modal] || '📍'
 }
 
 onMounted(() => {
@@ -181,6 +282,13 @@ watch(
   },
   { deep: true }
 )
+
+watch(
+  () => props.selectedRoute,
+  () => {
+    renderRoutes(props.routes)
+  }
+)
 </script>
 
 <style scoped>
@@ -191,5 +299,15 @@ watch(
 
 .map-area {
   flex: 1;
+}
+
+:deep(.route-time-indicator) {
+  background: none !important;
+  border: none !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+:deep(.route-time-indicator img) {
+  filter: none !important;
 }
 </style>

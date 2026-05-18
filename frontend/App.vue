@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <div class="container">
-      <search-bar @search="handleSearch" />
+      <search-bar @search="handleSearch" @filter-change="handleFilterChange" />
       <div class="main-content">
-        <sidebar :origin="searchRoute.origin" :destination="searchRoute.destination" />
-        <map-area :routes="graphData" :route-errors="graphErrors" />
+        <sidebar :origin="searchRoute.origin" :destination="searchRoute.destination" :routes="graphData" />
+        <map-area :routes="graphData" :route-errors="graphErrors" :selected-route="selectedRoute" />
       </div>
     </div>
   </v-app>
@@ -21,6 +21,8 @@ const searchRoute = ref({
   destination: 'Faculdade Nova Roma'
 })
 
+const selectedRoute = ref(null)
+
 const graphData = ref({
   transport: null,
   car: null,
@@ -31,6 +33,19 @@ const graphErrors = ref({
   car: '',
   moto: ''
 })
+
+const filterToRouteKey = (filter) => {
+  const mapping = {
+    'Transporte publico': 'transport',
+    'Carro': 'car',
+    'Moto': 'moto'
+  }
+  return mapping[filter] || 'transport'
+}
+
+const handleFilterChange = (filter) => {
+  selectedRoute.value = filterToRouteKey(filter)
+}
 
 const handleSearch = async (route) => {
   searchRoute.value = route

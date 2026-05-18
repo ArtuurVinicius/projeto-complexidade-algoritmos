@@ -76,7 +76,7 @@ const filterIcons = {
   'Moto': 'mdi-motorbike'
 }
 
-const emit = defineEmits(['search'])
+const emit = defineEmits(['search', 'filter-change'])
 
 const performSearch = () => {
   emit('search', {
@@ -94,6 +94,7 @@ const swapLocations = () => {
 
 const toggleFilter = (filter) => {
   selectedFilter.value = filter
+  emit('filter-change', filter)
 }
 
 const getFilterIcon = (filter) => {
