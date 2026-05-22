@@ -3,7 +3,13 @@
     <div class="container">
       <search-bar @search="handleSearch" @filter-change="handleFilterChange" />
       <div class="main-content">
-        <sidebar :origin="searchRoute.origin" :destination="searchRoute.destination" :routes="graphData" />
+        <sidebar
+          :origin="searchRoute.origin"
+          :destination="searchRoute.destination"
+          :routes="graphData"
+          :costs="costsComparison"
+          @compare-costs="handleCompareCosts"
+        />
         <map-area :routes="graphData" :route-errors="graphErrors" :selected-route="selectedRoute" />
       </div>
     </div>
@@ -33,6 +39,7 @@ const graphErrors = ref({
   car: '',
   moto: ''
 })
+const costsComparison = ref(null)
 
 const filterToRouteKey = (filter) => {
   const mapping = {
@@ -92,8 +99,22 @@ const handleSearch = async (route) => {
 
     graphData.value = nextData
     graphErrors.value = nextErrors
+    // clear previous costs when routes update
+    costsComparison.value = null
   } catch (error) {
     console.error('Failed to load route data:', error)
+  }
+}
+
+const handleCompareCosts = async () => {
+  try {
+    const response = await fetch('/api/graph/compare-costs')
+    if (!response.ok) throw new Error(`Backend responded with ${response.status}`)
+    const payload = await response.json()
+    costsComparison.value = payload.data
+  } catch (err) {
+    console.error('Failed to fetch costs comparison:', err)
+    costsComparison.value = { error: err instanceof Error ? err.message : String(err) }
   }
 }
 </script>

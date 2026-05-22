@@ -13,6 +13,63 @@
         </div>
       </div>
     </div>
+    <div class="routes-summary" v-if="costs">
+      <h3 class="routes-title">Comparação de Custos</h3>
+      <div class="route-card">
+        <div class="route-card-details">
+          <div class="detail-item">
+            <span class="detail-label">Carro - Distância:</span>
+            <span class="detail-value">{{ costs?.car?.distance_km }} km</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Carro - Custo por km:</span>
+            <span class="detail-value">{{ formatCurrency(costs?.car?.cost_per_km) }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Carro - Custo total:</span>
+            <span class="detail-value">{{ formatCurrency(costs?.car?.total_cost) }}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Moto - Distância:</span>
+            <span class="detail-value">{{ costs?.moto?.distance_km }} km</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Moto - Custo por km:</span>
+            <span class="detail-value">{{ formatCurrency(costs?.moto?.cost_per_km) }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Moto - Custo total:</span>
+            <span class="detail-value">{{ formatCurrency(costs?.moto?.total_cost) }}</span>
+          </div>
+
+          <div class="detail-item">
+            <span class="detail-label">Ônibus - Distância:</span>
+            <span class="detail-value">{{ costs?.bus?.distance_km }} km</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Ônibus - Embarques:</span>
+            <span class="detail-value">{{ costs?.bus?.boardings }}</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Ônibus - Custo total:</span>
+            <span class="detail-value">{{ formatCurrency(costs?.bus?.total_cost) }}</span>
+          </div>
+
+          <div class="detail-item" style="margin-top:8px;">
+            <span class="detail-label">Recomendação:</span>
+            <span class="detail-value">{{ costs?.recommendation?.modal }} ({{ formatCurrency(costs?.recommendation?.cost) }})</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-buttons">
+      <button class="action-btn" @click="onCompareCosts">
+        <div class="icon">🔍</div>
+        <div>Comparar custos</div>
+      </button>
+    </div>
 
     <div class="routes-summary" v-if="availableRoutes.length > 0">
       <h3 class="routes-title">Rotas Disponíveis</h3>
@@ -45,8 +102,16 @@ const props = defineProps({
   routes: {
     type: Object,
     default: () => ({})
+  },
+  costs: {
+    type: Object,
+    default: null
   }
 })
+
+const emit = defineEmits(['compare-costs'])
+
+const costs = computed(() => props.costs)
 
 const routeColors = {
   transport: '#2e7d32',
@@ -95,6 +160,15 @@ const formatDistance = (meters) => {
   }
   const km = (meters / 1000).toFixed(2)
   return `${km} km`
+}
+
+const formatCurrency = (value) => {
+  if (value === null || value === undefined) return 'R$0.00'
+  return `R$${Number(value).toFixed(2)}`
+}
+
+const onCompareCosts = () => {
+  emit('compare-costs')
 }
 </script>
 
@@ -236,12 +310,13 @@ const formatDistance = (meters) => {
 }
 
 .action-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-bottom: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* center this block vertically within the sidebar column */
+  margin: auto;
+  padding: 12px 0;
+  width: 100%;
 }
 
 .action-btn {
@@ -250,6 +325,7 @@ const formatDistance = (meters) => {
   align-items: center;
   gap: 4px;
   padding: 12px 8px;
+  width: 200px;
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 4px;
