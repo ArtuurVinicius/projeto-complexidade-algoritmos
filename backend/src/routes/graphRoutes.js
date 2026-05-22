@@ -7,6 +7,7 @@ const {
   getRoadRouteJson,
   addTransportNode,
   addTransportEdge,
+  getCostsComparison,
 } = require('../services/graphService');
 const {
   parseNumber,
@@ -162,4 +163,25 @@ router.post('/transport/edges', (req, res, next) => {
   }
 });
 
+// Compare costs for car, moto and bus for the origin-destination
+router.get('/compare-costs', async (req, res, next) => {
+  try {
+    const rebuild = String(req.query.rebuild || '').toLowerCase() === 'true';
+    let walkThresholdM;
+    if (req.query.walkThresholdM !== undefined) {
+      const parsed = parseNumber(req.query.walkThresholdM);
+      if (parsed === null || parsed < 0) {
+        return res.status(400).json({ status: 'error', message: 'walkThresholdM must be a non-negative number' });
+      }
+      walkThresholdM = parsed;
+    }
+
+    const result = await getCostsComparison({ rebuild, walkThresholdM });
+    res.json({ status: 'ok', data: result });
+  } catch (err) {
+    next(err);
+  }
+});
+
 module.exports = router;
+

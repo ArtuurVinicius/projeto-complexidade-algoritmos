@@ -22,6 +22,12 @@ const DESTINATION = {
   name: 'Faculdade Nova Roma (Boa Viagem)',
 };
 
+// Cost parameters (BRL)
+const GAS_PRICE = 7.05; // R$ per liter
+const CAR_CONSUMPTION_KM_PER_L = 12.0; // km per liter
+const MOTO_CONSUMPTION_KM_PER_L = 40.0; // km per liter
+const BUS_FARE = 4.5; // R$ per passage
+
 const cache = {
   transport: null,
   road: {
@@ -794,6 +800,90 @@ function addTransportEdge(payload) {
   });
 }
 
+function countBusBoardingsFromEdges(edges) {
+  if (!Array.isArray(edges) || edges.length === 0) return 0;
+  let boardings = 0;
+  let prevMode = null;
+  let prevRoute = null;
+  for (const e of edges) {
+    const mode = e.mode || (e.mode === undefined && e.route ? 'bus' : null);
+    const route = e.route || '';
+    if (mode === 'bus') {
+      if (prevMode !== 'bus' || prevRoute !== route) {
+        boardings += 1;
+      }
+      prevMode = 'bus';
+      prevRoute = route;
+    } else {
+      prevMode = mode;
+      prevRoute = null;
+    }
+  }
+  return boardings;
+}
+
+async function getCostsComparison(options = {}) {
+  const rebuild = options.rebuild || false;
+  const walkThresholdM = options.walkThresholdM || DEFAULT_WALK_THRESHOLD_M;
+
+  // Road routes for car and moto
+  const carRoute = await getRoadRouteJson({ modal: 'car', rebuild });
+  const motoRoute = await getRoadRouteJson({ modal: 'moto', rebuild });
+
+  // Transport route (for bus + walk)
+  const transportRoute = await getTransportRouteJson({ walkThresholdM, rebuild });
+
+  const carDistanceKm = (carRoute.summary.total_distance_m || 0) / 1000.0;
+  const motoDistanceKm = (motoRoute.summary.total_distance_m || 0) / 1000.0;
+  const transportDistanceKm = (transportRoute.summary.total_distance_m || 0) / 1000.0;
+
+  const carCostPerKm = GAS_PRICE / CAR_CONSUMPTION_KM_PER_L;
+  const motoCostPerKm = GAS_PRICE / MOTO_CONSUMPTION_KM_PER_L;
+
+  const carTotalCost = carCostPerKm * carDistanceKm;
+  const motoTotalCost = motoCostPerKm * motoDistanceKm;
+
+  const busEdges = transportRoute.edges || [];
+  const busBoardings = countBusBoardingsFromEdges(busEdges);
+  const busTotalCost = BUS_FARE * (busBoardings || 1);
+
+  return {
+    meta: {
+      origin: carRoute.meta.origin,
+      destination: carRoute.meta.destination,
+      computedAt: new Date().toISOString(),
+    },
+    car: {
+      distance_km: Number(carDistanceKm.toFixed(3)),
+      cost_per_km: Number(carCostPerKm.toFixed(4)),
+      total_cost: Number(carTotalCost.toFixed(2)),
+      breakdown: `R$${GAS_PRICE} / ${CAR_CONSUMPTION_KM_PER_L} km/l = R$${carCostPerKm.toFixed(4)} per km; ${carDistanceKm.toFixed(3)} km * R$${carCostPerKm.toFixed(4)} = R$${carTotalCost.toFixed(2)}`,
+    },
+    moto: {
+      distance_km: Number(motoDistanceKm.toFixed(3)),
+      cost_per_km: Number(motoCostPerKm.toFixed(4)),
+      total_cost: Number(motoTotalCost.toFixed(2)),
+      breakdown: `R$${GAS_PRICE} / ${MOTO_CONSUMPTION_KM_PER_L} km/l = R$${motoCostPerKm.toFixed(4)} per km; ${motoDistanceKm.toFixed(3)} km * R$${motoCostPerKm.toFixed(4)} = R$${motoTotalCost.toFixed(2)}`,
+    },
+    bus: {
+      distance_km: Number(transportDistanceKm.toFixed(3)),
+      boardings: busBoardings,
+      fare_per_boarding: Number(BUS_FARE.toFixed(2)),
+      total_cost: Number(busTotalCost.toFixed(2)),
+      breakdown: `Boardings: ${busBoardings}; ${busBoardings} * R$${BUS_FARE.toFixed(2)} = R$${busTotalCost.toFixed(2)}`,
+    },
+    recommendation: (() => {
+      const items = [
+        { modal: 'car', cost: carTotalCost },
+        { modal: 'moto', cost: motoTotalCost },
+        { modal: 'bus', cost: busTotalCost },
+      ];
+      items.sort((a, b) => a.cost - b.cost);
+      return items[0];
+    })(),
+  };
+}
+
 module.exports = {
   getTransportGraphJson,
   getTransportRouteJson,
@@ -803,4 +893,5 @@ module.exports = {
   addTransportEdge,
   // exported for advanced usages
   _getTransportGraphState: getTransportGraph,
+  getCostsComparison,
 };
